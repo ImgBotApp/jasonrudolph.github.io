@@ -17,7 +17,7 @@ and the essay series, [How to Fail with 100% Code Coverage][testing-anti-pattern
 When he published a [few ideas to help developers level up][programming-achievements], the advice spent the day as the top post on Hacker News.
 
 Jason holds a degree in Computer Science from the University of Virginia.
-As an alumnus of [Relevance][], he currently lives in Raleigh, NC with his wife, Michelle, and their dog, Maggie.
+As an alumnus of [Relevance][], he currently lives in Raleigh, NC with his wife, Michelle.
 
 [gswg]: /gswg_reviews.html
 [grails]: http://grails.org "Grails - Groovy Web Application Framework"
