@@ -20,10 +20,8 @@ Jason holds a degree in Computer Science from the University of Virginia.
 As an alumnus of [Relevance][], he currently lives in Raleigh, NC with his wife, Michelle.
 
 [gswg]: /gswg_reviews.html
-[grails]: http://grails.org "Grails - Groovy Web Application Framework"
 [programming-achievements]: /blog/2011/08/09/programming-achievements-how-to-level-up-as-a-developer/
 [relevance]: http://thinkrelevance.com
 [testing-anti-patterns]: /blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/
 [speaking]: /events
 [writing]: /blog
-
