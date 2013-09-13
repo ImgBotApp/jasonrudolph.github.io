@@ -39,6 +39,7 @@ title: "jasonrudolph.com/blog"
   <ul class="posts">
     {% for post in site.posts %}
       {% if post != latest_post %}
+        <!-- random comment to work around Jekyll issue -->
         {% include post-li.html %}
       {% endif %}
     {% endfor %}

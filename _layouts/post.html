@@ -33,6 +33,7 @@ post_title_label: " [jasonrudolph.com]"
     {% for post in site.posts %}
       {% if post.url == "/blog/2011/08/09/programming-achievements-how-to-level-up-as-a-developer/" or post.url == "/blog/2009/05/27/git-up-10-reasons-to-upgrade-your-old-git-installation/" or post.url == "/blog/2008/06/17/testing-anti-patterns-incidental-coverage/" or post.url == "/blog/2011/06/06/helpful-resources-for-upgrading-to-rails-3-1/" %}
         {% if page.url != post.url %} {% comment %} Do not suggest the post that the person is currently viewing {% endcomment %}
+          <!-- random comment to work around Jekyll issue -->
           {% include post-li.html %}
         {% endif %}
       {% endif %}
