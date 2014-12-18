@@ -1,7 +1,8 @@
---- 
-title: "Testing Anti-Patterns: How to Fail With 100% Test Coverage"
-layout: post
 ---
+layout: post
+title: "Testing Anti-Patterns: How to Fail With 100% Test Coverage"
+---
+
 The **Testing Anti-Patterns series** explores numerous testing-related missteps, provides tips for identifying and extinguishing them in an existing codebase, and offers strategies for avoiding them altogether on new projects.  The series began as a conference presentation (titled **How to Fail With 100% Test Coverage**), and many of the anti-patterns are now available through the collection of essays below.
 
 ## Essays
