@@ -1,7 +1,0 @@
-IndexOptions NameWidth=60
-
-ErrorDocument 404 /404.html
-
-# Redirect legacy WordPress feed URL
-Redirect /blog/feed/ http://feeds.feedburner.com/jasonrudolph
-Redirect /blog/feed  http://feeds.feedburner.com/jasonrudolph
