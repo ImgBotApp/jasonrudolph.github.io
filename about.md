@@ -5,7 +5,7 @@ title: About - Jason Rudolph Dot Com
 ---
 # About
 
-<img src="/images/jasonrudolph.jpg" class="inline-left" title="Jason Rudolph (Photo by Neil Boyd)" alt="Jason Rudolph (Photo by Neil Boyd)" />
+<img src="/images/jasonrudolph.jpg" class="inline-left" title="Jason Rudolph" alt="Jason Rudolph" />
 Jason Rudolph creates software.
 He enjoys [writing][writing] and [speaking][speaking] about what he learns along the way.
 
