@@ -192,34 +192,6 @@ a.core-nav:hover {
   font-size: 200%;
 }
 
-#homepage {
-  position: relative;
-  width: 780px;
-}
-
-#arenas-of-awesome {
-  position: absolute;
-  top: 50%;
-}
-
-#arenas-of-awesome ul {
-  position: absolute;
-  top: -50px;
-  width: 780px;
-  height: 100px;
-}
-
-#arenas-of-awesome li {
-  list-style-type: none;
-  float: left;
-  margin-left: 104px;
-  font-size: 72px;
-}
-
-#arenas-of-awesome li:first-child {
-  margin-left: 0;
-}
-
 .published_on {
 	margin-bottom: 1em;
 	font-size: .8em;
