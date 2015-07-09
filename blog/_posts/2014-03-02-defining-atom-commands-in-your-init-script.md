@@ -14,7 +14,7 @@ The majority of your Atom customizations will come in the form of [packages](htt
 As a simple (and admittedly contrived) example, let's define a command that logs a message to the console. For starters, add the following code to your `~/atom/init.coffee` script:
 
 {% highlight coffeescript %}
-atom.workspaceView.command 'dot-atom:demo', ->
+atom.commands.add 'atom-workspace', 'dot-atom:demo', ->
   console.log "Hello from dot-atom:demo"
 {% endhighlight %}
 
