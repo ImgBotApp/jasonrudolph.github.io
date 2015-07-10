@@ -30,7 +30,7 @@ If you'd like to trigger the command via a keyboard shortcut, you can define a k
 
 ## Going further
 
-Because `init.coffee` provides full access to Atom's API, it's fertile ground for implementing genuinely useful commands. For example, Lincoln Stoll uses his `init.coffee` to define a [command for generating ctags](https://github.com/lstoll/.atom/blob/706382de5266d78839328642a8d439236bab9128/init.coffee#L16-L32). In my `init.coffee`, I define a [command that provides alternative behavior for deleting to the end of the line](https://github.com/jasonrudolph/dotfiles/blob/6ef4b19b396838b536738a469e020641cc6dcef2/atom/init.coffee#L19-L24), and I'm experimenting with [a few other commands](https://github.com/jasonrudolph/dotfiles/blob/6ef4b19b396838b536738a469e020641cc6dcef2/atom/init.coffee#L26-L83) as well. [2]
+Because `init.coffee` provides full access to Atom's API, it's fertile ground for implementing genuinely useful commands. For example, Lincoln Stoll uses his `init.coffee` to define a [command for generating ctags](https://github.com/lstoll/.atom/blob/557394111a8f16b5f3efa9800fe37682ec71689a/init.coffee#L13-L29). In my `init.coffee`, I define a [command that closes all panes in one fell swoop](https://github.com/jasonrudolph/dotfiles/blob/86ec9226fbede526006a8be537dc77152e4a17cd/atom/init.coffee#L28-L37), and I'm experimenting with [a few other commands](https://github.com/jasonrudolph/dotfiles/blob/86ec9226fbede526006a8be537dc77152e4a17cd/atom/init.coffee#L43-L115) as well. [2]
 
 Whether you need a sandbox for experimenting with new commands before publishing them in
 a package, or you just want to define a few small commands without the overhead of an entire package, `init.coffee` is the place to go.
