@@ -40,3 +40,5 @@ a package, or you just want to define a few small commands without the overhead 
 [1] I've enjoyed writing a [handful](https://atom.io/packages/open-on-github) [of](https://atom.io/packages/sort-lines) [packages](https://atom.io/packages/toggle-quotes) over the past few months. Now that Atom is in public beta, the package ecosystem is quickly [heating up](https://atom.io/packages/list).
 
 [2] As people begin to share their Atom [dotfiles on GitHub](http://dotfiles.github.io/), it's going to be a blast to discover novel customizations that allow developers to get even more from Atom.
+
+**Updated 7/10/2015**: Atom 1.0 recently [launched](http://blog.atom.io/2015/06/25/atom-1-0.html). To make it easier for readers to use this post in the era of Atom 1.0, I've updated the code in the `dot-atom:demo` command to use the [Atom 1.0 API](http://blog.atom.io/2015/05/01/removing-deprecated-apis.html), updated the documentation links to point to the current Atom documentation, and updated the links to `init.coffee` files hosted on github.com to point to the latest versions of those files.
