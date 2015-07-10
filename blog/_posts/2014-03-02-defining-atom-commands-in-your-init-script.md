@@ -26,7 +26,7 @@ Defining and using a new command is just that simple.
 
 If you'd like to trigger the command via a keyboard shortcut, you can define a keymap for the command in [`~/.atom/keymap.cson`](https://atom.io/docs/v1.0.2/using-atom-basic-customization#customizing-key-bindings).
 
-[<img src="http://jasonrudolph.com/resources/201403-define-atom-commands-in-your-init-script.gif" alt="Demo of an Atom command in init.coffee" title="Demo of an Atom command in init.coffee"  width="100%" />](http://jasonrudolph.com/resources/201403-define-atom-commands-in-your-init-script.gif "Demo of an Atom command in init.coffee")
+[<img src="/resources/201403-define-atom-commands-in-your-init-script.gif" alt="Demo of an Atom command in init.coffee" title="Demo of an Atom command in init.coffee"  width="100%" />](/resources/201403-define-atom-commands-in-your-init-script.gif "Demo of an Atom command in init.coffee")
 
 ## Going further
 
