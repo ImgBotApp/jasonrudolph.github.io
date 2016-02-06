@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 153
 title: Noteworthy Nonsense - April 4, 2008
 wordpress_url: http://jasonrudolph.com/blog/2008/04/04/noteworthy-nonsense-april-5-2008/
@@ -12,7 +12,7 @@ tags:
 - rails
 - speaking
 ---
-* Geertjan Wielenga suggests the [first (and only) Java closure solution that makes any sense](http://groovy.dzone.com/news/closures-solution-include-groo "Closures Solution: Include Groovy in the JDK? | Groovy Zone").
+* Geertjan Wielenga suggests the [first (and only) Java closure solution that makes any sense](http://groovy.dzone.com/news/closures-solution-include-groo "Closures Solution: Include Groovy in the JDK? — Groovy Zone").
 
 * [Wait for it. Wait for it. Are you serious?! Damn, that's cool!](http://www.evernote.com/video/ "Evernote - Overview Video")
 
@@ -20,7 +20,6 @@ tags:
 
 * [Rails goes Git](http://weblog.rubyonrails.org/2008/4/2/rails-is-moving-from-svn-to-git "Riding Rails: Rails is moving from SVN to Git").  Sweet!  Who's next?
 
-* Multi-touch is so [1984](http://www.ted.com/talks/view/id/230 "TED | Talks | Nicholas Negroponte demonstrating touch screen technology at the inaugural TED conference in 1984").
+* Multi-touch is so [1984](http://www.ted.com/talks/view/id/230 "TED Talks — Nicholas Negroponte demonstrating touch screen technology at the inaugural TED conference in 1984").
 
 * ["Working for oneself, or at least for a small group, is the natural way for programmers to live."](http://www.paulgraham.com/boss.html "You Weren't Meant to Have a Boss") Well said.  And if you disagree with Paul Graham, watch out; [you're being graded](http://www.paulgraham.com/disagree.html "How to Disagree").
-
