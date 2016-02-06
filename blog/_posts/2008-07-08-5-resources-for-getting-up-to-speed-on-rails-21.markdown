@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 180
 title: 5 Resources for Getting Up to Speed on Rails 2.1
 wordpress_url: http://jasonrudolph.com/blog/?p=180
@@ -28,7 +28,7 @@ tags:
 <br/>
 
 * [Railscasts](http://railscasts.com "Railscasts") ([Ryan Bates](http://workingwithrails.com/person/6491-ryan-bates "Recommend Ryan Bates on workingwithrails.com"))
-  * [Gitting Rails 2.1RC1](http://railscasts.com/episodes/105 "Railscasts - Gitting Rails 2.1 RC1") 
+  * [Gitting Rails 2.1RC1](http://railscasts.com/episodes/105 "Railscasts - Gitting Rails 2.1 RC1")
   * [Time Zones in Rails 2.1](http://railscasts.com/episodes/106 "Railscasts - Time Zones in Rails 2.1")
   * [Migrations in Rails 2.1](http://railscasts.com/episodes/107 "Railscasts - Migrations in Rails 2.1")
   * [named_scope](http://railscasts.com/episodes/108 "Railscasts - named_scope")
@@ -38,29 +38,29 @@ tags:
   * [Caching in Rails 2.1](http://railscasts.com/episodes/112 "Railscasts - Anonymous Scopes")
 <br/><br/>
 
-* [Living on the Edge (of Rails)](http://blog.codefront.net/category/edge-rails/ "Edge Rails | redemption in a blog") ([Chu Yeow](http://www.workingwithrails.com/person/5957-cheah-chu-yeow "Recommend Chu Yeow on workingwithrails.com"))
-  * [#1 - native mongrel, caching, and Ruby 1.9 progress](http://blog.codefront.net/2008/01/02/whats-new-on-edge-rails-the-pilot/ "Living on the Edge (of Rails) - the pilot | redemption in a blog")
-  * [#2 - more caching, freezing improvements, and miscellaneous optimizations](http://blog.codefront.net/2008/01/09/living-on-the-edge-of-rails-1st-week-of-the-year-edition/ "Living on the Edge (of Rails) - 1st week of the year edition | redemption in a blog")
-  * [#3 - x-sendfile and many other sexy enhancements](http://blog.codefront.net/2008/01/16/living-on-the-edge-of-rails-3-x-sendfile-and-many-other-sexy-enhancements/ "Living on the Edge (of Rails) #3 - X-Sendfile and many other sexy enhancements | redemption in a blog")
-  * [#4 - faster routes, easier form partials](http://blog.codefront.net/2008/01/23/living-on-the-edge-of-rails-4-faster-routes-easier-form-partials/ "Living on the edge (of Rails) #4 - faster routes, easier form partials | redemption in a blog")
-  * [#5 - better eager loading and more](http://blog.codefront.net/2008/01/30/living-on-the-edge-of-rails-5-better-eager-loading-and-more/ "Living on the edge (of Rails) #5 - better eager loading and more | redemption in a blog")
-  * [#6 - better performance, Git support, and more](http://blog.codefront.net/2008/02/06/living-on-the-edge-of-rails-6-better-performance-git-support-and-more/ "Living on the edge (of Rails) #6 - better performance, Git support, and more | redemption in a blog")
-  * [#7 - improved ActiveRecord::Base#attributes, time zone support](http://blog.codefront.net/2008/02/13/living-on-the-edge-of-rails-7-improved-activerecordbaseattributes-time-zone-support/ "Living on the edge (of Rails) #7 - improved ActiveRecord::Base#attributes, time zone support | redemption in a blog")
-  * [#8 - the code optimization edition](http://blog.codefront.net/2008/02/19/living-on-the-edge-of-rails-8-the-code-optimization-edition/ "Living on the edge (of Rails) #8 - the code optimization edition | redemption in a blog")
-  * [#9 - the sleeper edition](http://blog.codefront.net/2008/02/27/living-on-the-edge-of-rails-9-the-sleeper-edition/ "Living on the edge (of Rails) #9 - the sleeper edition | redemption in a blog")
-  * [#10 - time core extensions, date helper tweaks, and a new respond_to nicety](http://blog.codefront.net/2008/03/05/living-on-the-edge-of-rails-10/ "Living on the edge (of Rails) #10 | redemption in a blog")
-  * [#11 - ActiveRecord performance boost, readonly option for has_many :through, and more](http://blog.codefront.net/2008/03/12/living-on-the-edge-of-rails-11/ "Living on the edge (of Rails) #11 | redemption in a blog")
-  * [#12 - register\_stylesheet\_expansion, sexy default timestamps, and more](http://blog.codefront.net/2008/03/20/living-on-the-edge-of-rails-12/ "Living on the edge (of Rails) #12 | redemption in a blog")
-  * [#13 - Git script/plugin install, has_one :through](http://blog.codefront.net/2008/03/27/living-on-the-edge-of-rails-13-git-scriptplugin-install-has_one-through/ "Living on the edge (of Rails) #13 - Git script/plugin install, has_one :through | redemption in a blog")
-  * [#14 - the extreme edition. extremely late.](http://blog.codefront.net/2008/04/05/living-on-the-edge-of-rails-14-the-extreme-edition-extremely-late/ "Living on the edge (of Rails) #14 - the extreme edition. Extremely late. | redemption in a blog")
-  * [#15 - the early edition](http://blog.codefront.net/2008/04/06/living-on-the-edge-of-rails-15-the-early-edition/ "Living on the edge (of Rails) #15 - the early edition | redemption in a blog")
-  * [#16 - github edition](http://blog.codefront.net/2008/04/13/living-on-the-edge-of-rails-16-github-edition/ "Living on the edge (of Rails) #16 - Github edition | redemption in a blog")
-  * [#17 - conditional caches_page, ActionView::TestCase, and memcache config options](http://blog.codefront.net/2008/04/20/living-on-the-edge-of-rails-17/ "Living on the edge (of Rails) #17 | redemption in a blog")
-  * [#18 - ActiveResource timeouts and smarter migrations for MySQL integers](http://blog.codefront.net/2008/04/27/living-on-the-edge-of-rails-18/ "Living on the edge (of Rails) #18 | redemption in a blog")
-  * [#19 - change_table for migrations and more](http://blog.codefront.net/2008/05/04/living-on-the-edge-of-rails-19-change_table-for-migrations-and-more/ "Living on the edge (of Rails) #19 - change_table for migrations and more | redemption in a blog")
-  * [#20 - script/dbconsole and flash.now now test-able](http://blog.codefront.net/2008/05/11/living-on-the-edge-of-rails-20-scriptdbconsole-and-flashnow-now-test-able/ "Living on the edge (of Rails) #20 - script/dbconsole and flash.now now test-able | redemption in a blog")
-  * [#21 - caches_action gets conditionals and some bug squashing](http://blog.codefront.net/2008/05/18/living-on-the-edge-of-rails-21/ "Living on the edge (of Rails) #21 | redemption in a blog")
-  * [#22 - pre-Railsconf 2008 edition](http://blog.codefront.net/2008/05/25/living-on-the-edge-of-rails-22-pre-railsconf-2008-edition/ "Living on the edge (of Rails) #22 - pre-Railsconf 2008 edition | redemption in a blog")
+* [Living on the Edge (of Rails)](http://blog.codefront.net/category/edge-rails/ "Edge Rails — redemption in a blog") ([Chu Yeow](http://www.workingwithrails.com/person/5957-cheah-chu-yeow "Recommend Chu Yeow on workingwithrails.com"))
+  * [#1 - native mongrel, caching, and Ruby 1.9 progress](http://blog.codefront.net/2008/01/02/whats-new-on-edge-rails-the-pilot/ "Living on the Edge (of Rails) - the pilot — redemption in a blog")
+  * [#2 - more caching, freezing improvements, and miscellaneous optimizations](http://blog.codefront.net/2008/01/09/living-on-the-edge-of-rails-1st-week-of-the-year-edition/ "Living on the Edge (of Rails) - 1st week of the year edition — redemption in a blog")
+  * [#3 - x-sendfile and many other sexy enhancements](http://blog.codefront.net/2008/01/16/living-on-the-edge-of-rails-3-x-sendfile-and-many-other-sexy-enhancements/ "Living on the Edge (of Rails) #3 - X-Sendfile and many other sexy enhancements — redemption in a blog")
+  * [#4 - faster routes, easier form partials](http://blog.codefront.net/2008/01/23/living-on-the-edge-of-rails-4-faster-routes-easier-form-partials/ "Living on the edge (of Rails) #4 - faster routes, easier form partials — redemption in a blog")
+  * [#5 - better eager loading and more](http://blog.codefront.net/2008/01/30/living-on-the-edge-of-rails-5-better-eager-loading-and-more/ "Living on the edge (of Rails) #5 - better eager loading and more — redemption in a blog")
+  * [#6 - better performance, Git support, and more](http://blog.codefront.net/2008/02/06/living-on-the-edge-of-rails-6-better-performance-git-support-and-more/ "Living on the edge (of Rails) #6 - better performance, Git support, and more — redemption in a blog")
+  * [#7 - improved ActiveRecord::Base#attributes, time zone support](http://blog.codefront.net/2008/02/13/living-on-the-edge-of-rails-7-improved-activerecordbaseattributes-time-zone-support/ "Living on the edge (of Rails) #7 - improved ActiveRecord::Base#attributes, time zone support — redemption in a blog")
+  * [#8 - the code optimization edition](http://blog.codefront.net/2008/02/19/living-on-the-edge-of-rails-8-the-code-optimization-edition/ "Living on the edge (of Rails) #8 - the code optimization edition — redemption in a blog")
+  * [#9 - the sleeper edition](http://blog.codefront.net/2008/02/27/living-on-the-edge-of-rails-9-the-sleeper-edition/ "Living on the edge (of Rails) #9 - the sleeper edition — redemption in a blog")
+  * [#10 - time core extensions, date helper tweaks, and a new respond_to nicety](http://blog.codefront.net/2008/03/05/living-on-the-edge-of-rails-10/ "Living on the edge (of Rails) #10 — redemption in a blog")
+  * [#11 - ActiveRecord performance boost, readonly option for has_many :through, and more](http://blog.codefront.net/2008/03/12/living-on-the-edge-of-rails-11/ "Living on the edge (of Rails) #11 — redemption in a blog")
+  * [#12 - register\_stylesheet\_expansion, sexy default timestamps, and more](http://blog.codefront.net/2008/03/20/living-on-the-edge-of-rails-12/ "Living on the edge (of Rails) #12 — redemption in a blog")
+  * [#13 - Git script/plugin install, has_one :through](http://blog.codefront.net/2008/03/27/living-on-the-edge-of-rails-13-git-scriptplugin-install-has_one-through/ "Living on the edge (of Rails) #13 - Git script/plugin install, has_one :through — redemption in a blog")
+  * [#14 - the extreme edition. extremely late.](http://blog.codefront.net/2008/04/05/living-on-the-edge-of-rails-14-the-extreme-edition-extremely-late/ "Living on the edge (of Rails) #14 - the extreme edition. Extremely late. — redemption in a blog")
+  * [#15 - the early edition](http://blog.codefront.net/2008/04/06/living-on-the-edge-of-rails-15-the-early-edition/ "Living on the edge (of Rails) #15 - the early edition — redemption in a blog")
+  * [#16 - github edition](http://blog.codefront.net/2008/04/13/living-on-the-edge-of-rails-16-github-edition/ "Living on the edge (of Rails) #16 - Github edition — redemption in a blog")
+  * [#17 - conditional caches_page, ActionView::TestCase, and memcache config options](http://blog.codefront.net/2008/04/20/living-on-the-edge-of-rails-17/ "Living on the edge (of Rails) #17 — redemption in a blog")
+  * [#18 - ActiveResource timeouts and smarter migrations for MySQL integers](http://blog.codefront.net/2008/04/27/living-on-the-edge-of-rails-18/ "Living on the edge (of Rails) #18 — redemption in a blog")
+  * [#19 - change_table for migrations and more](http://blog.codefront.net/2008/05/04/living-on-the-edge-of-rails-19-change_table-for-migrations-and-more/ "Living on the edge (of Rails) #19 - change_table for migrations and more — redemption in a blog")
+  * [#20 - script/dbconsole and flash.now now test-able](http://blog.codefront.net/2008/05/11/living-on-the-edge-of-rails-20-scriptdbconsole-and-flashnow-now-test-able/ "Living on the edge (of Rails) #20 - script/dbconsole and flash.now now test-able — redemption in a blog")
+  * [#21 - caches_action gets conditionals and some bug squashing](http://blog.codefront.net/2008/05/18/living-on-the-edge-of-rails-21/ "Living on the edge (of Rails) #21 — redemption in a blog")
+  * [#22 - pre-Railsconf 2008 edition](http://blog.codefront.net/2008/05/25/living-on-the-edge-of-rails-22-pre-railsconf-2008-edition/ "Living on the edge (of Rails) #22 - pre-Railsconf 2008 edition — redemption in a blog")
 
 And if you're upgrading an existing app, here's a bonus resource for you.  Be sure to check it out ...
 
