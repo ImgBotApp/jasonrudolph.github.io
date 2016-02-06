@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 71
 title: "JavaOne Day 3, Part 2: Groove On!"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/12/javaone-day-3-part-2-groove-on/
@@ -6,11 +6,11 @@ layout: post
 tags:
 - grails
 - groovy
-- java	
+- java
 ---
 Groovy's getting a whole lotta love at the JavaOne bookstore this week, and as of this moment, [Groovy in Action](http://www.manning.com/koenig/) is #5 on the JavaOne [best seller list](http://java.sun.com/javaone/sf/2007/articles/bookstorebestsellers.jsp).  Groovy's been at least *mentioned* in almost every session I've seen, and as you can tell from the titles of the talks below, these particular sessions gave it much more than just a passing comment.
 
-###Advanced Groovy 
+### Advanced Groovy 
 Presented by [Rod Cope](http://www.openlogic.com/blogs/author/rod/) (CTO and Founder of [OpenLogic](http://www.openlogic.com/))
 
 Two-time JavaOne rockstar Rod Cope pulled out all the stops in this talk, and given the wow-factor of this session, I'll be quite surprised if he doesn't three-peat his rockstar status.
@@ -25,8 +25,8 @@ The Groovy shell ([groovysh](http://groovy.codehaus.org/Installing+Groovy)) is a
 But Rod's obviously not the type that's satisfied with just one cool demo.  No.  He wanted more.  From there it was time to show off [COM scripting](http://groovy.codehaus.org/COM+Scripting) with Groovy, and in about thirty lines of code, Rod demoed the ability to open Excel, add a new workbook, populate cells, change fonts, create a chart, add a tile and legend, and even export the chart to a Swing app.  Well done, Rod!  Rock on!
 
 If you didn't get a chance to see this session, you're not out of luck; you'll have another opportunity to catch Rod in action at the [Grails eXchange](http://www.grails-exchange.com/rod-cope) later this year.  So reserve your spot now, and I'll see you there!  
-                  
-###Creating Manageable Systems with JMX, Spring AOP, and Groovy 
+
+### Creating Manageable Systems with JMX, Spring AOP, and Groovy 
 Presented by [Vladimir Vivien](http://www.nofluffjuststuff.com/speaker_view.jsp?speakerId=2061) (Senior Software Engineer at [Simplius LLC](http://simpli.us/))
 
 Application manageability is one of those things that almost never makes it into the system requirements, yet almost every non-trivial application needs a management component of one form or another. Vladimir's argument for taking the time to build in manageability was well put:  "By the time you see something in a log file, it's already too late."  And after his demonstration of how little effort is needed to introduce management into a Java application, I suspect many of us in the audience will be giving it more consideration going forward.

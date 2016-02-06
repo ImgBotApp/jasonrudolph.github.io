@@ -1,15 +1,15 @@
---- 
+---
 wordpress_id: 68
 title: "JavaOne Day 2, Part 2: An Afternoon of Rich UIs"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/10/javaone-day-2-part-2-an-afternoon-of-rich-uis/
 layout: post
 tags:
 - grails
-- java	
+- java
 ---
 For Day 2's early afternoon sessions, I had the opportunity to see two very different solutions for building rich user interfaces.
 
-###Fast, Beautiful, Easy: Pick Three--Building Web User Interfaces in the Java Programming Language with Google Web Toolkit 
+### Fast, Beautiful, Easy: Pick Three--Building Web User Interfaces in the Java Programming Language with Google Web Toolkit 
 Presented by Bruce Johnson and Joel Webber (Creators of GWT)
 
 GWT was clearly one of the biggest headline grabbers coming out of JavaOne '06, and the Google guys were back and ready to convince any of the wait-and-seers that haven't yet taken it for a spin.
@@ -21,7 +21,7 @@ Bruce and Joel made a good case for the many benefits of GWT and certainly got a
 
 So while I'm not exactly sold on *that* particular argument for GWT, I'm certainly impressed with the toolkit itself.  The performance optimizations in particular are quite impressive, including the ability to minimize the size of the code sent to the browser, the emphasis on page-loading speeds, and the downright genius strategies for fetching/caching images.  Apparently GWT combines all of the images in your application into a single image file, gives it a unique name using a hash generated from the bytes in the file, and instructs the browser to cache it forever.  The client-side code then simply instructs the browser to render the appropriate *portion* of the image in the desired area of the page.  In doing so, GWT significantly reduces page-loading time, as the browser has far fewer requests to make to the server.  And if the application's images ever change, GWT simply generates a new consolidated image file with a new name, and all is well.
 
-They also demonstrated a "history" feature provided by GWT.  The concept of bookmarking an Ajax app has traditionally brought with it more questions than answers.  (For example, if you never navigate to another page and the URL never changes, how do you capture the fact that you've navigated to a new tab *within* the page?)  These guys seem to have it figured out.  Very cool! 
+They also demonstrated a "history" feature provided by GWT.  The concept of bookmarking an Ajax app has traditionally brought with it more questions than answers.  (For example, if you never navigate to another page and the URL never changes, how do you capture the fact that you've navigated to a new tab *within* the page?)  These guys seem to have it figured out.  Very cool!
 
 All in all, it's obvious that GWT brings some compelling (and unique) features to the RIA toolkit arena, and it definitely deserves consideration if you're in the market for an Ajax solution for your apps.
 
@@ -31,7 +31,7 @@ The Q&A session, while brief, also led to some interesting tidbits.  Most notabl
 
 And speaking of Java 2D...
 
-###Extreme GUI Makeover 2007 
+### Extreme GUI Makeover 2007 
 Presented by Romain Guy (GUI Pimp), Christopher Campbell (Java 2D Master), and Shannon Hickey (Swing Sorcerer)
 
 After spending 8 years on the server side, it's easy to forget about Java on the desktop; so, I decided it was time to check in on that realm.  
