@@ -1,5 +1,5 @@
 permalink: pretty
-markdown: rdiscount
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 gems:
   - jekyll-redirect-from
