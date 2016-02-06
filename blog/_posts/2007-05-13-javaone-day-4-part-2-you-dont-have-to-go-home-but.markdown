@@ -39,7 +39,7 @@ Because Ruby is "like putty," Rob explained, you can make it do just about anyth
 
 *   operator overloading
 *   hashes and symbols
-*   [method_missing](http://www.rubycentral.com/book/ref_c_object.html#Object.method_missing)
+*   [method_missing](http://ruby-doc.org/core-2.3.0/BasicObject.html#method-i-method_missing)
 *   dynamic type extension (i.e., adding new methods to a class at runtime)
 
 And rather than just talking about each technique, Rob demoed them, and showed the crowd just how simple and elegant a DSL (and its implementation) can be.  Well done, Rob.
