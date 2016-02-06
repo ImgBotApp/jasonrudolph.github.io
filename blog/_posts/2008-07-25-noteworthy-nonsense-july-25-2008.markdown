@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 188
 title: Noteworthy Nonsense - July 25, 2008
 wordpress_url: http://jasonrudolph.com/blog/?p=188
@@ -16,6 +16,6 @@ tags:
 
 * [Snippets and scripts](http://gist.github.com/gists "Gist &mdash; GitHub") deserve [first-class version control](http://github.com/blog/119-intro-to-gist-video "Intro to Gist Video &mdash; GitHub") too.
 
-* If you haven't disabled "new mail" notifications by the time you finish reading this sentence, I'll be forced to hold you personally [responsible for the world's economic misfortunes](http://www.43folders.com/2008/07/21/procrastination-ding "Chronic Procrastination and the Cost of the &quot;Ding!&quot; | 43 Folders").  Pull, Folks. Pull.
+* If you haven't disabled "new mail" notifications by the time you finish reading this sentence, I'll be forced to hold you personally [responsible for the world's economic misfortunes](http://www.43folders.com/2008/07/21/procrastination-ding "Chronic Procrastination and the Cost of the &quot;Ding!&quot; — 43 Folders").  Pull, Folks. Pull.
 
 * Remember the [good ol' days of integrating Grails with a legacy database](http://jasonrudolph.com/blog/2006/06/20/hoisting-grails-to-your-legacy-db/ "jasonrudolph.com/blog -- Hoisting Grails to Your Legacy DB")?  You know, that long walk ... uphill ... in the snow ... both ways.  [Times sure have changed.](http://grag.sourceforge.net/documentation.html "GRAG - The GRails Application Generator")
