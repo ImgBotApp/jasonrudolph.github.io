@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 148
 title: Noteworthy Nonsense - March 18, 2008
 wordpress_url: http://jasonrudolph.com/blog/2008/03/18/noteworthy-nonsense-march-18-2008/
@@ -16,7 +16,7 @@ tags:
 
 * [Dave Klein takes on a gnarly Oracle schema using the Grails ORM DSL](http://dave-klein.blogspot.com/2008/03/grails-orm-dsl-rules.html "Grails' ORM DSL Rules!").  If you're dying to see some XML or annotations in use, then well, you need help, and this tutorial simply ain't for you.
 
-* Git repo containing the complete Rails source code *and* it's entire revision history: 21.9 MB.  SVN checkout of the *current* Rails source code with *no* history: 23.8 MB.  [Convinced yet?](http://www.sanityinc.com/articles/rails-on-git "Rails on Git: How much hype fits in 9MB? | Sanity, Inc.") <sup>&Dagger;</sup>
+* Git repo containing the complete Rails source code *and* it's entire revision history: 21.9 MB.  SVN checkout of the *current* Rails source code with *no* history: 23.8 MB.  [Convinced yet?](http://www.sanityinc.com/articles/rails-on-git "Rails on Git: How much hype fits in 9MB? — Sanity, Inc.") <sup>&Dagger;</sup>
 
 * [Safari 3.1 hits the street](http://docs.info.apple.com/article.html?artnum=307467 "About the Safari 3.1 Update"), now with  <del>more cowbell</del> marginally better dev tools.  Oh well, it's still feels like the best fit for day-to-day browsing, but it's got a long way to go if it's ever gonna compete with Firebug for some real web developer love.
 
