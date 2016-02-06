@@ -1,11 +1,11 @@
---- 
+---
 wordpress_id: 92
 title: Grails 0.6 Released, Brings New Flow to Grails Development
 wordpress_url: http://jasonrudolph.com/blog/2007/09/02/grails-06-released-brings-new-flow-to-grails-development/
 layout: post
 tags:
 - grails
-- groovy	
+- groovy
 ---
 Grails 0.6 is in the wild, and watch out...your Grails development is about to get a serious shot in the arm!
 
@@ -15,15 +15,15 @@ Without a doubt, the developer experience was one of the key motivating factors 
 
 And these speed increases are no small enhancement. We're talking about *at least* a 50% reduction in start-up times. The next time you run `grails run-app` or `grails shell`, you're bound to think it was preceded by a stealth installation of some crazy new plugin.  ;-)
 
-<code>grails install-plugin [powerthirst](http://www.youtube.com/watch?v=qRuNxHqwazs "YouTube - Powerthirst")</code> (NSFW)
+<span style="font-family: monospace">grails install-plugin [powerthirst](http://www.youtube.com/watch?v=qRuNxHqwazs "YouTube - Powerthirst")</span> (NSFW)
 
-In fact, these speed bumps make experimentation the most viable it's ever been with Grails.  Wanna try something out before adding it to your service class?  No problem.  Just run `grails shell` and you've got a fully-bootstrapped Grails environment with complete access to all your domain classes, service classes, etc. 
+In fact, these speed bumps make experimentation the most viable it's ever been with Grails.  Wanna try something out before adding it to your service class?  No problem.  Just run `grails shell` and you've got a fully-bootstrapped Grails environment with complete access to all your domain classes, service classes, etc.
 
 And as someone who thinks [you can never have too may tests](http://thinkrelevance.com/relevance-development "Relevance - How We Develop Software"), the fact that your unit and integration tests now run faster is a big boost as well.
 
 Of course, improved developer productivity isn't the only thing that's noteworthy in this release.  There are several new features to try out as well.  Some of the heavy hitters include
 
-* [Joint Groovy/Java compilation](http://jasonrudolph.com/blog/2007/07/05/groovy-11-beta-2-released-introduces-joint-compiler-for-java-groovy/ "Groovy 1.1-beta-2 Released, Introduces Joint Compiler for Java &#038; Groovy!") 
+* [Joint Groovy/Java compilation](http://jasonrudolph.com/blog/2007/07/05/groovy-11-beta-2-released-introduces-joint-compiler-for-java-groovy/ "Groovy 1.1-beta-2 Released, Introduces Joint Compiler for Java &#038; Groovy!")
 * [Improved support for REST](http://grails.org/0.6+Release+Notes#0.6ReleaseNotes-RESTandXMLWebServices) with automatic XML/JSON marshaling and RESTful URL mappings
 * [New configuration DSL](http://grails.org/0.6+Release+Notes#0.6ReleaseNotes-UnifiedCentralizedConfigurationDSL) for those times when you want to step outside the bounds of *convention over configuration*
 
