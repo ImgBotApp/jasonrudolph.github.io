@@ -1,5 +1,8 @@
 permalink: pretty
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 highlighter: rouge
 gems:
   - jekyll-redirect-from
