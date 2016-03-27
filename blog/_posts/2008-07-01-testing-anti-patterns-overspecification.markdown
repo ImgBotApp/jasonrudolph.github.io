@@ -13,7 +13,7 @@ Tests increasingly serve multiple roles in today's projects.  They help us desig
 
 Consider the following test that you might come across in an application with a less-than-ideal test suite.  (We'll pick on some badly-written Rails code for this example, but the ideas we'll discuss are certainly not unique to just Rails or Ruby or even just to dynamic languages.  Unfortunately, these problems are quite universal.)
 
-{% highlight ruby %}
+```ruby
 require File.dirname(__FILE__) + '/../test_helper'
 
 class ProductsControllerTest < ActionController::TestCase 
@@ -28,7 +28,7 @@ class ProductsControllerTest < ActionController::TestCase
     assert product.price == 5.00
   end
 end
-{% endhighlight %}
+```
 
 Whoa!  That sure is a lot going on in a single test case. What exactly is it that we're trying to test here?  Let's take a step back and see if we can figure it out. [1]
 
@@ -41,13 +41,13 @@ Whoa!  That sure is a lot going on in a single test case. What exactly is it tha
 
 For a class called <code>ProductsControllerTest</code>, it sure feels like we're doing a fair bit more than just testing the code we'd expect to find in <code>ProductsController</code> (assuming <code>ProductsController</code> conforms to the traditional responsibilities of a controller).  Let's take a look at the controller code to better understand exactly what it is that we're testing.
 
-{% highlight ruby %}
+```ruby
 class ProductsController < ApplicationController
   def show
     @product = Product.find(params[:id])
   end
 end
-{% endhighlight %}
+```
 
 It turns out that our controller code is notably simpler than our test case would have led us to believe.  The <code>#show</code> action does indeed stick to the expected behavior of a controller, and in this case, it's able to provide that behavior in a single line of code (despite the 8 lines of test code currently employed above).  That single line satisfies all of the expectations of the <code>#show</code> action: look up the product with the given ID and place the product object in an instance variable for use by the view.
 
@@ -59,7 +59,7 @@ We can see from the <code>#show</code> action above that not only is the control
 
 Let's take another pass at writing a test for the <code>#show</code> action, this time with an eye toward removing the fragility of the previous test case and increasing the value of the test as a specification.
 
-{% highlight ruby %}
+```ruby
 require File.dirname(__FILE__) + '/../test_helper'
 
 class ProductsControllerTest < ActionController::TestCase 
@@ -70,7 +70,7 @@ class ProductsControllerTest < ActionController::TestCase
     assert_equal product, assigns(:product) 
   end 
 end
-{% endhighlight %}
+```
 
 In this implementation, we've abstracted away the logic for creating a new product in line 5.  We've defined a helper method for use by any and all tests in our application that have a need to create a new product.  If and when the rules for successfully creating a new product change, we'll update the <code>#create_product</code> method, and we won't have to touch the code in <code>ProductsController</code> or <code>ProductsControllerTest</code> at all. [2] 
 
@@ -82,17 +82,17 @@ By focusing our test case on the *essence* of the code under test, we've ended u
 
 In the previous example, we *might* have detected the overspecification by the significant mismatch between the lines of test code and the lines of production code, or seeing model-specific assertions in a controller-specific test may have caught our eye.  But, overspecification comes in more subtle forms as well.  Consider the following method provided by [<code>ActiveRecord::Base</code>](http://api.rubyonrails.org/classes/ActiveRecord/Base.html#M001329 "Class: ActiveRecord::Base") for fetching the list of columns that hold domain-specific content from a model class in Rails.
 
-{% highlight ruby %}
+```ruby
 # Returns an array of column objects where the primary id, all columns ending in "_id" or "_count",
 # and columns used for single table inheritance have been removed.
 def content_columns
   @content_columns ||= columns.reject { |c| c.primary || c.name =~ /(_id|_count)$/ || c.name == inheritance_column }
 end
-{% endhighlight %}
+```
 
 To test this method, we'll need a sample <code>ActiveRecord</code> model class.  Let's use the <code>Topic</code> model, which is backed by the following table.
 
-{% highlight ruby %}
+```ruby
 create_table :topics, :force => true do |t|
   t.string   :title
   t.string   :author_name
@@ -106,22 +106,22 @@ create_table :topics, :force => true do |t|
   t.integer  :parent_id
   t.string   :type
 end
-{% endhighlight %}
+```
 
 In our first attempt at testing the <code>#content_columns</code> method, we might come up something similar to this:
 
-{% highlight ruby %}
+```ruby
 # (Naive) First Attempt
 def test_content_columns
   content_columns      = Topic.content_columns
   content_column_names = content_columns.map {|column| column.name}
   assert_equal %w(title author_name author_email_address written_on bonus_time last_read content approved), content_column_names
 end
-{% endhighlight %}
+```
 
 Can you spot the overspecification?  To give you a hint, compare that test to the actual test employed in the <code>ActiveRecord</code> test suite:
 
-{% highlight ruby %}
+```ruby
 # The Real Deal
 def test_content_columns
   content_columns        = Topic.content_columns
@@ -129,20 +129,20 @@ def test_content_columns
   assert_equal 8, content_columns.length
   assert_equal %w(title author_name author_email_address written_on bonus_time last_read content approved).sort, content_column_names.sort
 end
-{% endhighlight %}
+```
 
 If you've ever written a test for something that returns an ordered list of items where the actual order either doesn't matter or isn't guaranteed, you've probably been bitten by this breed of overspecification, and there's a good chance your solution matched the solution used in the <code>ActiveRecord</code> test code above.  Because the <code>#content_columns</code> method doesn't guarantee that the columns will be returned in any particular order, it's inappropriate (and fragile) for our test to specify a certain order.  
 
 While the actual <code>ActiveRecord</code> solution above works, it too could be better.  First, since we know that the two arrays in line 6 won't be equal unless they have the same length, we can safely remove the extraneous length assertion in line 5.  Second, when we see the calls to <code>#sort</code> on line 6, we're forced to pause (if even for just a moment) to think about why it might be important to sort the two arrays.  We don't really *want* to sort the arrays; we're just using that technique to get around the fact that order doesn't matter to us, but it does matter when Ruby compares two arrays for equality. Since we really only want to assert that the arrays have the same elements, why not do exactly that?
 
-{% highlight ruby %}
+```ruby
 # Don't Make Me Think
 def test_content_columns
   content_columns        = Topic.content_columns
   content_column_names   = content_columns.map {|column| column.name}
   assert_same_elements %w(title author_name author_email_address written_on bonus_time last_read content approved), content_column_names
 end
-{% endhighlight %}
+```
 
 By using an assertion like [Shoulda's](http://www.thoughtbot.com/projects/shoulda "thoughtbot: Shoulda testing plugin") [<code>assert\_same\_elements</code>](http://dev.thoughtbot.com/shoulda/classes/ThoughtBot/Shoulda/General.html#M000005 "Module: ThoughtBot::Shoulda::General") method, our test can clearly and concisely express the expected behavior.
 

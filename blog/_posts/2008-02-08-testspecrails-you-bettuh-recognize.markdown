@@ -15,28 +15,28 @@ Believe it or not, there are still at least [a few](http://robsanheim.com/2008/0
 
 Where you'd use [`#assert_generates`](http://api.rubyonrails.org/classes/ActionController/Assertions/RoutingAssertions.html#M000367 "rdoc - Module: ActionController::Assertions::RoutingAssertions#assert_generates") in traditional Rails + test/unit, test/spec/rails now supports [`#route_to`](http://svn.techno-weenie.net/projects/plugins/test_spec_on_rails/lib/test/spec/rails/should_route.rb "test/spec/rails source code + rdoc -- lib/test/spec/rails/should_route.rb") as a more spec-flavored alternative.  For example, to verify that a given set of URL options routes to the expected path...
 
-{% highlight ruby %}
+```ruby
 assert_generates "/users/1", :controller => "users", :action => "show", :id  => "1"
-{% endhighlight %}
+```
 
 becomes
 
-{% highlight ruby %}
+```ruby
 {:controller => "users", :action => "show", :id  => "1"}.should.route_to "/users/1"
-{% endhighlight %}
+```
 
 ## `assert_recognizes` => `should.route_from`
 
 And where our ancestors once used [`#assert_recognizes`](http://api.rubyonrails.org/classes/ActionController/Assertions/RoutingAssertions.html#M000366 "rdoc - Module: ActionController::Assertions::RoutingAssertions#assert_recognizes"), test/spec/rails now offers <del>`#you_bettuh_recognize`</del> [`#route_from`](http://svn.techno-weenie.net/projects/plugins/test_spec_on_rails/lib/test/spec/rails/should_route.rb "test/spec/rails source code + rdoc -- lib/test/spec/rails/should_route.rb").  "An example would be nice", you say?  Well, to perform essentially the inverse of the above test...
 
-{% highlight ruby %}
+```ruby
 assert_recognizes({:controller => "users", :action => "show", :id => "1"}, {:path => "/users/1", :method => :get})
-{% endhighlight %}
+```
 
 becomes
 
-{% highlight ruby %}
+```ruby
 {:path => "/users/1", :method => :get}.should.route_from :controller => "users", :action => "show", :id =>"1"
-{% endhighlight %}
+```
 
 The [rdoc](http://svn.techno-weenie.net/projects/plugins/test_spec_on_rails/lib/test/spec/rails/should_route.rb "test/spec/rails source code + rdoc -- lib/test/spec/rails/should_route.rb") offers additional examples, and check out the [test/spec/rails README](http://svn.techno-weenie.net/projects/plugins/test_spec_on_rails/README "test/spec/rails README file") for more mappings from old-school test/unit assertions to test/spec/rails equivalents.

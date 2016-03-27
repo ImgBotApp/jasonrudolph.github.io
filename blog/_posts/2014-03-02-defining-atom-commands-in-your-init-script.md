@@ -13,10 +13,10 @@ The majority of your Atom customizations will come in the form of [packages](htt
 
 As a simple (and admittedly contrived) example, let's define a command that logs a message to the console. For starters, add the following code to your `~/atom/init.coffee` script:
 
-{% highlight coffeescript %}
+```coffeescript
 atom.commands.add 'atom-workspace', 'dot-atom:demo', ->
   console.log "Hello from dot-atom:demo"
-{% endhighlight %}
+```
 
 Atom evaluates `init.coffee` each time you open a new window. To test out this new command, you can open a new window, or you can reload the current window via the "Window: Reload" command in the [Command Palette](https://atom.io/docs/v1.0.2/getting-started-atom-basics#command-palette).
 

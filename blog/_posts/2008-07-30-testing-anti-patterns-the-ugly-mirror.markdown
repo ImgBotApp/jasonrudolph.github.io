@@ -11,17 +11,17 @@ When you're able to write a test, nay, a spec, that not only verifies your code'
 
 Consider, for example, the following Ruby Struct tasked with building a friendly string representation of a user's name and e-mail address.
 
-{% highlight ruby %}
+```ruby
 User = Struct.new(:first_name, :last_name, :email) do
   def to_s
     "#{last_name}, #{first_name} <#{email}>"
   end
 end
-{% endhighlight %}
+```
 
 I ran across code similar to this example during a recent code review, and when I got to the corresponding test ...
 
-{% highlight ruby %}
+```ruby
 require "test/unit"
 
 class UserTest < Test::Unit::TestCase
@@ -30,7 +30,7 @@ class UserTest < Test::Unit::TestCase
     assert_equal "#{user.last_name}, #{user.first_name} <#{user.email}>", user.to_s
   end  
 end
-{% endhighlight %}
+```
 
 ... I couldn't help but feel like I was staring right back at the very code that was supposedly being tested.
 
@@ -44,7 +44,7 @@ Of course, it doesn't have to be this way, but it's not unusual to stumble acros
 
 On the other hand, when we're developing test-first, we start out with the end-user requirements in mind, and it's easy to make sure our tests communicate those requirements.
 
-{% highlight ruby %}
+```ruby
 require "test/unit"
 
 class UserTest < Test::Unit::TestCase
@@ -53,7 +53,7 @@ class UserTest < Test::Unit::TestCase
     assert_equal "Smith, John <jsmith@example.com>", user.to_s
   end  
 end
-{% endhighlight %}
+```
 
 When we improve the test to focus on the end result, we can look at the test and instantly see the requirements (and so can all the people that will live with our code long into the future).  Instead of reflecting the ingredients, the test now reflects the end product.  And this allows us to have greater confidence that our code is doing the right thing as well.
 

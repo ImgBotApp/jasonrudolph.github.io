@@ -88,9 +88,9 @@ Just judging by the name of the file, that sure *sounds* like functionality that
 
 In order for code to show up in a coverage report, we need to instruct the coverage tool to assess that file.  The approach for doing so tends to vary from tool to tool.  With [rcov](http://eigenclass.org/hiki.rb?rcov "eigenclass - rcov: code coverage for Ruby"), we first have to tell it which files constitute our test suite (i.e., the files we want rcov to run).  But that alone is not sufficient; we also have to ensure that application files (i.e., the files whose test coverage we want to measure) get *loaded* as part of the test suite.  Adding this `require` statement anywhere in our test suite is enough to shed some light on the elusive code in `product_ftp_importer.rb`.
 
-{% highlight ruby %}
+```ruby
 require File.expand_path(File.dirname(__FILE__) + "/../lib/product_ftp_importer")
-{% endhighlight %}
+```
 
 [![71.7% Test Coverage](/resources/20080819_invisible_code_coverage_report_2_thumb.png "71.7% Test Coverage - The Whole Story")](/resources/20080819_invisible_code_coverage_report_2.png)
 
@@ -101,22 +101,22 @@ It's hard to feel good about 45 lines of untested FTP-processing voodoo, so how 
 
 **UPDATE (2008-08-21)** At the ["How to Fail with 100% Test Coverage" talk](http://ruby.meetup.com/3/calendar/7849526/ "The Raleigh-area Ruby Brigade August Meeting (raleigh.rb) (Raleigh, NC)") earlier this week, a few folks asked if I'd provide an example script that would perform this task in a Rails app.  Adding this line to `test_helper.rb` should get you started.
 
-{% highlight ruby %}
+```ruby
 Dir["app/**/*.rb", "lib/**/*.rb"].each { |f| require File.expand_path(f) }
-{% endhighlight %}
+```
 
 ## (Not So) Scenic View Ahead
 
 View templates have long been a favorite dumping ground for misplaced application logic.  This problem can often go undetected, because view templates fly under the radar of the coverage report.  Most developers know they should minimize the application logic included in the view, but when a deadline's looming, the lure of throwing some code in the view "just this once" is often hard to resist.  For example, what's so wrong with having the view decide whether to display a particular product in the list?
 
-{% highlight erb %}
+```erb
 <% for product in @products %>
   <% if product.quantity_in_stock > 0 && product.quantity_in_stock > product.pending_backorder_count %>
     <!-- display purchasable product here -->
     <!-- ... -->
   <% end %>
 <% end %>
-{% endhighlight %}
+```
 
 Well, how exactly will we verify that the view is indeed displaying the right products and suppressing the others?  We could manually test each scenario by visually inspecting the resulting UI, and that might be good enough for us to have confidence that the app is doing the right thing as of this moment.  But code has a life of its own, and it will grow and change over time, and we want automated tests to make sure that this page continues to display the correct data even after those inevitable changes.
 
@@ -126,25 +126,25 @@ We can do better than that.  When something's too hard to test, we should refact
 
 We're going to need this logic outside of the view anyway, so the sooner we get it into the model the better.  Sure, the view will only display those products that are available for purchase, but we need that logic for server-side validation as well.  Before we process an order, we need to make sure that we still have the product in stock.  If we leave the logic in the view as is, then we'll be forced to duplicate that logic elsewhere inside our order-processing code.  There's clearly no justification at all for leaving this logic in the view.  
 
-{% highlight erb %}
+```erb
 <% for product in @products %>
   <% if product.available_for_purchase? %>
     <!-- display purchasable product here -->
     <!-- ... -->
   <% end %>
 <% end %>
-{% endhighlight %}
+```
 
 When we encapsulate this logic in the `Product` class itself, we can test that logic in *isolation*, without any dependencies on controllers, and without the need for fragile HTML-parsing to verify the result.  Once we perform this refactoring, unit testing the `#available_for_purchase?` method becomes trivial, *and* we can refer to that method wherever necessary without unnecessary duplication.
 
 Better still, if we know that we only want to display the products that are available for purchase, we can ensure that our controller provides *only* those products to the view in the first place.  With this approach, our view then enjoys the pleasant simplicity of just displaying the list of products.
 
-{% highlight erb %}
+```erb
 <% for product in @products %>
   <!-- display purchasable product here -->
   <!-- ... -->
 <% end %>
-{% endhighlight %}
+```
 
 The coverage report isn't going to alert us to business logic lurking in our view templates.  It's up to us to keep our views from becoming [too smart for their own good](http://www.youtube.com/watch?v=ku3QkWcPSEw "YouTube - RailsEnvy MVC Public Service Announcement #3 - Keeping Views Stupid"), and it's up to peer code reviews to keep us honest.
 
@@ -156,7 +156,7 @@ Perhaps we have some code that only needs to run at application start-up.  In Ra
 
 Data migration suffers from a similar problem.  Rails migrations are great for creating and dropping tables, adding and removing columns, etc., but sometimes we need to do more than just alter the schema; sometimes we want to push *data* around as well.  Schema transformations are essentially declarative code, and really don't warrant anything beyond visual verification of the results.  But when it comes time to migrate 10 million records from some legacy database into our hip new application, chances are we're not just talking about simple declarations anymore.  What's the worst that could happen though?  This code only has to run once.  And who wants to write a bunch of tests for code that we're only gonna run once and then throw away?  And once again, there's no obvious place for us to add tests for this kind of data conversion functionality in the first place.  Surely a simple Rake task will suffice.
 
-{% highlight ruby %}
+```ruby
 namespace :db do
   namespace :load do
     desc 'Load products from csv'
@@ -183,7 +183,7 @@ namespace :db do
     end
   end
 end
-{% endhighlight %}
+```
 
 Indeed, a *simple* Rake task will suffice, but that's certainly not what we're looking at above.  While we *could* write tests for this logic in its current state, doing so is unnecessarily difficult.  We'd be restricted to solely black box tests.  To test each individual decision point, we're forced to also construct a new file holding the appropriate dataset, run the Rake task, and then inspect the state of the data in the database.  For *every* decision point.  
 
@@ -195,7 +195,7 @@ Whether we're talking about hard-to-test code in start-up scripts, hard-to-test 
 
 When something's too hard to test, we should refactor it until it's easy to test.  
 
-{% highlight ruby %}
+```ruby
 namespace :db do
   namespace :load do
     desc 'Load products from csv'
@@ -206,7 +206,7 @@ namespace :db do
     end
   end
 end
-{% endhighlight %}
+```
 
 In the case of this Rake task, and in each of the cases discussed above, by simply moving the logic out of the script and into a proper class (or module), the testing strategy goes from clumsy at best to downright obvious.  We no longer need to invoke the whole script in order to verify the particular unit of functionality that we want to test.  Instead, we test that functionality in isolation, and allow the script to resume its trivial role of merely calling our well-tested class.
 

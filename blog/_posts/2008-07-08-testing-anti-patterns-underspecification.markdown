@@ -16,17 +16,17 @@ Suppose we're building an application for an online retailer, and they decide th
 
 It's a straightforward request, so we'll crank out a quick method to encapsulate the logic ...
 
-{% highlight ruby %}
+```ruby
 MIN_FREE_SHIPPING_PRICE = 25.0   
 
 def free_shipping?(total_order_price)
   total_order_price > MIN_FREE_SHIPPING_PRICE
 end
-{% endhighlight %}
+```
 
 ... and add a few simple tests to make sure we're getting the desired results (all the while being careful to avoid any *over*specification, of course).
 
-{% highlight ruby %}
+```ruby
 def test_free_shipping_returns_true_for_order_above_min_price
   assert free_shipping?(MIN_FREE_SHIPPING_PRICE + 1)
 end
@@ -34,19 +34,19 @@ end
 def test_free_shipping_returns_false_for_order_below_min_price
   assert !free_shipping?(MIN_FREE_SHIPPING_PRICE - 1)
 end
-{% endhighlight %}
+```
 
 And just like that, we have a passing test suite ... 
 
-<pre>
-$ ruby underspecification_test.rb 
+```
+$ ruby underspecification_test.rb
 Loaded suite underspecification_test
 Started
 ..
 Finished in 0.00029 seconds.
 
 2 tests, 2 assertions, 0 failures, 0 errors
-</pre>
+```
 
 ... and 100% code coverage ...
 
@@ -62,16 +62,16 @@ But what about the customer that just spent the last 20 minutes concocting the p
 
 Since we're calling it a "minimum" price, it sure sounds like a $25.00 order *should* qualify for free shipping, so we *should* add a test to specify that behavior.
 
-{% highlight ruby %}
+```ruby
 def test_free_shipping_returns_true_for_order_equal_to_min_price
   assert free_shipping?(MIN_FREE_SHIPPING_PRICE)
 end
-{% endhighlight %}
+```
 
 And when we run this test, we should get some good insight into whether we're likely to have that rather obsessive customer hunting us down in his copious free time.
 
-<pre>
-$ ruby underspecification_test.rb 
+```
+$ ruby underspecification_test.rb
 Loaded suite underspecification_test
 Started
 ..F
@@ -82,7 +82,7 @@ test_free_shipping_returns_true_for_order_equal_to_min_price(UnderspecificationT
 <false> is not true.
 
 3 tests, 3 assertions, 1 failures, 0 errors
-</pre>
+```
 
 Ouch!  As is often the case, the code fails on a boundary condition.  Of course, the problem (once identified) is easily fixed by replacing the incorrect operator (<code>></code>) with the correct one (<code>>=</code>).  It's a trivial change, but under what circumstances would we identify this problem in the first place?  Why not call it a day as soon as the first two tests are passing?  We already had [100% test coverage](http://jasonrudolph.com/blog/2008/06/10/a-brief-discussion-of-code-coverage-types "jasonrudolph.com/blog -- A Brief Discussion of Code Coverage Types") [1], and we certainly don't get any extra credit from our coverage analysis tool for adding this new test case.  Geoffrey Wiseman sums up this situation nicely in his [commentary on making effective use of coverage analysis](http://www.ejlife.net/blogs/john/2006/08/16/1155746828758.html#comment1156136055323 "Geoffrey Wiseman's response to 'Testing: Coverage Reports Considered Dangerous'"):
 
