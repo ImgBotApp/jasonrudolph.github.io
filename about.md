@@ -26,4 +26,4 @@ As an alumnus of [Relevance][], he currently lives in Durham, NC with his wife, 
 [relevance]: http://thinkrelevance.com
 [testing-anti-patterns]: /blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/
 [speaking]: /events
-[writing]: /blog
+[writing]: /
