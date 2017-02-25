@@ -132,7 +132,7 @@ You know that it's lame to phone it in just to cross an item off the list.
 
 ## Since we're talking about improvement ...
 
-Since we're talking about improvement, what would you change about this list?  
+Since we're talking about improvement, what would you change about this list? What experiences have made you a better developer?
 
 The list is available as a [gist](https://gist.github.com/1133830#file_programming_achievements.md "Programming Achievements Gist") on GitHub.
 Feel free to fork it and add more achievements.
@@ -141,9 +141,7 @@ Feel free to fork it and add more achievements.
 Or, fork it and mark off the achievements you've already conquered.
 You might even flag the one that you're currently working on. (For example, check out these forks from [Justin Blake](https://gist.github.com/1134309), [Pierre Chapuis](https://gist.github.com/1134276), and [Yann Esposito](https://gist.github.com/1134044).) [E]
 
-Or just sound off in the comments:
-What experiences have made you a better developer?
-And what achievement will you unlock next?
+What achievement will you unlock next?
 
 ----
 

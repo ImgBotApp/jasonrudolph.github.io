@@ -17,4 +17,4 @@ Now, go in peace.
 
 --
 
-**Update 2008-11-19** - Robert has deleted his comment (originally linked to above and [referenced by Robert below](http://jasonrudolph.com/blog/2008/11/18/grails-vs-rails-are-we-seriously-still-talking-about-this/#comment-14775 "jasonrudolph.com/blog - Comment by Robert Fischer")) from his blog.  His original blog post remains intact, sans incendiary comment.
+**Update 2008-11-19** - Robert has deleted his comment (originally linked to above) from his blog.  His original blog post remains intact, sans incendiary comment.
