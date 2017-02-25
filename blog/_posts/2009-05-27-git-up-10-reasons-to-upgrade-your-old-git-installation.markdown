@@ -15,8 +15,11 @@ If you're not yet sportin' the 1.6.3 hotness, here are ten reasons to Git up!
 [![Git Up!](http://jasonrudolph.com/resources/20090527-git-up.png "Image courtesy of Midnight Digital (flickr.com/midnight-digital)")](http://flickr.com/photos/midnight-digital/1878360316 "Image courtesy of Midnight Digital (flickr.com/midnight-digital)")
 
 1. Everyone's crazy-fast VCS is even faster: `git clone` and `git merge` have been rewritten in C. [[1.5.6](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.6.txt "Git 1.5.6 Release Notes")] [[1.6.0](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.0.txt "Git 1.6.0 Release Notes")]
+
 1. Viewing your staged changes no longer requires a cheatsheet in order to remember the command: `git diff --staged` serves as a substantially-more-obvious synonym to `git diff --cached`.  [[1.6.1](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.1.txt "Git 1.6.1 Release Notes")]
+
 1. Stashes always remember where they came from and make it easy to get back there: `git stash branch <branchname> [<stash>]` creates a new branch starting at the commit at which the stash was created, checks out the branch, and applies the stash. The stash is guaranteed to apply cleanly, no matter how much the rest of your fast-movin' repo has changed. [[1.6.0](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.0.txt "Git 1.6.0 Release Notes")]
+
 1. If you mistype a command, Git offers a helping hand: Clippy says, "It looks like you're trying to use SVN." [[1.6.1](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.1.txt "Git 1.6.1 Release Notes")]
 
         $ git stat
@@ -26,6 +29,7 @@ If you're not yet sportin' the 1.6.3 hotness, here are ten reasons to Git up!
         	status
 
 1. Branch navigation adopts basic filesystem navigation idioms: Use `git checkout -` to return to the last branch you were on. [[1.6.2](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.2.txt "Git 1.6.2 Release Notes")]
+
 1. A visualization of the ancestry tree is available without having to leave your terminal: `git log --graph` outputs hot ASCII graph pr0n in full technicolor. [[1.5.6](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.6.txt "Git 1.5.6 Release Notes")] [[1.6.3](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.3.txt "Git 1.6.3 Release Notes")]
 
     [![Full color visualization of the ancestry tree using 'get log --graph'](http://jasonrudolph.com/resources/20090527_git_log_graph_output_thumb.png)](http://jasonrudolph.com/resources/20090527_git_log_graph_output.png "Full color visualization of the ancestry tree using 'get log --graph'")
