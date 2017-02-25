@@ -3,4 +3,4 @@
 set -e
 
 script/bootstrap
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
