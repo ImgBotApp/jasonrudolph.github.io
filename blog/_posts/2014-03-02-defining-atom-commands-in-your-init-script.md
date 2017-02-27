@@ -1,5 +1,5 @@
 ---
-title: "Defining Atom Commands in Your Init Script"
+title: "Defining Atom commands in your init script"
 layout: post
 tags:
 - atom

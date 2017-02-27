@@ -1,6 +1,6 @@
 ---
 wordpress_id: 193
-title: Grails Presentations Open Sourced on GitHub
+title: Grails presentations open sourced on GitHub
 wordpress_url: http://jasonrudolph.com/blog/?p=193
 layout: post
 tags:

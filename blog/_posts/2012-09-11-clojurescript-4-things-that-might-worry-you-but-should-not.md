@@ -1,5 +1,5 @@
 ---
-title: "ClojureScript: 4 Things That Might Worry You, but Shouldn't"
+title: "ClojureScript: 4 things that might worry you, but shouldn't"
 layout: post
 tags:
 - clojurescript
@@ -19,14 +19,14 @@ If you're on the fence about giving ClojureScript a shot, I hereby present: *4 t
 
 ## Debugging
 
-**My Worry**
+**My worry**
 
 ClojureScript compiles [1] to JavaScript.
 Any error that occurs will be reported to me as JavaScript; probably as *horribly obfuscated JavaScript*.
 How am I going to trace that error back to the root cause in my ClojureScript code?
 Will I even have a fighting chance? [2]
 
-**My Experience**
+**My experience**
 
 Finding the *ClojureScript* code that produced a *JavaScript* error is straightforward and reasonably fast.
 Despite coming to ClojureScript with little Clojure experience, it has never taken me more than 60 seconds to go from
@@ -50,15 +50,15 @@ The following screenshots illustrate this workflow.
 [![Step 2 - Trace it back to your ClojureScript code](http://jasonrudolph.com/resources/201209-cljs-debugging-2-thumb.png "Step 2 - Trace it back to your ClojureScript code")](http://jasonrudolph.com/resources/201209-cljs-debugging-2.png)
 
 
-## API Stability
+## API stability
 
-**My Worry**
+**My worry**
 
 ClojureScript is barely [a year old](https://twitter.com/jasonrudolph/status/226271633181143040). [4]
 I'll bet the dev team is still rapidly evolving the API.
 I don't want to have to fix my app every time I upgrade to each and every point release of ClojureScript.
 
-**My Experience**
+**My experience**
 
 ClojureScript benefits from the stability of *Clojure's* API.
 I've upgraded the same app to new releases of ClojureScript several times.
@@ -67,13 +67,13 @@ Only once did an upgrade require changes to my application code, and even then, 
 
 ## Quality
 
-**My Worry**
+**My worry**
 
 Did I mention how young ClojureScript is?
 I'm okay with "leading edge," but am I prepared for the *bleeding* that goes with "bleeding edge?"
 Do I really want to be the guinea pig for some bug-ridden alpha software?
 
-**My Experience**
+**My experience**
 
 ClojureScript is quality software with a responsive dev team.
 In eight months of working with ClojureScript, and through several ClojureScript upgrades, I've only been impacted by a single bug.
@@ -89,14 +89,14 @@ Instead, he fixed the issue, [committed it](https://github.com/clojure/clojuresc
 I've *paid* good money for support nowhere near as responsive as this!
 
 
-## Performance Profiling and Tuning
+## Performance profiling and tuning
 
-**My Worry**
+**My worry**
 
 What the heck am I going to do when I discover that part of my app is too slow?
 I'm pretty sure there are zero ClojureScript performance profiling tools out there.
 
-**My Experience**
+**My experience**
 
 While you're unlikely to find a ClojureScript-specific perf tool, the [Google Chrome profiling tools](https://developers.google.com/chrome-developer-tools/docs/cpu-profiling) give you what you need. [5]
 
@@ -106,7 +106,7 @@ The screenshot below describes the process.
 
 [![ClojureScript Performance Profiling](http://jasonrudolph.com/resources/201209-cljs-performance-profiling-thumb.png "ClojureScript Performance Profiling")](http://jasonrudolph.com/resources/201209-cljs-performance-profiling.png)
 
-## Runtime Tooling in General?
+## Runtime tooling in general?
 
 Debugging and performance profiling are two specific worries I had.
 In each case, the existing JavaScript runtime tools were sufficient for satisfying my ClojureScript needs.

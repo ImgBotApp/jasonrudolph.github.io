@@ -1,6 +1,6 @@
 ---
 wordpress_id: 148
-title: Noteworthy Nonsense - March 18, 2008
+title: Noteworthy nonsense - March 18, 2008
 wordpress_url: http://jasonrudolph.com/blog/2008/03/18/noteworthy-nonsense-march-18-2008/
 layout: post
 tags:

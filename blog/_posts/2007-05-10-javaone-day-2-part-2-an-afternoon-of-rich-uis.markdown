@@ -1,6 +1,6 @@
 ---
 wordpress_id: 68
-title: "JavaOne Day 2, Part 2: An Afternoon of Rich UIs"
+title: "JavaOne Day 2, Part 2: An afternoon of rich UIs"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/10/javaone-day-2-part-2-an-afternoon-of-rich-uis/
 layout: post
 tags:

@@ -1,6 +1,6 @@
 ---
 wordpress_id: 70
-title: "JavaOne Day 3, Part 1: Mash-up your languages, Mash-up your web apps"
+title: "JavaOne Day 3, Part 1: Mash-up your languages, mash-up your web apps"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/11/javaone-day-3-part-1-mash-up-your-languages-mash-up-your-web-apps/
 layout: post
 tags:

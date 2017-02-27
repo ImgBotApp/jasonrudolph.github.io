@@ -1,6 +1,6 @@
 ---
 wordpress_id: 76
-title: GSwG Source Code Now Updated for Grails 0.5
+title: GSwG source code now updated for Grails 0.5
 wordpress_url: http://jasonrudolph.com/blog/2007/05/19/gswg-source-code-now-updated-for-grails-05/
 layout: post
 tags:

@@ -1,6 +1,6 @@
 ---
 wordpress_id: 111
-title: "Web 2.0 Meetup in NYC Tonight: The Prophecy of Grails"
+title: "Web 2.0 meetup in NYC tonight: The Prophecy of Grails"
 wordpress_url: http://jasonrudolph.com/blog/2007/10/22/web-20-meetup-in-nyc-tonight-the-prophecy-of-grails-2/
 layout: post
 tags:

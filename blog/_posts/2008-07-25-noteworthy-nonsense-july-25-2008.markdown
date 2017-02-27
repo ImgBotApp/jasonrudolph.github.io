@@ -1,6 +1,6 @@
 ---
 wordpress_id: 188
-title: Noteworthy Nonsense - July 25, 2008
+title: Noteworthy nonsense - July 25, 2008
 wordpress_url: http://jasonrudolph.com/blog/?p=188
 layout: post
 tags:

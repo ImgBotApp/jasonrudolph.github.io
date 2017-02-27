@@ -1,6 +1,6 @@
 ---
 wordpress_id: 66
-title: "JavaOne Day 1: java.util.Random Observations"
+title: "JavaOne Day 1: java.util.Random observations"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/09/javaone-day-1-javautilrandom-observations/
 layout: post
 tags:
@@ -11,7 +11,7 @@ tags:
 ---
 A very full first day is in the books. Here we go...
 
-### Sun Keynote
+### Sun keynote
 The conference officially kicked off with the 2-hour "Sun General Session."  
 
 * F3 gets rebranded as JavaFX, but will people in the Silverlight and Flex camps even give it a thought?

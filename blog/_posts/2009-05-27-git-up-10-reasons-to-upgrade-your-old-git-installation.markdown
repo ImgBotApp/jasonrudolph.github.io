@@ -1,6 +1,6 @@
 ---
 wordpress_id: 281
-title: "Git Up! 10 Reasons to Upgrade Your Old Git Installation"
+title: "Git up! 10 reasons to upgrade your old Git installation"
 wordpress_url: http://jasonrudolph.com/blog/?p=281
 layout: post
 tags:

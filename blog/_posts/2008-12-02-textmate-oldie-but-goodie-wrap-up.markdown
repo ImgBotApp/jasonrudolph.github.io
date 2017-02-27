@@ -1,6 +1,6 @@
 ---
 wordpress_id: 241
-title: TextMate Oldie But Goodie Wrap-up
+title: TextMate oldie-but-goodie wrap-up
 wordpress_url: http://jasonrudolph.com/blog/?p=241
 layout: post
 tags:

@@ -1,6 +1,6 @@
 ---
 wordpress_id: 79
-title: "InfoQ Review: Groovy in Action"
+title: "InfoQ review: Groovy in Action"
 wordpress_url: http://jasonrudolph.com/blog/2007/06/13/infoq-review-groovy-in-action/
 layout: post
 tags:

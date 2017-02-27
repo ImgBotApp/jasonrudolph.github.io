@@ -1,6 +1,6 @@
 ---
 wordpress_id: 190
-title: "Testing Anti-Patterns: The Ugly Mirror"
+title: "Testing anti-patterns: The ugly mirror"
 wordpress_url: http://jasonrudolph.com/blog/?p=190
 layout: post
 tags:
@@ -40,7 +40,7 @@ This **ugly mirror** of the production code leaves much to be desired.  Sure, th
 
 Of course, it doesn't have to be this way, but it's not unusual to stumble across this kind of test.  In fact, it's remarkably common to see this kind of test when the test is written *after* the production code is implemented.  It's as if once a developer has written the code to perform a task, the guts of the code can't be unseen, and as a consequence, the tests often end up reflecting those inner workings instead of the desired end result.
 
-## No Mental Juggling Necessary
+## No mental juggling necessary
 
 On the other hand, when we're developing test-first, we start out with the end-user requirements in mind, and it's easy to make sure our tests communicate those requirements.
 

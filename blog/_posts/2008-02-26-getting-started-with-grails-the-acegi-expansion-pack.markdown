@@ -1,6 +1,6 @@
 ---
 wordpress_id: 131
-title: "Getting Started with Grails: The Acegi \"Expansion Pack\""
+title: "Getting Started with Grails: The Acegi \"expansion pack\""
 wordpress_url: http://jasonrudolph.com/blog/2008/02/26/getting-started-with-grails-the-acegi-expansion-pack/
 layout: post
 tags:

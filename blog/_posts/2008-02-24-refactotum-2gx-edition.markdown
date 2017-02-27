@@ -1,6 +1,6 @@
 ---
 wordpress_id: 129
-title: "Refactotum: 2GX Edition"
+title: "Refactotum: 2GX edition"
 wordpress_url: http://jasonrudolph.com/blog/2008/02/24/refactotum-2gx-edition/
 layout: post
 tags:
@@ -25,7 +25,7 @@ Special thanks to [Scott Davis](http://davisworld.org/ "Davisworld"), [Jeff Brow
 
 * [Refactotum #6 - Grails (2GX)](http://jasonrudolph.com/downloads/presentations/Refactotum_2GX.pdf)
 
-### Helpful Links and Tools Discussed
+### Helpful links and tools discussed
 
 * [Jay Fields - Tests Reflect Code Quality](http://blog.jayfields.com/2008/02/tests-reflect-code-quality.html "Jay Fields Thoughts: Tests reflect code quality")
 * [Code Coverage (Wikipedia)](http://en.wikipedia.org/wiki/code_coverage "Code coverage - Wikipedia, the free encyclopedia")
@@ -34,7 +34,7 @@ Special thanks to [Scott Davis](http://davisworld.org/ "Davisworld"), [Jeff Brow
 * [easyb](http://www.easyb.org/ "easyb - Groovy BDD Framework")
 * [Testing Private Methods in Ruby](http://jasonrudolph.com/blog/2007/11/02/evan-phoenix-on-testing-private-methods-in-ruby/ "Evan Phoenix on Testing Private Methods in Ruby")<sup>&sect;</sup>
 
-### Resulting Patches (Keep 'em Coming!)
+### Resulting patches (Keep 'em coming!)
 
 * [GRAILS-2412](http://jira.codehaus.org/browse/GRAILS-2412)
 * [GRAILS-2469](http://jira.codehaus.org/browse/GRAILS-2469)

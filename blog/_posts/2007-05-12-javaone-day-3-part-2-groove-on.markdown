@@ -1,6 +1,6 @@
 ---
 wordpress_id: 71
-title: "JavaOne Day 3, Part 2: Groove On!"
+title: "JavaOne Day 3, Part 2: Groove on!"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/12/javaone-day-3-part-2-groove-on/
 layout: post
 tags:

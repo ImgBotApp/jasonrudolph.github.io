@@ -1,5 +1,5 @@
 ---
-title: "As Creative As We Make Time to Be"
+title: "As creative as we make time to be"
 layout: post
 tags:
 - better

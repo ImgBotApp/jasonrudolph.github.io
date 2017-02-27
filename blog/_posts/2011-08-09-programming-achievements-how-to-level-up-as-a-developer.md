@@ -1,5 +1,5 @@
 ---
-title: "Programming Achievements: How to Level Up as a Developer"
+title: "Programming achievements: How to level up as a developer"
 layout: post
 tags:
 - better
@@ -17,7 +17,7 @@ I've spent a fair bit of time over the last few years bumping up against this co
 What's next?
 How do I go from being a good developer to a being *really* good developer?
 
-## What Does Success Look Like?
+## What does success look like?
 
 I do my best work when I have a goal with clear, measurable criteria for success.
 For example, I want to run a 5-minute mile.
@@ -117,7 +117,7 @@ I'll offer multiple ways for you to chime in with your thoughts at the end.
 * Publish a constructive code review of an open source project
 * Write a programming book
 
-## About the Achievements
+## About the achievements
 
 Now, let's go meta for a moment. Note that each of these achievements is measurable.
 Each one is Boolean: you've either completed it or you haven't.
@@ -130,7 +130,7 @@ Consider the achievement of presenting at a conference: you could certainly do a
 But if you're reading this post, I assume you want to be excellent.
 You know that it's lame to phone it in just to cross an item off the list.
 
-## Since We're Talking About Improvement ...
+## Since we're talking about improvement ...
 
 Since we're talking about improvement, what would you change about this list?  
 

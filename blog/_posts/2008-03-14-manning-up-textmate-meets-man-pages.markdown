@@ -1,6 +1,6 @@
 ---
 wordpress_id: 147
-title: "Manning up: TextMate Meets Man Pages"
+title: "Manning up: TextMate meets man pages"
 wordpress_url: http://jasonrudolph.com/blog/2008/03/14/manning-up-textmate-meets-man-pages/
 layout: post
 tags:

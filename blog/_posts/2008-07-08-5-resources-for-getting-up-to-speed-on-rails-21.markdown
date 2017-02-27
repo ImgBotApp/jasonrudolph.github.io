@@ -1,6 +1,6 @@
 ---
 wordpress_id: 180
-title: 5 Resources for Getting Up to Speed on Rails 2.1
+title: 5 resources for getting up to speed on Rails 2.1
 wordpress_url: http://jasonrudolph.com/blog/?p=180
 layout: post
 tags:

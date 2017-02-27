@@ -1,6 +1,6 @@
 ---
 wordpress_id: 101
-title: "EJB3 Domain Classes Presentation at Grails eXchange: Slides, Sample Code, & Rampant Agnosticism"
+title: "EJB3 domain classes presentation at Grails eXchange: Slides, sample code, & rampant agnosticism"
 wordpress_url: http://jasonrudolph.com/blog/2007/10/17/ejb3-domain-classes-presentation-at-grails-exchange-slides-sample-code-rampant-agnosticism/
 layout: post
 tags:
@@ -87,7 +87,7 @@ public class Sword implements java.io.Serializable {
 }
 </pre>
 
-## Agnosticism Runneth Amuck
+## Agnosticism runneth amuck
 
 And regardless of the technology we choose for one domain class, we're *still* free to implement the other classes however we like.  The relationships remain intact, and GORM makes sure that it all just works.  Using the classes above, we can walk the relationships navigating from one implementation technology ... to another ... to yet another still.
 

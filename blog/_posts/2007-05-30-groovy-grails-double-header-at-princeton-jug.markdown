@@ -1,6 +1,6 @@
 ---
 wordpress_id: 77
-title: "Groovy + Grails Double-Header at Princeton JUG   "
+title: "Groovy + Grails double-header at Princeton JUG"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/30/groovy-grails-double-header-at-princeton-jug/
 layout: post
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Helpful Resources For Upgrading to Rails 3.1"
+title: "Helpful resources for upgrading to Rails 3.1"
 layout: post
 tags:
 - rails
@@ -7,7 +7,7 @@ tags:
 
 The first [Rails 3.1 release candidate](http://weblog.rubyonrails.org/2011/5/22/rails-3-1-release-candidate "Riding Rails: Rails 3.1: Release candidate") has been out for a couple weeks now, and the official release of 3.1.0 can't be far behind.  
 
-## Upgrading To Rails 3.1
+## Upgrading to Rails 3.1
 
 I upgraded a Rails 3.0 app to 3.1 this past weekend, and all in all, it was a pretty smooth process.  Along the way, I was grateful to discover a few helpful posts from developers that had already made this journey.  If you're getting ready to upgrade an existing app to Rails 3.1, or if you just want to get a feel for what to expect, I recommend checking out these write-ups.
 
@@ -17,20 +17,20 @@ I upgraded a Rails 3.0 app to 3.1 this past weekend, and all in all, it was a pr
 * [Deploying a Rails 3.1 Application to Production (Richard Taylor)](https://moocode.com/posts/1-deploying-a-rails-3-1-application-to-production)
 * [Upgrading to Rails 3.1 (RailsCasts)](http://railscasts.com/episodes/282-upgrading-to-rails-3-1 "RailsCasts - #282 Upgrading to Rails 3.1")
 
-## More Rails 3.1 Resources
+## More Rails 3.1 resources
 
 If you're already up to speed on all the new features in Rails 3.1, then you're ready to give the upgrade a shot.
 
 Still here?  Well, I'm guessing that means you want to spend a bit more time wrapping your head around what's new in Rails 3.1, and *then* you'll be ready for the upgrade.  Good news: you've got quite a few resources to lean on:
 
-### The Big Picture
+### The big picture
 
 * [Rails 3.1 Release Notes (RailsGuides)](http://guides.rubyonrails.org/3_1_release_notes.html "Ruby on Rails Guides: Ruby on Rails 3.1 Release Notes")
 * [Rails 3.1 Announcement and Overview (Aaron Patterson)](http://weblog.rubyonrails.org/2011/8/31/rails-3-1-0-has-been-released "Riding Rails: Rails 3.1.0 has been released!")
 * [Rails 3.1 Overview (RailsCasts)](http://railscasts.com/episodes/265-rails-3-1-overview "RailsCasts - #265 Rails 3.1 Overview")
 * [Changelog between 3.0 and 3.1 (Ryan Bates)](https://gist.github.com/958283 "Gist (from Ryan Bates) cataloging the changes between Rails 3.0 and Rails 3.1 beta")
 
-### Individual Features
+### Individual features
 
 * Asset Pipeline
   * [Asset Pipeline Documentation (RailsGuides)](http://guides.rubyonrails.org/asset_pipeline.html "Ruby on Rails Guides: Asset Pipeline")
@@ -49,7 +49,7 @@ Still here?  Well, I'm guessing that means you want to spend a bit more time wra
 * [jQuery as the New Default JavaScript Library (Xavier Noria)](http://weblog.rubyonrails.org/2011/4/21/jquery-new-default "Riding Rails: jQuery: New Default")
 * [ActiveRecord Identity Map (Josh Kalderimis)](http://edgerails.info/articles/what-s-new-in-edge-rails/2011/04/21/activerecord-identity-map/index.html "Edge Rails.info :: ActiveRecord Identity Map")
 
-## Party On, Dudes
+## Party on, dudes
 
 If Rails 3.1 has piqued your curiosity, it's definitely worth a quick spike to try out an upgrade.  Just create a branch and give it a shot.  After all, you wrote all those tests for a reason, right?  Take Rails 3.1 for a spin, and let your test suite tell you where things need to be patched up.  What have you got to lose?  [Party on, Dudes!](http://www.youtube.com/watch?v=WVXGC896Jdw "YouTube - Bill and Ted's Excellent Adventure - The Future Council")
 

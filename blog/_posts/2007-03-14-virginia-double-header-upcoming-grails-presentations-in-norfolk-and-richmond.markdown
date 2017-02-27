@@ -1,6 +1,6 @@
 ---
 wordpress_id: 56
-title: "Virginia Double Header: Upcoming Grails Presentations in Norfolk and Richmond "
+title: "Virginia double header: Upcoming Grails presentations in Norfolk and Richmond"
 wordpress_url: http://jasonrudolph.com/blog/2007/03/14/virginia-double-header-upcoming-grails-presentations-in-norfolk-and-richmond/
 layout: post
 tags:

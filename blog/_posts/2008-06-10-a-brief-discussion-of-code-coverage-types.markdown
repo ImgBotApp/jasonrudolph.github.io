@@ -1,6 +1,6 @@
 ---
 wordpress_id: 174
-title: A Brief Discussion of Code Coverage Types
+title: A brief discussion of code coverage types
 wordpress_url: http://jasonrudolph.com/blog/?p=174
 layout: post
 tags:
@@ -11,7 +11,7 @@ tags:
 ---
 In any discussion of code coverage, it's important to understand the *type* of coverage that's being measured.  In the same way that you wouldn't plan a trip to the beach without knowing whether it's going to be 30 degrees Celsius (perfect!) or 30 degrees Fahrenheit (stay home), we can't have a truly meaningful discourse on code coverage without first identifying the analysis type.
 
-## Lining Up
+## Lining up
 
 Many popular code coverage analysis tools currently report what's known as **line coverage** (also commonly referred to as **statement coverage**).  Line coverage analysis (as the name implies) identifies which lines were encountered as a result of your tests.
 
@@ -75,7 +75,7 @@ end
 
 As we saw above, while line coverage analysis certainly shows us when our test suite *fails* to execute all lines of our code, 100% line coverage doesn't necessarily mean that we have a comprehensive test suite.  **Branch coverage** analysis takes us a bit closer. [1]
 
-## Branching Out
+## Branching out
 
 To see how branch coverage analysis would fare in the scenario above, we'll pull in [Cobertura](http://cobertura.sourceforge.net/ "Cobertura") to help us evaluate the equivalent Java code below. (Ruby doesn't yet have a tool that provides branch coverage analysis, so we'll use Java's rich tool support for the remaining examples.)
 
@@ -114,7 +114,7 @@ public class MathTest extends TestCase {
 
 [![Example 5 - 100% Line Coverage. 100% Branch Coverage.](/resources/200806-code_coverage_levels_5_thumb.png)](/resources/200806-code_coverage_levels_5.png)
 
-## The Path Not Taken
+## The path not taken
 
 Once we've made sure that every line is executed and each branch is tested in both possible directions, is there any remaining information that the field of coverage analysis can provide?  To find out, let's consider the following "enhancement" to our previous code samples. [3]  
 
@@ -168,7 +168,7 @@ Adding a test to cover that path not only increases our path coverage, but more 
 
 While analyzing path coverage can point you toward potential weak areas in your test suite, you're unlikely to target 100% path coverage for your codebase.  As the number of conditional statements grows and as you introduce common looping constructs, you can quickly find yourself facing a combinatorially explosive number of paths. [5]
 
-## Use It Wisely
+## Use it wisely
 
 While this is by no means an exhaustive list of coverage types, it's representative of the types of coverage analysis you'll most often find used in practice.  And from the examples above, it's easy to see just how very different these measurements can be.  When measuring or discussing coverage, be sure to ask what type of analysis is being performed to ensure meaningful interpretation of the results.
 

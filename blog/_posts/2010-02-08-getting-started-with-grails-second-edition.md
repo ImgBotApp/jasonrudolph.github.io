@@ -1,5 +1,5 @@
 ---
-title: "Now Available: Getting Started with Grails, Second Edition"
+title: "Now available: Getting Started with Grails, Second Edition"
 layout: post
 tags:
 - book

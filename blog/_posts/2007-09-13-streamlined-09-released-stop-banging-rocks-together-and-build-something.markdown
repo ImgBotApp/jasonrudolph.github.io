@@ -1,6 +1,6 @@
 ---
 wordpress_id: 95
-title: "Streamlined 0.9 Released - Stop banging rocks together and build something!  "
+title: "Streamlined 0.9 released - Stop banging rocks together and build something!"
 wordpress_url: http://jasonrudolph.com/blog/2007/09/14/streamlined-09-released-stop-banging-rocks-together-and-build-something/
 layout: post
 tags:
