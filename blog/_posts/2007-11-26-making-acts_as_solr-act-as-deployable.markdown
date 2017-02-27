@@ -1,11 +1,11 @@
---- 
+---
 wordpress_id: 113
 title: Making acts_as_solr Act As Deployable
 wordpress_url: http://jasonrudolph.com/blog/2007/11/26/making-acts_as_solr-act-as-deployable/
 layout: post
 tags:
 - rails
-- ruby	
+- ruby
 ---
 [We](http://thinkrelevance.com "Relevance, Inc.") recently deployed two new [Solr](http://lucene.apache.org/solr/ "Apache Solr")-powered apps, and thanks to [acts\_as\_solr](http://acts-as-solr.railsfreaks.com/acts_as_solr "acts_as_solr Rails plugin"), *most* of the task of integrating Solr with Rails was downright trivial.  Deployment, however, came with a few small roadbumps.
 
@@ -37,9 +37,9 @@ STOP!
 
 Your app communicates with Solr via HTTP, so Solr can live anywhere on your network.  It doesn't need to live on the same box as your app, as your database, etc.  And while you technically *could* run Solr on all your app servers, it's highly unlikely that you'll want to do so.  Think about the problems associated with managing redundant *databases*.  Do you really want to manage multiple sets of Solr indexes and try to make sure they all have the same data?  Unless you're Google - in which case, this stuff is your bread and butter - of course not.  
 
-If you store the indexes in a shared location and have all the Solr servers use the same indexes, does that make things any easier?  Well, you no longer have to keep multiple indexes in sync, but you now have a different problem: data corruption.  <del>Solr isn't designed to share indexes among multiple Solr processes, and when two processes try to update the same indexes, you're in for all kinds of trouble.</del>  **UPDATE**: Solr isn't designed to have multiple Solr processes updating a shared set of indexes.  (As [Hoss points out in the comments](http://jasonrudolph.com/blog/2007/11/26/making-acts_as_solr-act-as-deployable/#comment-12518), Solr *is* capable of supporting a [distributed installation](http://wiki.apache.org/solr/CollectionDistribution), but all *changes* are routed to a single master Solr instance, and multiple query slaves receive the updates from the master.) 
+If you store the indexes in a shared location and have all the Solr servers use the same indexes, does that make things any easier?  Well, you no longer have to keep multiple indexes in sync, but you now have a different problem: data corruption.  <del>Solr isn't designed to share indexes among multiple Solr processes, and when two processes try to update the same indexes, you're in for all kinds of trouble.</del>  **UPDATE**: Solr isn't designed to have multiple Solr processes updating a shared set of indexes.  (As [Hoss points out in the comments](http://jasonrudolph.com/blog/2007/11/26/making-acts_as_solr-act-as-deployable/#comment-12518), Solr *is* capable of supporting a [distributed installation](http://wiki.apache.org/solr/CollectionDistribution), but all *changes* are routed to a single master Solr instance, and multiple query slaves receive the updates from the master.)
 
-So let's steer clear of all that trouble and find an easy way to run Solr on a single server, while having all your app servers talk to that Solr instance.  First up, define a distinct role for the server where you want Solr to run. 
+So let's steer clear of all that trouble and find an easy way to run Solr on a single server, while having all your app servers talk to that Solr instance.  First up, define a distinct role for the server where you want Solr to run.
 
 <pre lang="ruby">task :production do
   role :web, 'app.example.com'
@@ -60,10 +60,10 @@ namespace :solr do
   task :symlink, :roles => :solr do
     run <<-CMD
       cd #{release_path} &&
-      ln -nfs #{shared_path}/solr #{release_path}/solr 
+      ln -nfs #{shared_path}/solr #{release_path}/solr
     CMD
   end
-  
+
   desc "Before update_code you want to stop SOLR in a specific environment"
   task :stop, :roles => :solr do
     run <<-CMD
@@ -71,7 +71,7 @@ namespace :solr do
       rake solr:stop RAILS_ENV=#{env}
     CMD
   end
-  
+
   desc "After update_code you want to restart SOLR in a specific environment"
   task :start, :roles => :solr do
     run <<-CMD

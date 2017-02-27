@@ -1,4 +1,4 @@
---- 
+---
 title: "Live JavaScript TDD Action Coming to raleigh.rb"
 layout: post
 tags:

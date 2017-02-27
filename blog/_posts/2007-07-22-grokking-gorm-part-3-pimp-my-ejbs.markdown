@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 89
 title: "Grokking GORM - Part 3: Pimp My EJBs"
 wordpress_url: http://jasonrudolph.com/blog/2007/07/22/grokking-gorm-part-3-pimp-my-ejbs/
@@ -6,7 +6,7 @@ layout: post
 tags:
 - grails
 - groovy
-- java	
+- java
 ---
 Having tackled the [conventional approach to Grails domain models](http://jasonrudolph.com/blog/2007/07/20/groking-gorm-part-1-conventional-thinking/ "Grokking GORM - Part 1: Conventional Thinking") as well as [an XML-based solution for hooking Grails up to a non-conforming schema](http://jasonrudolph.com/blog/2007/07/21/groking-gorm-part-2-no-schema-left-behind/ "Grokking GORM - Part 2: No Schema Left Behind"), it's time to consider another option.  
 

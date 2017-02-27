@@ -1,15 +1,15 @@
---- 
+---
 wordpress_id: 65
 title: JavaFX Mobile = iPhone - Cool
 wordpress_url: http://jasonrudolph.com/blog/2007/05/09/javafx-mobile-iphone-cool/
 layout: post
 tags:
 - iphone
-- java	
+- java
 ---
 So here's the scene...
 
-* Setting: Moscone Center, Main Hall 
+* Setting: Moscone Center, Main Hall
 * Audience: ~15,000
 * Speaker wardrobe: Blue jeans and black shirt   
 * Hardware on stage: Macs

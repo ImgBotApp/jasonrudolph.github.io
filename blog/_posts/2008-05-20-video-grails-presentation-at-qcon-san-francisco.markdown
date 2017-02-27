@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 169
 title: "Video: Grails Presentation at QCon San Francisco"
 wordpress_url: http://jasonrudolph.com/blog/?p=169

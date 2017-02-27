@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 94
 title: Interview with WebDevRadio
 wordpress_url: http://jasonrudolph.com/blog/2007/09/11/interview-with-webdevradio/
@@ -9,7 +9,7 @@ tags:
 - interview
 - ruby
 - speaking
-- streamlined	
+- streamlined
 ---
 I recently had the pleasure of chatting with Michael Kimsal for a diverse and enjoyable episode of [WebDevRadio](http://webdevradio.com/index.php?id=55 "WebDevRadio Podcast - News, views and issues for the web developer").  Over the course of about 30 minutes, we tackle such topics as Groovy, Grails, Ruby, Streamlined, and the No Fluff, Just Stuff tour.  
 

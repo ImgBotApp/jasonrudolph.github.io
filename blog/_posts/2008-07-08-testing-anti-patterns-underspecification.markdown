@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 181
 title: "Testing Anti-Patterns: Underspecification"
 wordpress_url: http://jasonrudolph.com/blog/?p=181
@@ -10,7 +10,7 @@ tags:
 ---
 Last week we discussed the perils of [overspecification](http://jasonrudolph.com/blog/2008/07/01/testing-anti-patterns-overspecification/ "jasonrudolph.com/blog -- Testing Anti-Patterns: Overspecification"), and while we saw that it's clearly possible for a test suite to do too much, it's far more common for it to do too little.
 
-## [Green](http://dictionary.cambridge.org/define.asp?key=34369&amp;dict=CALD "green (adjective): novice, inexperienced, perhaps even naive") Architecture 
+## [Green](http://dictionary.cambridge.org/define.asp?key=34369&amp;dict=CALD "green (adjective): novice, inexperienced, perhaps even naive") Architecture
 
 Suppose we're building an application for an online retailer, and they decide that they want to provide free shipping on all orders with a minimum price of $25.00.  (Where do they come up with this stuff?!)  Armed with these requirements, we set off to develop the logic to determine whether a given order qualifies for this new offer.  (We'll pick on some half-baked Ruby code for this example, but we could certainly extrapolate the same ideas to any language we might choose.)
 
@@ -36,7 +36,7 @@ def test_free_shipping_returns_false_for_order_below_min_price
 end
 ```
 
-And just like that, we have a passing test suite ... 
+And just like that, we have a passing test suite ...
 
 ```
 $ ruby underspecification_test.rb

@@ -31,7 +31,7 @@ class NinjaTest < Test::Unit::TestCase
     @ninja = Ninja.new
     def @ninja.flog_publicly(*args)
       kill(*args)
-    end 
+    end
     assert_equal '3 victims are no longer with us.', @ninja.flog_publicly(3)
   end
 end
@@ -40,7 +40,7 @@ end
 Sweet!
 
 <pre lang="text">
-$ ruby ninja.rb 
+$ ruby ninja.rb
 Loaded suite ninja
 Started
 .

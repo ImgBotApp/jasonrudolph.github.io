@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 196
 title: "Audio, Video, Slides: How to Fail With 100% Test Coverage at raleigh.rb"
 wordpress_url: http://jasonrudolph.com/blog/?p=196

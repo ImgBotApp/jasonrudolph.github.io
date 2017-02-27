@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 174
 title: A Brief Discussion of Code Coverage Types
 wordpress_url: http://jasonrudolph.com/blog/?p=174
@@ -79,7 +79,7 @@ As we saw above, while line coverage analysis certainly shows us when our test s
 
 To see how branch coverage analysis would fare in the scenario above, we'll pull in [Cobertura](http://cobertura.sourceforge.net/ "Cobertura") to help us evaluate the equivalent Java code below. (Ruby doesn't yet have a tool that provides branch coverage analysis, so we'll use Java's rich tool support for the remaining examples.)
 
-<pre lang="java">public class Math { 
+<pre lang="java">public class Math {
   public static int max(int a, int b) {
     return a > b ? a : b;
   }
@@ -166,7 +166,7 @@ So far, our test suite covers 2 of the 8 possible paths (i.e., FFF and TTT), giv
 
 Adding a test to cover that path not only increases our path coverage, but more importantly, it sends us into bug-fixing mode as well.
 
-While analyzing path coverage can point you toward potential weak areas in your test suite, you're unlikely to target 100% path coverage for your codebase.  As the number of conditional statements grows and as you introduce common looping constructs, you can quickly find yourself facing a combinatorially explosive number of paths. [5] 
+While analyzing path coverage can point you toward potential weak areas in your test suite, you're unlikely to target 100% path coverage for your codebase.  As the number of conditional statements grows and as you introduce common looping constructs, you can quickly find yourself facing a combinatorially explosive number of paths. [5]
 
 ## Use It Wisely
 
@@ -182,11 +182,11 @@ Code coverage analysis is an essential tool in evaluating the quality of your te
 
 [2] Actually, in order for Cobertura to report 100% line coverage, it requires that we instantiate a <code>Math</code> object somewhere in our test suite.  Even though the <code>Math</code> class is only intended to provide a single static method at this point, Cobertura will report line 1 as uncovered unless we invoke <code>new Math();</code> somewhere in our test suite.  I omitted that statement from the test code above for the sake of brevity, but the report shown above is the result of running against code that included a call to <code>new Math();</code> in order to show 100% line coverage.  (Future posts will discuss some of the hoops you occasionally have to jump through to reach 100% coverage and the tradeoffs associated with confronting those issues.)
 
-[3] This code is admittedly ripe for refactoring and suffers from multiple code smells, but it illustrates the point nonetheless. 
+[3] This code is admittedly ripe for refactoring and suffers from multiple code smells, but it illustrates the point nonetheless.
 
 [4] A formal explanation of paths would quickly derail this "brief discussion of code coverage types" into an exploration of cyclomatic complexity, the exponential growth effect of decision points on paths, linear independence, etc.  For additional information on this topic, I recommend reading [Steve Cornett's explanation of path coverage](http://www.bullseye.com/coverage.html#basic_path "Code Coverage Analysis") and the various resources he cites.
 
-[5] A subset of path coverage, known as [basis path coverage](http://www.onjava.com/pub/a/onjava/2007/03/02/statement-branch-and-path-coverage-testing-in-java.html?page=2 "ONJava.com -- Statement, Branch, and Path Coverage Testing in Java"), attempts to reduce the number of test cases needed to sufficiently exercise your code.  While achieving full basis path coverage increases the likelihood of exposing branch-based bugs and is more feasible than reaching 100% path coverage, it's possible to choose a set of basis paths that allows bugs (including the one in the example above) to remain hidden. 
+[5] A subset of path coverage, known as [basis path coverage](http://www.onjava.com/pub/a/onjava/2007/03/02/statement-branch-and-path-coverage-testing-in-java.html?page=2 "ONJava.com -- Statement, Branch, and Path Coverage Testing in Java"), attempts to reduce the number of test cases needed to sufficiently exercise your code.  While achieving full basis path coverage increases the likelihood of exposing branch-based bugs and is more feasible than reaching 100% path coverage, it's possible to choose a set of basis paths that allows bugs (including the one in the example above) to remain hidden.
 
 [6] As the man behind testing.com for more than a decade and the creator of four coverage tools, Brian knows a thing or two about this topic.
 

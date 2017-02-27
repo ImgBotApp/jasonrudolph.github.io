@@ -9,7 +9,7 @@ tags:
 ---
 For Day 2's early afternoon sessions, I had the opportunity to see two very different solutions for building rich user interfaces.
 
-### Fast, Beautiful, Easy: Pick Three--Building Web User Interfaces in the Java Programming Language with Google Web Toolkit 
+### Fast, Beautiful, Easy: Pick Three--Building Web User Interfaces in the Java Programming Language with Google Web Toolkit
 Presented by Bruce Johnson and Joel Webber (Creators of GWT)
 
 GWT was clearly one of the biggest headline grabbers coming out of JavaOne '06, and the Google guys were back and ready to convince any of the wait-and-seers that haven't yet taken it for a spin.
@@ -31,7 +31,7 @@ The Q&A session, while brief, also led to some interesting tidbits.  Most notabl
 
 And speaking of Java 2D...
 
-### Extreme GUI Makeover 2007 
+### Extreme GUI Makeover 2007
 Presented by Romain Guy (GUI Pimp), Christopher Campbell (Java 2D Master), and Shannon Hickey (Swing Sorcerer)
 
 After spending 8 years on the server side, it's easy to forget about Java on the desktop; so, I decided it was time to check in on that realm.  

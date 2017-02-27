@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 179
 title: "Testing Anti-Patterns: Overspecification"
 wordpress_url: http://jasonrudolph.com/blog/?p=179
@@ -16,7 +16,7 @@ Consider the following test that you might come across in an application with a 
 ```ruby
 require File.dirname(__FILE__) + '/../test_helper'
 
-class ProductsControllerTest < ActionController::TestCase 
+class ProductsControllerTest < ActionController::TestCase
   def test_something
     product = Product.create(:name => "Frisbee", :price => 5.00)
     get :show, :id => product.id
@@ -62,17 +62,17 @@ Let's take another pass at writing a test for the <code>#show</code> action, thi
 ```ruby
 require File.dirname(__FILE__) + '/../test_helper'
 
-class ProductsControllerTest < ActionController::TestCase 
-  def test_should_show_product 
-    product = create_product 
-    get :show, :id => product.id 
-    assert_response :success 
-    assert_equal product, assigns(:product) 
-  end 
+class ProductsControllerTest < ActionController::TestCase
+  def test_should_show_product
+    product = create_product
+    get :show, :id => product.id
+    assert_response :success
+    assert_equal product, assigns(:product)
+  end
 end
 ```
 
-In this implementation, we've abstracted away the logic for creating a new product in line 5.  We've defined a helper method for use by any and all tests in our application that have a need to create a new product.  If and when the rules for successfully creating a new product change, we'll update the <code>#create_product</code> method, and we won't have to touch the code in <code>ProductsController</code> or <code>ProductsControllerTest</code> at all. [2] 
+In this implementation, we've abstracted away the logic for creating a new product in line 5.  We've defined a helper method for use by any and all tests in our application that have a need to create a new product.  If and when the rules for successfully creating a new product change, we'll update the <code>#create_product</code> method, and we won't have to touch the code in <code>ProductsController</code> or <code>ProductsControllerTest</code> at all. [2]
 
 As for the four assertions that appeared at the end of our first attempt at this test case, we've replaced those assertions with a single (stronger) assertion.  Where we previously asserted that the <code>assigns</code> hash held a non-nil product, that the product was valid, and that its attributes matched the attributes used at the beginning of the test, we now simply verify that the product object in the <code>assigns</code> hash is equal to the product object that we created at the beginning of the test.  That single line more accurately and more concisely expresses our expectation: that the product whose ID we provide in the request to the <code>#show</code> action is the same object that's made available to the view.  
 

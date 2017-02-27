@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 158
 title: "git init: Say Hello to Agility"
 wordpress_url: http://jasonrudolph.com/blog/2008/04/22/git-init-say-hello-to-agility/

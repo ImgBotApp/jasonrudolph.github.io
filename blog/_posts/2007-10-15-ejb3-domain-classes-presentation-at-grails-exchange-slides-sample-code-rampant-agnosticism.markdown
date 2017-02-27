@@ -1,11 +1,11 @@
---- 
+---
 wordpress_id: 101
 title: "EJB3 Domain Classes Presentation at Grails eXchange: Slides, Sample Code, & Rampant Agnosticism"
 wordpress_url: http://jasonrudolph.com/blog/2007/10/17/ejb3-domain-classes-presentation-at-grails-exchange-slides-sample-code-rampant-agnosticism/
 layout: post
 tags:
 - grails
-- speaking	
+- speaking
 ---
 As an extension to [last year's Grails + EJB3 tutorial on InfoQ.com](http://www.infoq.com/news/grails-ejb-tutorial "InfoQ Article: Grails + EJB Domain Models Step-by-Step"), I had the pleasure today of [presenting](http://www.grails-exchange.com/jason-rudolph "Grails eXchange 2007 : Jason Rudolph : EJB3 Entities and Grails") an updated demo on this topic, showing just how easy it is to pimp out your EJB3 entity beans to include all the slick dynamic goodness we've come to know and love from traditional Grails domain classes.  
 
@@ -16,7 +16,7 @@ But as much as I enjoy infusing boring, statically-typed EJB3 POJOs with GORM-po
 ## Traditional Grails domain classes
 
 <pre lang="groovy">
-class Castle { 
+class Castle {
     String name
     String country
 
@@ -44,7 +44,7 @@ public class Knight implements java.io.Serializable {
   }
 
   // ...
-  @Id 
+  @Id
   @Column(name="knight_id", nullable=false)
   public long getId() {
       return this.id;
@@ -74,7 +74,7 @@ public class Knight implements java.io.Serializable {
 @Table(name="sword_inventory")
 public class Sword implements java.io.Serializable {
 
-    @Id 
+    @Id
     @Column(name="serial_number", nullable=false, length=12)
     String serialNumber
 
@@ -85,7 +85,7 @@ public class Sword implements java.io.Serializable {
     @Column(name="manufacturer", nullable=false)
     String manufacturer
 }
-</pre> 
+</pre>
 
 ## Agnosticism Runneth Amuck
 
@@ -97,12 +97,12 @@ groovy> println "In the castle of ${c.name}, you can see ${c.knight.name} wield 
 groovy> go
 In the castle of Camelot, you can see King Arthur wield his mighty collection of 7 swords.
 </pre>     
-     
+
 &nbsp;     
 Cool!  Use the implementation most appropriate for your needs, and let the framework figure out the rest.
 
 --
 
-[Download the slides](http://jasonrudolph.com/downloads/presentations/Grails_eXchange-EJB3_Entities_and_Grails.pdf) 
+[Download the slides](http://jasonrudolph.com/downloads/presentations/Grails_eXchange-EJB3_Entities_and_Grails.pdf)
 
 [Download the sample code](http://jasonrudolph.com/downloads/presentations/Grails_eXchange-EJB3_Entities_and_Grails-Example_Code.zip)

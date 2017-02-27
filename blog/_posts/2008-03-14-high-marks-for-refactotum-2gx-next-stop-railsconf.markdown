@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 141
 title: High Marks for Refactotum 2GX; Next Stop RailsConf
 wordpress_url: http://jasonrudolph.com/blog/2008/03/14/high-marks-for-refactotum-2gx-next-stop-railsconf/

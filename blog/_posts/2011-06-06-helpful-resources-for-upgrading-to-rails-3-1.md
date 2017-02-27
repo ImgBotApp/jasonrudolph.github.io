@@ -1,4 +1,4 @@
---- 
+---
 title: "Helpful Resources For Upgrading to Rails 3.1"
 layout: post
 tags:

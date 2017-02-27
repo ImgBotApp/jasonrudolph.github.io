@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 249
 title: "Git Tip: How to \"Merge\" Specific Files from Another Branch"
 wordpress_url: http://jasonrudolph.com/blog/?p=249

@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 173
 title: "Book Review: Rails Security Audit"
 wordpress_url: http://jasonrudolph.com/blog/?p=173
@@ -11,7 +11,7 @@ tags:
 
 Rails offers sound solutions for keeping your application safe from the likes of SQL injection, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and the perils of mass assignment, but are you sure you're using those solutions?  Without a proper understanding of these exploits, it's unlikely that a developer would safely navigate past those issues entirely.  Aaron provides easy-to-follow examples of each exploit, shows the consequences of ignoring them, and introduces the tools and techniques for identifying and avoiding those problems.
 
-Going beyond Rails-specific security, Aaron covers a handful of guidelines for ensuring good server hygiene.  As a developer (read: *not* a system administrator), I personally couldn't tell you which ports should be open on a server and which ones are an invitation for trouble.  Aaron remedies that situation by demonstrating the tools for determining how well your server is currently secured and providing scripts and instructions for getting you to where you need to be. 
+Going beyond Rails-specific security, Aaron covers a handful of guidelines for ensuring good server hygiene.  As a developer (read: *not* a system administrator), I personally couldn't tell you which ports should be open on a server and which ones are an invitation for trouble.  Aaron remedies that situation by demonstrating the tools for determining how well your server is currently secured and providing scripts and instructions for getting you to where you need to be.
 
 The book closes out the discussion on server security with additional recommendations for restricting access to your servers, but it stops short of providing any direction for doing so.  While a quick round of Googling would likely locate a decent tutorial, I'd rather have seen the information included in the book (even if it just took the form of pointers to recommended tutorials).
 

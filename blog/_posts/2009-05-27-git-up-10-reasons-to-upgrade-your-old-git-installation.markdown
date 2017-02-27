@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 281
 title: "Git Up! 10 Reasons to Upgrade Your Old Git Installation"
 wordpress_url: http://jasonrudolph.com/blog/?p=281
@@ -6,7 +6,7 @@ layout: post
 tags:
 - git
 ---
-Git has seen a huge influx of newcomers over the past year.  Many folks installed Git as they read through their first tutorial, got it working, and are still using that same trusty installation today.  But rest assured, Git has not been standing still. 
+Git has seen a huge influx of newcomers over the past year.  Many folks installed Git as they read through their first tutorial, got it working, and are still using that same trusty installation today.  But rest assured, Git has not been standing still.
 
 If you installed Git a year ago (perhaps when Rails made the move in April of last year), you would've grabbed v1.5.5. The Git team has cranked out [five](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.6.txt "Git 1.5.6 Release Notes") [feature](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.0.txt "Git 1.6.0 Release Notes") [releases](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.1.txt "Git 1.6.1 Release Notes") [since](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.2.txt "Git 1.6.2 Release Notes") [then](http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.3.txt "Git 1.6.3 Release Notes"), full of usability improvements, a few new tricks, and, of course, numerous bug fixes.  So it's time for some spring cleaning of your dusty old Git installation.  
 

@@ -10,7 +10,7 @@ tags:
 ---
 The fourth and final day of JavaOne: it was a big one.  Here we go...
 
-### Comparing the Developer Experience of Java EE 5.0, Ruby on Rails, and Grails: Lessons Learned from Developing One Application 
+### Comparing the Developer Experience of Java EE 5.0, Ruby on Rails, and Grails: Lessons Learned from Developing One Application
 Presented by [Tom Daly](http://blogs.sun.com/tomdaly/) (Senior Performance Engineer at Sun Microsystems) and [Damien Cooke](http://blogs.sun.com/damien/category/Java) (ISV Engineering at Sun Microsystems)
 
 Having spent many years now developing applications in the JEE space, and having had a good look at [Rails](http://www.rubyonrails.org/) before spending the past year working with [Grails](http://grails.org/), I was eager to see whether others have drawn the same conclusions as I have.  It's a time-tested technique to loosen up the crowd with a joke, and when I heard Tom's opening line - "I don't know much about Ruby and I don't know much about Groovy" - I was a bit concerned.  It wasn't meant to be a joke.  Yet somehow, in just 60 minutes, they actually managed to pull off a pretty darn fair comparison of the three frameworks.
@@ -38,7 +38,7 @@ Their biggest concern about Groovy and Grails seemed to involve a lack of tool s
 
 Overall, I give kudos to Tom and Damien for delivering a remarkably fair and unbiased report.  Despite their few concerns about Grails, they spoke highly of the code samples provided on [grails.org](http://grails.org/Quick+Start) and even mentioned a [certain article on integrating your EJB3 entity beans with Grails](http://www.infoq.com/articles/grails-ejb-tutorial).  Cool!  
 
-### Taking Java Technology to New Frontiers: Enterprise Batch Processing with Spring Batch 
+### Taking Java Technology to New Frontiers: Enterprise Batch Processing with Spring Batch
 Presented by [Rod Johnson](http://blog.interface21.com/main/author/rodj/) (Creator of the [Spring Framework](http://www.springframework.org/) and CEO of [Interface21](http://interface21.com/)), Wayne Lund (Accenture), and Scott Wintermute (Accenture)
 
 In his opening for this talk, Rod Johnson described Java batch technology as "a missing enterprise capability in the market" and observed that the lack of a commonly-accepted architecture has led to a proliferation of expensive one-off, in-house custom solutions.  I couldn't agree more.  

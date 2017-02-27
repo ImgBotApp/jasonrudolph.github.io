@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 191
 title: "Testing Anti-Patterns: Invisible Code"
 wordpress_url: http://jasonrudolph.com/blog/?p=191
@@ -65,7 +65,7 @@ Let's start with a sample Rails app that represents the beginnings of an online 
     |   `-- unit
     |       `-- product_test.rb
     ...
-    
+
     37 directories, 63 files
 
 After installing the [rails_rcov plugin](http://agilewebdevelopment.com/plugins/rails_rcov "Plugins - Rails rcov - Agile Web Development"), we can easily produce a coverage report to see where we currently stand.
@@ -174,7 +174,7 @@ namespace :db do
         shipping_options.each do |o|
           p.shipping_options << ShippingOption.find_by_name(o)
         end
-    
+
         vendors = row[2].split("|")
         vendors.each do |v|
           p.vendors << Vendor.find_by_number(v) unless v.downcase == 'none'

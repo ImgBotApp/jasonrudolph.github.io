@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 190
 title: "Testing Anti-Patterns: The Ugly Mirror"
 wordpress_url: http://jasonrudolph.com/blog/?p=190

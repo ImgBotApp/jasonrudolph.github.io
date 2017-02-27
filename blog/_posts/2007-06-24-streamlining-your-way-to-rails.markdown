@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 84
 title: Streamlining Your Way to Rails
 wordpress_url: http://jasonrudolph.com/blog/2007/06/24/streamlining-your-way-to-rails/
@@ -7,9 +7,9 @@ tags:
 - grails
 - rails
 - ruby
-- streamlined	
+- streamlined
 ---
-By the time you've knocked out your first few [Rails](http://rubyonrails.org) apps, you're probably not particularly excited about starting another UI from scratch.  You're still jazzed about the fact that ActiveRecord is going to save you from all the boilerplate ORM plumbing, and you're psyched to be developing in a dynamic (and elegant and powerful) language like Ruby, but it's hard to actually look forward to manually wiring up the relationships in the UI (again), tediously tying in Ajax in all the usual places (again), implementing live search (again), adding in pagination and sortable lists (again), and, well, you get the idea.  Developing in Rails is supposed to be *enjoyable*, so we need something to bring the overall pleasantness of Rails into *these* areas of application development as well. 
+By the time you've knocked out your first few [Rails](http://rubyonrails.org) apps, you're probably not particularly excited about starting another UI from scratch.  You're still jazzed about the fact that ActiveRecord is going to save you from all the boilerplate ORM plumbing, and you're psyched to be developing in a dynamic (and elegant and powerful) language like Ruby, but it's hard to actually look forward to manually wiring up the relationships in the UI (again), tediously tying in Ajax in all the usual places (again), implementing live search (again), adding in pagination and sortable lists (again), and, well, you get the idea.  Developing in Rails is supposed to be *enjoyable*, so we need something to bring the overall pleasantness of Rails into *these* areas of application development as well.
 
 Enter [Streamlined](http://www.streamlinedframework.org/)...
 
@@ -20,7 +20,7 @@ Enter [Streamlined](http://www.streamlinedframework.org/)...
 
 ...and enable *all* of those features and more with just a small helping of declarative decoration.  
 
-If a picture's worth a thousand words... 
+If a picture's worth a thousand words...
 
 ![2007-06-23 Streamlined Screenshot](/resources/20070623-streamlined-screenshot.png)
 

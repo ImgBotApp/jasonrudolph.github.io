@@ -1,18 +1,18 @@
---- 
+---
 title: "Now Available: Getting Started with Grails, Second Edition"
 layout: post
 tags:
 - book
 - grails
-- gswg	
+- gswg
 ---
 
 [<img src="/resources/201002-gswg2-cover.jpg" alt="Getting Started with Grails, Second Edition" title="Getting Started with Grails, Second Edition" style="float: left; padding-right: .5em;" />](http://www.infoq.com/minibooks/grails-getting-started "InfoQ: Getting Started with Grails, Second Edition")
 
 The first edition of *Getting Started with Grails* was [well received](/gswg_reviews.html).
-Matt Raible even dubbed it 
+Matt Raible even dubbed it
 ["the perfect book to learn the basics of Grails quickly."](http://raibledesigns.com/rd/entry/book_reviews_getting_started_with "Raible Designs | Reviews: Getting Started with Grails")
-But technology moves fast, and Grails has certainly been no exception. 
+But technology moves fast, and Grails has certainly been no exception.
 Much has changed since the days of Grails 0.3—the then-current version of Grails in January, 2007.
 So when Scott Davis offered to bring *Getting Started with Grails* up to date, who was I to say "No?"
 

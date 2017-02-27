@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 115
 title: "Getting Started with Grails: Now Available in Chinese"
 wordpress_url: http://jasonrudolph.com/blog/2007/12/16/getting-started-with-grails-now-available-in-chinese/
@@ -7,7 +7,7 @@ tags:
 - book
 - grails
 - groovy
-- gswg	
+- gswg
 ---
 The [Chinese version](http://www.infoq.com/cn/minibooks/grails "Getting Started with Grails - Chinese Translation") of [*Getting Started with Grails*](http://www.amazon.com/Getting-Started-Grails-Jason-Rudolph/dp/143030782X) made its debut last week.  
 

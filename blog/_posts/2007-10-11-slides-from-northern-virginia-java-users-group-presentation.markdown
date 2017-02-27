@@ -1,11 +1,11 @@
---- 
+---
 wordpress_id: 96
 title: Slides from Northern Virginia Java Users Group Presentation
 wordpress_url: http://jasonrudolph.com/blog/2007/10/11/slides-from-northern-virginia-java-users-group-presentation/
 layout: post
 tags:
 - grails
-- speaking	
+- speaking
 ---
 As part of a promo for the upcoming [Northern Virginia Software Symposium](http://www.nofluffjuststuff.com/conference/reston/2007/11/index.html "Northern Virginia Software Symposium - November 02 - 04, 2007"), I had the privilege last night of introducing Grails to an enthusiastic crowd at the [NovaJUG](http://www.jroller.com/novajugblog/entry/oct_10th_getting_started_with).  With the consistent scene of nodding heads and inquiries of, "Can I still use Grails in situation X?", it's increasingly clear just how very many pain points [Grails](http://grails.org) addresses for Java web developers.  
 

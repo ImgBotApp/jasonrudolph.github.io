@@ -1,11 +1,11 @@
---- 
+---
 wordpress_id: 131
 title: "Getting Started with Grails: The Acegi \"Expansion Pack\""
 wordpress_url: http://jasonrudolph.com/blog/2008/02/26/getting-started-with-grails-the-acegi-expansion-pack/
 layout: post
 tags:
 - grails
-- gswg	
+- gswg
 ---
 InfoQ recently published a [step-by-step tutorial](http://www.infoq.com/articles/grails-acegi-integration "InfoQ: Securing a Grails Application with Acegi Security") for quickly installing and configuring the Grails Acegi plugin into the Racetrack application (originally developed in [Getting Started with Grails](http://jasonrudolph.com/blog/2007/01/17/just-released-getting-started-with-grails/ "jasonrudolph.com - Blog - Just Released: Getting Started with Grails")).  Kudos to Fadi Shami for assembling this handy guide.  
 

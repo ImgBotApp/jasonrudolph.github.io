@@ -1,4 +1,4 @@
---- 
+---
 title: "Programming Achievements: How to Level Up as a Developer"
 layout: post
 tags:
@@ -38,7 +38,7 @@ It's the **experiences** that matter.
 
 We've all had specific experiences that clearly advanced our skills as developers.
 We've learned a new language that exposed us to a new way of thinking.
-Or we crafted the perfect design, only to watch it unveil its gross imperfections in the harsh realities of a production environment. 
+Or we crafted the perfect design, only to watch it unveil its gross imperfections in the harsh realities of a production environment.
 And we became better programmers because of it.
 Some experiences equip you with new techniques.
 Others expose you to anti-patterns...and allow you to understand *why* they are anti-patterns.
@@ -136,7 +136,7 @@ Since we're talking about improvement, what would you change about this list?
 
 The list is available as a [gist](https://gist.github.com/1133830#file_programming_achievements.md "Programming Achievements Gist") on GitHub.
 Feel free to fork it and add more achievements.
-(Make sure they're measurable.) 
+(Make sure they're measurable.)
 
 Or, fork it and mark off the achievements you've already conquered.
 You might even flag the one that you're currently working on. (For example, check out these forks from [Justin Blake](https://gist.github.com/1134309), [Pierre Chapuis](https://gist.github.com/1134276), and [Yann Esposito](https://gist.github.com/1134044).) [E]

@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 204
 title: Testing Anti-Patterns Potpourri - Quotes, Resources, and Collective Wisdom
 wordpress_url: http://jasonrudolph.com/blog/?p=204
@@ -58,10 +58,10 @@ And we should always keep the value of code coverage (or any isolated metric for
 
 ## Beyond Developer Testing
 
-Not only should we avoid relying on a single metric, we should also be wary of relying too much on a single form (or a single "layer") of testing.  As Luke Francl argues in his [call for more diverse testing](http://railspikes.com/2008/7/11/testing-is-overrated "Rail Spikes: Testing is Overrated"), even the most exhaustive set of unit tests is limited in the scope of defects it can find [1]: 
+Not only should we avoid relying on a single metric, we should also be wary of relying too much on a single form (or a single "layer") of testing.  As Luke Francl argues in his [call for more diverse testing](http://railspikes.com/2008/7/11/testing-is-overrated "Rail Spikes: Testing is Overrated"), even the most exhaustive set of unit tests is limited in the scope of defects it can find [1]:
 
 > ![200810 Testing Layers Venn Diagram](http://jasonrudolph.com/resources/200810_testing_layers_venn_diagram.png)     
-> 
+>
 > Don’t put all your eggs in one basket. The most interesting thing about these defect detection techniques is that they tend to find different errors. Unit testing finds certain errors; manual testing others; usability testing and code reviews still others.
 
 In his post on [The Ultimate Unit Test Failure](http://www.codinghorror.com/blog/archives/001059.html "Coding Horror: The Ultimate Unit Test Failure"), Jeff Atwood comes out swingin' and begs development teams to invest in interaction design with the same enthusiasm (or perhaps more) that we give to developer testing:

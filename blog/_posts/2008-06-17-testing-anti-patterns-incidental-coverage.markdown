@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 176
 title: "Testing Anti-Patterns: Incidental Coverage"
 wordpress_url: http://jasonrudolph.com/blog/?p=176
@@ -102,7 +102,7 @@ Finished in 0.17716 seconds.
 
 Unfortunately, our test suite still blindly gives a *thumbs up*, despite the fact that any attempt to access the XML-formatted output would yield an exception.  While our test suite includes assertions for how the application should prepare an HTML-bound response, our coverage of the XML-specific logic in line 9 remains merely incidental.
 
-If we want our automated test suite to ensure that the <code>#index</code> method remains capable of producing an XML-formatted response as our codebase changes over time, we'd need to add a test case to exercise that code. 
+If we want our automated test suite to ensure that the <code>#index</code> method remains capable of producing an XML-formatted response as our codebase changes over time, we'd need to add a test case to exercise that code.
 
 ```ruby
 class ProductsControllerTest < ActionController::TestCase
