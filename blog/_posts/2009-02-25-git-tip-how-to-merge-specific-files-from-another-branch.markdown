@@ -5,6 +5,8 @@ wordpress_url: http://jasonrudolph.com/blog/?p=249
 layout: post
 tags:
 - git
+recommended_posts:
+- url: /blog/2009/05/27/git-up-10-reasons-to-upgrade-your-old-git-installation/
 ---
 ## Problem statement
 Part of your team is hard at work developing a new feature in another branch.  They've been working on the branch for several days now, and they've been committing changes every hour or so.  Something comes up, and you need to add *some* of the code from that branch back into your mainline development branch.  (For this example, we'll assume mainline development occurs in the <code>master</code> branch.)  You're not ready to merge the entire feature branch into <code>master</code> just yet.  The code you need to grab is isolated to a handful of files, and those files don't yet exist in the <code>master</code> branch.

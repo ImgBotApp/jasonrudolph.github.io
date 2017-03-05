@@ -5,6 +5,8 @@ wordpress_url: http://jasonrudolph.com/blog/?p=281
 layout: post
 tags:
 - git
+recommended_posts:
+- url: /blog/2009/02/25/git-tip-how-to-merge-specific-files-from-another-branch/
 ---
 Git has seen a huge influx of newcomers over the past year.  Many folks installed Git as they read through their first tutorial, got it working, and are still using that same trusty installation today.  But rest assured, Git has not been standing still.
 
