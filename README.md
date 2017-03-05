@@ -15,6 +15,6 @@ http://0.0.0.0:4000/.
 
 The **content** of the site (i.e., blog posts and page content) is licensed under a [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/): you may use it, but you must give attribution.
 
-The **icons** are from the [IcoMoon icon set](http://icomoon.io/) and are licensed as described at [http://icomoon.io/#icons#license](http://icomoon.io/#icons#license).
+The **icons** are from the [IcoMoon Ultimate icon pack](https://icomoon.io/#preview-ultimate) and are licensed as described at [https://icomoon.io/#icons-icomoon/license](https://icomoon.io/#icons-icomoon/license).
 
 The **structure, design, and layout** of the site are licensed under the [MIT License](http://opensource.org/licenses/MIT).
