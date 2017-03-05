@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Presentation Downloads - Jason Rudolph Dot Com
+title: Presentation Downloads [jasonrudolph.com]
 ---
 # Presentation Downloads
 

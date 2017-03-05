@@ -1,7 +1,7 @@
 ---
 permalink: gswg_errata.html
 layout: default
-title: Errata for "Getting Started with Grails" - Jason Rudolph Dot Com
+title: Errata for "Getting Started with Grails" [jasonrudolph.com]
 ---
 # Getting Started with Grails - Errata
 

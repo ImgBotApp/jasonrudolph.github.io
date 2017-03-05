@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Source Code for "Getting Started with Grails" - Jason Rudolph Dot Com
+title: Source Code for "Getting Started with Grails" [jasonrudolph.com]
 ---
 # Getting Started with Grails - Source Code
 

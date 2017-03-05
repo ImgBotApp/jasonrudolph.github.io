@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Downloads - Jason Rudolph Dot Com
+title: Downloads [jasonrudolph.com]
 ---
 # Downloads
 
