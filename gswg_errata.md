@@ -24,7 +24,7 @@ If you observe any issues with the latest copy of the book, please feel free to 
 ## Page vi (Foreword)
 
 The second sentence begins with, "You may have to muddle though XML configuration files..."
-  
+
 It should instead read, "You may have to muddle <em>through</em> XML configuration files..."
 
 Thanks to Roman Zechner for sending in this correction.
