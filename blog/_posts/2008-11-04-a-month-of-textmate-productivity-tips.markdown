@@ -1,6 +1,6 @@
---- 
+---
 wordpress_id: 230
-title: A Month of TextMate Productivity Tips
+title: A month of TextMate productivity tips
 wordpress_url: http://jasonrudolph.com/blog/?p=230
 layout: post
 tags:

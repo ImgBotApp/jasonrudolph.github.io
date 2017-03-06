@@ -1,6 +1,6 @@
 ---
 wordpress_id: 67
-title: "JavaOne Day 2, Part 1: Breakfast of Champions"
+title: "JavaOne Day 2, Part 1: Breakfast of champions"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/10/javaone-day-2-part-1-breakfast-of-champions/
 layout: post
 tags:
@@ -9,7 +9,7 @@ tags:
 ---
 Day 2 was a marathon for sure, but it was well worth it.  Time for the morning report...
 
-### Creating Amazing Web Interfaces with Ajax 
+### Creating Amazing Web Interfaces with Ajax
 Presented by Ben Galbraith and Dion Almaer (Co-authors of [Pragmatic Ajax](http://www.pragmaticprogrammer.com/titles/ajax/?ajaxian) and Founders of [Ajaxian.com](http://ajaxian.com))
 
 It's been two years now since I first saw Ben Galbraith's and Stu Halloway's rockstar presentation on Ajax at NFJS, and I was pleased to see another great talk today showing just how very far things have progressed in that time.  The plumbing continues to fade into the background, allowing devs to focus more and more on the problem domain and less on the details of HTTP status codes, etc.
@@ -25,7 +25,7 @@ Ben and Dion talked about the future state for Ajax, most interestingly concerni
 
 All in all, it was a good session with well-chosen demoes from two people that know this space inside and out.
 
-### Effective Java Reloaded: This Time It's for Real 
+### Effective Java Reloaded: This Time It's for Real
 Presented by Josh Bloch (Chief Java Architect at Google and Author of [Effective Java](http://java.sun.com/docs/books/effective/))
 
 The first edition of [Effective Java](http://java.sun.com/docs/books/effective/) rightfully earned its place as required reading for any serious Java developer, and with the significant changes to the Java language since that edition was published, many developers have been begging for a revision.  In this session, Josh Bloch delivered a promising preview of the updates that are in the pipeline.

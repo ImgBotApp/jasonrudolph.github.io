@@ -1,8 +1,7 @@
 ---
-layout: default
-title: Source Code for "Getting Started with Grails" - Jason Rudolph Dot Com
+layout: page
+title: "Getting Started with Grails: Source code"
 ---
-# Getting Started with Grails - Source Code
 
 ## Second Edition (February 2010)
 
@@ -11,7 +10,7 @@ title: Source Code for "Getting Started with Grails" - Jason Rudolph Dot Com
 The source code for the RaceTrack sample application is available in numerous formats:
 
 * [Git repository on GitHub](http://github.com/scottdavis99/gswg-v2)
-* Direct download of source code developed with Grails 1.2.0 ([tgz](http://github.com/scottdavis99/gswg-v2/tarball/grails-1.2.0)) ([zip](http://github.com/scottdavis99/gswg-v2/zipball/grails-1.2.0)) 
+* Direct download of source code developed with Grails 1.2.0 ([tgz](http://github.com/scottdavis99/gswg-v2/tarball/grails-1.2.0)) ([zip](http://github.com/scottdavis99/gswg-v2/zipball/grails-1.2.0))
 
 ## First Edition (January 2007)
 

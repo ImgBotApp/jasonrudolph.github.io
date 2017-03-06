@@ -1,11 +1,11 @@
---- 
+---
 wordpress_id: 111
-title: "Web 2.0 Meetup in NYC Tonight: The Prophecy of Grails"
+title: "Web 2.0 meetup in NYC tonight: The Prophecy of Grails"
 wordpress_url: http://jasonrudolph.com/blog/2007/10/22/web-20-meetup-in-nyc-tonight-the-prophecy-of-grails-2/
 layout: post
 tags:
 - grails
-- speaking	
+- speaking
 ---
 So you're hanging out in New York City tonight, and you're not sure yet what to do?  Umm, does free food and an open bar peak your interest?  Yeah?  Then come talk tech at the [Web 2.0 Meetup](http://web2meetup.com/2007/10/21/the-ladders-served-lunch-20-sponsor-web-20-meetup-on-monday-1022/) tonight at 6:30.  
 
@@ -14,7 +14,7 @@ We'll kick off the evening with a unique look at [Grails](http://grails.org) and
 > **Abstract**
 
 > In this unique and interactive session, we'll explore the guiding principles behind the exciting Grails framework and how those core concepts enable an uncommon level of agility.  And while many developers will welcome the productivity gains alone offered by Grails, it's those underlying ideas that may very well reflect a new era of software development on the horizon.  We'll discuss why those concepts are here to stay and how we can all expect to benefit from them, regardless of our current language or platform of choice.
-                     
+
 As mentioned in the abstract above, this will certainly be an *interactive* session.  Come share your thoughts.  What trends are you seeing?  Are they for the better?  What other movements are in the works? - It's an open bar, so the creativity should be flowing quite freely.  ;-)
 
 [Web 2.0 Meetup](http://web2meetup.com/2007/10/21/the-ladders-served-lunch-20-sponsor-web-20-meetup-on-monday-1022/)  

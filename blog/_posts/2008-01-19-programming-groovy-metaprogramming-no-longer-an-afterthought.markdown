@@ -1,6 +1,6 @@
 ---
 wordpress_id: 120
-title: "Programming Groovy: Metaprogramming No Longer an Afterthought"
+title: "Programming Groovy: Metaprogramming no longer an afterthought"
 wordpress_url: http://jasonrudolph.com/blog/2008/01/19/programming-groovy-metaprogramming-no-longer-an-afterthought/
 layout: post
 tags:

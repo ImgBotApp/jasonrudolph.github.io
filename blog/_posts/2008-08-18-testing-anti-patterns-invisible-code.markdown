@@ -1,6 +1,6 @@
---- 
+---
 wordpress_id: 191
-title: "Testing Anti-Patterns: Invisible Code"
+title: "Testing anti-patterns: Invisible code"
 wordpress_url: http://jasonrudolph.com/blog/?p=191
 layout: post
 tags:
@@ -65,7 +65,7 @@ Let's start with a sample Rails app that represents the beginnings of an online 
     |   `-- unit
     |       `-- product_test.rb
     ...
-    
+
     37 directories, 63 files
 
 After installing the [rails_rcov plugin](http://agilewebdevelopment.com/plugins/rails_rcov "Plugins - Rails rcov - Agile Web Development"), we can easily produce a coverage report to see where we currently stand.
@@ -74,7 +74,7 @@ After installing the [rails_rcov plugin](http://agilewebdevelopment.com/plugins/
 
 According to the coverage report, we're not aware of any code that isn't touched by at least one test.  But is that really the whole story?  The number of test-related files sure accounts for a small proportion of the overall app.  We can see that we have `test/unit/product_test.rb` and `test/functional/products_controller_test.rb`, but do those two files really encompass all the developer testing needed for this application?
 
-## Out of Sight, Out of Mind?
+## Out of sight, out of mind?
 
 What about that mysterious file hanging out in the `lib` directory?
 
@@ -105,7 +105,7 @@ It's hard to feel good about 45 lines of untested FTP-processing voodoo, so how 
 Dir["app/**/*.rb", "lib/**/*.rb"].each { |f| require File.expand_path(f) }
 ```
 
-## (Not So) Scenic View Ahead
+## (Not so) scenic view ahead
 
 View templates have long been a favorite dumping ground for misplaced application logic.  This problem can often go undetected, because view templates fly under the radar of the coverage report.  Most developers know they should minimize the application logic included in the view, but when a deadline's looming, the lure of throwing some code in the view "just this once" is often hard to resist.  For example, what's so wrong with having the view decide whether to display a particular product in the list?
 
@@ -148,7 +148,7 @@ Better still, if we know that we only want to display the products that are avai
 
 The coverage report isn't going to alert us to business logic lurking in our view templates.  It's up to us to keep our views from becoming [too smart for their own good](http://www.youtube.com/watch?v=ku3QkWcPSEw "YouTube - RailsEnvy MVC Public Service Announcement #3 - Keeping Views Stupid"), and it's up to peer code reviews to keep us honest.
 
-## Raking for Buried Treasure
+## Raking for buried treasure
 
 While it's tempting to let our views acquire too much business logic, there's usually an obvious place to *move* that logic once we realize the error of our ways.  (In Rails, you'll typically relocate that logic to a model class or to a helper, either of which are easily tested in isolation.)  But what about the other parts of our application where untested code tends to hide out and germinate?
 
@@ -174,7 +174,7 @@ namespace :db do
         shipping_options.each do |o|
           p.shipping_options << ShippingOption.find_by_name(o)
         end
-    
+
         vendors = row[2].split("|")
         vendors.each do |v|
           p.vendors << Vendor.find_by_number(v) unless v.downcase == 'none'
@@ -187,7 +187,7 @@ end
 
 Indeed, a *simple* Rake task will suffice, but that's certainly not what we're looking at above.  While we *could* write tests for this logic in its current state, doing so is unnecessarily difficult.  We'd be restricted to solely black box tests.  To test each individual decision point, we're forced to also construct a new file holding the appropriate dataset, run the Rake task, and then inspect the state of the data in the database.  For *every* decision point.  
 
-## Scripts Can Be Classy Too
+## Scripts can be classy too
 
 We shouldn't have to also test the ability to read a file (i.e., line 7) just so that we can test the ability to populate a vendor based on a given vendor number (i.e., line 21).  For sure, we want one good end-to-end test to verify that all the cogs are working together correctly.  But if that's our sole testing strategy, then we've made testing just painful enough that it probably won't happen at all.  
 
@@ -210,7 +210,7 @@ end
 
 In the case of this Rake task, and in each of the cases discussed above, by simply moving the logic out of the script and into a proper class (or module), the testing strategy goes from clumsy at best to downright obvious.  We no longer need to invoke the whole script in order to verify the particular unit of functionality that we want to test.  Instead, we test that functionality in isolation, and allow the script to resume its trivial role of merely calling our well-tested class.
 
-## Use It Wisely
+## Use it wisely
 
 In order to make effective use of coverage analysis, it's important for us to understand what a coverage report is telling us *and* what it's incapable of telling us.  Tools are imperfect, but we can adopt strategies to make sure we're reaping the maximum benefit from the tools we choose to employ.  With good naming conventions and an agreed-upon application structure, we can easily configure an intelligent solution that allows the coverage tool to automatically pick up any new source files that we want included in the report.  With a commitment to testing all application logic - regardless of whether it's needed in a model, a view, a script, etc. - we'll extract the code that would otherwise be buried in a dark corner of our app.  We'll benefit from the ability to test it in isolation, and we'll allow the coverage tool to assess that code, giving us a more realistic and complete view of our codebase.
 

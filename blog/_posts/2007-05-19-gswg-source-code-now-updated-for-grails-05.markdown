@@ -1,11 +1,11 @@
---- 
+---
 wordpress_id: 76
-title: GSwG Source Code Now Updated for Grails 0.5
+title: GSwG source code now updated for Grails 0.5
 wordpress_url: http://jasonrudolph.com/blog/2007/05/19/gswg-source-code-now-updated-for-grails-05/
 layout: post
 tags:
 - grails
-- gswg	
+- gswg
 ---
 Grails 0.5 was a [*huge* release](http://jasonrudolph.com/blog/2007/05/01/grails-05-shipped-the-cup-overfloweth/), and you're bound to come across some of its many enhancements in any app you build.  If you've installed [0.5](http://dist.codehaus.org/grails/grails-bin-0.5.tar.gz) and you're using it as you work through [Getting Started with Grails](http://infoq.com/minibooks/grails) (GSwG), there are a few new resources to assist you in that endeavor.  
 

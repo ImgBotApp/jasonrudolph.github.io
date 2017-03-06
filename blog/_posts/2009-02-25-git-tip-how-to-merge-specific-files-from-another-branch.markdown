@@ -1,27 +1,29 @@
---- 
+---
 wordpress_id: 249
-title: "Git Tip: How to \"Merge\" Specific Files from Another Branch"
+title: "Git tip: How to \"merge\" specific files from another branch"
 wordpress_url: http://jasonrudolph.com/blog/?p=249
 layout: post
 tags:
 - git
+recommended_posts:
+- url: /blog/2009/05/27/git-up-10-reasons-to-upgrade-your-old-git-installation/
 ---
-## Problem Statement
+## Problem statement
 Part of your team is hard at work developing a new feature in another branch.  They've been working on the branch for several days now, and they've been committing changes every hour or so.  Something comes up, and you need to add *some* of the code from that branch back into your mainline development branch.  (For this example, we'll assume mainline development occurs in the <code>master</code> branch.)  You're not ready to merge the entire feature branch into <code>master</code> just yet.  The code you need to grab is isolated to a handful of files, and those files don't yet exist in the <code>master</code> branch.
 
-## Buckets o' Fail
+## Buckets o' fail
 
 This seems like it should be a simple enough task, so we start rummaging through our Git toolbox looking for just the right instrument.
 
-**Idea, the First.** Isn't this exactly what <code>git cherry-pick</code> is made for?  Not so fast.  The team has made numerous commits to the files in question.  <code>git cherry-pick</code> wants to merge a commit - not a file - from one branch into another branch.  We don't want to have to track down all the commits related to these files.  We just want to grab these files in their current state in the feature branch and drop them into the <code>master</code> branch.  We *could* hunt down the *last* commit to each of these files and feed that information to <code>git cherry-pick</code>, but that still seems like more work than ought to be necessary.
+**Idea, the first.** Isn't this exactly what <code>git cherry-pick</code> is made for?  Not so fast.  The team has made numerous commits to the files in question.  <code>git cherry-pick</code> wants to merge a commit - not a file - from one branch into another branch.  We don't want to have to track down all the commits related to these files.  We just want to grab these files in their current state in the feature branch and drop them into the <code>master</code> branch.  We *could* hunt down the *last* commit to each of these files and feed that information to <code>git cherry-pick</code>, but that still seems like more work than ought to be necessary.
 
-**Idea, the Second.** How 'bout <code>git merge --interactive</code>?  Sorry.  That's not actually a thing.  You're thinking of <code>git add --interactive</code> (which won't work for our purposes either).  Nice try though.
+**Idea, the second.** How 'bout <code>git merge --interactive</code>?  Sorry.  That's not actually a thing.  You're thinking of <code>git add --interactive</code> (which won't work for our purposes either).  Nice try though.
 
-**Idea, the Third.** Maybe we can just merge the whole branch using <code>--squash</code>, keep the files we want, and throw away the rest.  Um, yeah, that *would* work. Eventually. But we want to be done with this task in ten seconds, not ten *minutes*.
+**Idea, the third.** Maybe we can just merge the whole branch using <code>--squash</code>, keep the files we want, and throw away the rest.  Um, yeah, that *would* work. Eventually. But we want to be done with this task in ten seconds, not ten *minutes*.
 
-**Idea, the Fourth.** When in doubt, pull out the brute force approach?  Surely we can just check out the feature branch, copy the files we need to a directory outside the repo, checkout the <code>master</code> branch, and then paste the files back in place.  Ouch!  Yeah.  Maybe, but I think we might have our Git license revoked if we resort to such a hack.
+**Idea, the fourth.** When in doubt, pull out the brute force approach?  Surely we can just check out the feature branch, copy the files we need to a directory outside the repo, checkout the <code>master</code> branch, and then paste the files back in place.  Ouch!  Yeah.  Maybe, but I think we might have our Git license revoked if we resort to such a hack.
 
-## The Simplest Thing That Could Possibly Work
+## The simplest thing that could possibly work
 
 As it turns out, we're trying too hard.  Our good friend [<code>git checkout</code>](http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html "git-checkout man page") is the right tool for the job.
 

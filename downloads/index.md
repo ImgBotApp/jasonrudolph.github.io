@@ -1,8 +1,7 @@
 ---
-layout: default
-title: Downloads - Jason Rudolph Dot Com
+layout: page
+title: Downloads
 ---
-# Downloads
 
 [Getting Started with Grails - Source Code](gswg)
 

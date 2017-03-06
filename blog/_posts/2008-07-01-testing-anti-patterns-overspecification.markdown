@@ -1,6 +1,6 @@
---- 
+---
 wordpress_id: 179
-title: "Testing Anti-Patterns: Overspecification"
+title: "Testing anti-patterns: Overspecification"
 wordpress_url: http://jasonrudolph.com/blog/?p=179
 layout: post
 tags:
@@ -9,14 +9,14 @@ tags:
 ---
 Tests increasingly serve multiple roles in today's projects.  They help us design APIs through test-driven development.  They provide confidence that new changes aren't breaking existing functionality.  They offer an executable specification of the application.  But can we ever get to a point where we have too much testing?  
 
-## Enough is Enough
+## Enough is enough
 
 Consider the following test that you might come across in an application with a less-than-ideal test suite.  (We'll pick on some badly-written Rails code for this example, but the ideas we'll discuss are certainly not unique to just Rails or Ruby or even just to dynamic languages.  Unfortunately, these problems are quite universal.)
 
 ```ruby
 require File.dirname(__FILE__) + '/../test_helper'
 
-class ProductsControllerTest < ActionController::TestCase 
+class ProductsControllerTest < ActionController::TestCase
   def test_something
     product = Product.create(:name => "Frisbee", :price => 5.00)
     get :show, :id => product.id
@@ -55,30 +55,30 @@ If the <code>#show</code> action isn't responsible for knowing how to successful
 
 We can see from the <code>#show</code> action above that not only is the controller not responsible for knowing how to create a valid product, it's also not responsible for ensuring that a product's attributes are properly populated when the record is read from the database.  However, if we take another look at the last few lines of the test case, we might think otherwise.  That brings us to the second problem with this particular test: it's a rotten source of documentation for the code being tested.  As we increasingly move toward tests as *specifications* of our application's behavior, it's vital that those specifications clearly communicate the expected behavior.  As it's currently implemented, the **overspecification** in this test case leaves the reader having to do way too much work to figure out the true expectations of the code being tested.
 
-## Communicate Essence
+## Communicate essence
 
 Let's take another pass at writing a test for the <code>#show</code> action, this time with an eye toward removing the fragility of the previous test case and increasing the value of the test as a specification.
 
 ```ruby
 require File.dirname(__FILE__) + '/../test_helper'
 
-class ProductsControllerTest < ActionController::TestCase 
-  def test_should_show_product 
-    product = create_product 
-    get :show, :id => product.id 
-    assert_response :success 
-    assert_equal product, assigns(:product) 
-  end 
+class ProductsControllerTest < ActionController::TestCase
+  def test_should_show_product
+    product = create_product
+    get :show, :id => product.id
+    assert_response :success
+    assert_equal product, assigns(:product)
+  end
 end
 ```
 
-In this implementation, we've abstracted away the logic for creating a new product in line 5.  We've defined a helper method for use by any and all tests in our application that have a need to create a new product.  If and when the rules for successfully creating a new product change, we'll update the <code>#create_product</code> method, and we won't have to touch the code in <code>ProductsController</code> or <code>ProductsControllerTest</code> at all. [2] 
+In this implementation, we've abstracted away the logic for creating a new product in line 5.  We've defined a helper method for use by any and all tests in our application that have a need to create a new product.  If and when the rules for successfully creating a new product change, we'll update the <code>#create_product</code> method, and we won't have to touch the code in <code>ProductsController</code> or <code>ProductsControllerTest</code> at all. [2]
 
 As for the four assertions that appeared at the end of our first attempt at this test case, we've replaced those assertions with a single (stronger) assertion.  Where we previously asserted that the <code>assigns</code> hash held a non-nil product, that the product was valid, and that its attributes matched the attributes used at the beginning of the test, we now simply verify that the product object in the <code>assigns</code> hash is equal to the product object that we created at the beginning of the test.  That single line more accurately and more concisely expresses our expectation: that the product whose ID we provide in the request to the <code>#show</code> action is the same object that's made available to the view.  
 
 By focusing our test case on the *essence* of the code under test, we've ended up with less test code to maintain.  And with the extraneous setup and assertions removed, the remaining test code provides a clearer and less fragile specification of the behavior being tested. [3]
 
-## May I Take Your Order, Please?
+## May I take your order, please?
 
 In the previous example, we *might* have detected the overspecification by the significant mismatch between the lines of test code and the lines of production code, or seeing model-specific assertions in a controller-specific test may have caught our eye.  But, overspecification comes in more subtle forms as well.  Consider the following method provided by [<code>ActiveRecord::Base</code>](http://api.rubyonrails.org/classes/ActiveRecord/Base.html#M001329 "Class: ActiveRecord::Base") for fetching the list of columns that hold domain-specific content from a model class in Rails.
 
@@ -146,7 +146,7 @@ end
 
 By using an assertion like [Shoulda's](http://www.thoughtbot.com/projects/shoulda "thoughtbot: Shoulda testing plugin") [<code>assert\_same\_elements</code>](http://dev.thoughtbot.com/shoulda/classes/ThoughtBot/Shoulda/General.html#M000005 "Module: ThoughtBot::Shoulda::General") method, our test can clearly and concisely express the expected behavior.
 
-## Use It Wisely
+## Use it wisely
 
 Overspecification comes in many flavors, and the examples above in no way represent a comprehensive list.  As developers, we frequently strive to write as little code as possible to accomplish the task at hand.  When it comes to writing tests, we should very much keep that goal in mind as well.  Good tests communicate the essence of the scenario being tested and nothing more.  While I doubt a project will ever suffer from too much testing, it can certainly suffer from tests that specify too much.
 

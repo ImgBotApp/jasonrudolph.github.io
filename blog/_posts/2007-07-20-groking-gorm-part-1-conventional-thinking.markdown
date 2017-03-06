@@ -1,12 +1,12 @@
---- 
+---
 wordpress_id: 87
-title: "Grokking GORM - Part 1: Conventional Thinking "
+title: "Grokking GORM - Part 1: Conventional thinking"
 wordpress_url: http://jasonrudolph.com/blog/2007/07/20/groking-gorm-part-1-conventional-thinking/
 layout: post
 tags:
 - grails
 - groovy
-- java	
+- java
 ---
 For any developer that's ever touched JDBC (and it's safe to assume that's *most* Java devs, right?), [GORM](http://grails.org/gorm) is one of the many Grails features that addresses a clear and prominent pain point in the Java space.  Put simply, GORM is *humane* ORM.  It means leaving the low-level database-related plumbing to the framework and instead investing your time in the business tier.  After all, your app needs to solve a *business* problem, right?  And it's a pretty safe bet that your business analysts didn't spend time listing out any requirements about managing DB connections, result sets, sessions, or DAO code.  Nope.  They're focused on a much higher level, and we should be too.
 

@@ -1,6 +1,6 @@
---- 
+---
 wordpress_id: 241
-title: TextMate Oldie But Goodie Wrap-up
+title: TextMate oldie-but-goodie wrap-up
 wordpress_url: http://jasonrudolph.com/blog/?p=241
 layout: post
 tags:
@@ -19,7 +19,7 @@ With November behind us, there's now a [month of TextMate productivity tips](htt
 * [November 8](http://twitter.com/jasonrudolph/status/996269641 "Twitter / jasonrudolph: TMOBGOTD #8: TextMate Oldie But Goodie Of The Day")	- For the rare occasion when you *want* folding, use **F1** to fold the current block. Use **Command+Option+n** (where n is a digit) to toggle foldings at the nth level.
 * [November 9](http://twitter.com/jasonrudolph/status/997515553 "Twitter / jasonrudolph: TMOBGOTD #9: TextMate Oldie But Goodie Of The Day")	- With your cursor on a misspelled word, use **Option+F2** to bring up suggested spelling corrections. Hit **Enter** to choose a correction.
 * [November 10](http://twitter.com/jasonrudolph/status/998734765 "Twitter / jasonrudolph: TMOBGOTD #10: TextMate Oldie But Goodie Of The Day")	- With your cursor on any ActiveRecord model, use **Control+Command+Shift+S** to instantly view the schema for that model.
-* [November 11](http://twitter.com/jasonrudolph/status/1000366213 "Twitter / jasonrudolph: TMOBGOTD #11: TextMate Oldie But Goodie Of The Day")	- When working w/ CSS, use **Command+Shift+C** to bring up the OS X color palette. Choose a color to insert the corresponding hex code. 
+* [November 11](http://twitter.com/jasonrudolph/status/1000366213 "Twitter / jasonrudolph: TMOBGOTD #11: TextMate Oldie But Goodie Of The Day")	- When working w/ CSS, use **Command+Shift+C** to bring up the OS X color palette. Choose a color to insert the corresponding hex code.
 * [November 12](http://twitter.com/jasonrudolph/status/1002089182 "Twitter / jasonrudolph: TMOBGOTD #12: TextMate Oldie But Goodie Of The Day")	- Selection-fu => Use **Control+W** to select the current word. Use **Command+Shift+L** to select the current line.
 * [November 13](http://twitter.com/jasonrudolph/status/1003798845 "Twitter / jasonrudolph: TMOBGOTD #13: TextMate Oldie But Goodie Of The Day")	- Use **Control+H** to pull up the documentation for the selected word. Works for CSS attributes, Ruby methods, HTML tags, Javadoc, etc.
 * [November 14](http://twitter.com/jasonrudolph/status/1005452019 "Twitter / jasonrudolph: TMOBGOTD #14: TextMate Oldie But Goodie Of The Day")	- Anywhere that ERb is supported, use **Control+>** to produce a <%= %> sequence. Hit it again to cycle through the various flavors.
@@ -33,9 +33,9 @@ With November behind us, there's now a [month of TextMate productivity tips](htt
 * [November 22](http://twitter.com/jasonrudolph/status/1018311743 "Twitter / jasonrudolph: TMOBGOTD #22: TextMate Oldie But Goodie Of The Day")	- Use **Option+PageUp** and **Option+PageDown** to page up/down while keeping your cursor in the middle of the screen. (On a laptop, **PageUp** is **Function+Up**. So, for this tip, you'd use **Function+Option+Up** and **Function+Option+Down**.)
 * [November 23](http://twitter.com/jasonrudolph/status/1019577832 "Twitter / jasonrudolph: TMOBGOTD #23: TextMate Oldie But Goodie Of The Day")	- Use **Command+Option+W** to toggle soft line wrapping.			
 * [November 24](http://twitter.com/jasonrudolph/status/1021193988 "Twitter / jasonrudolph: TMOBGOTD #24: TextMate Oldie But Goodie Of The Day")	- Hit **Escape** to auto-complete the current word using similar words in the current file (in order of their proximity to the cursor).
-* [November 25](http://twitter.com/jasonrudolph/status/1022973346 "Twitter / jasonrudolph: TMOBGOTD #25: TextMate Oldie But Goodie Of The Day")	- Enable ["Edit in TextMate"](http://bit.ly/tm "TextMate Manual » Calling TextMate from Other Applications") to use TextMate from any Cocoa app - email in Mail.app, blog comments & wikis in Safari, etc. 
+* [November 25](http://twitter.com/jasonrudolph/status/1022973346 "Twitter / jasonrudolph: TMOBGOTD #25: TextMate Oldie But Goodie Of The Day")	- Enable ["Edit in TextMate"](http://bit.ly/tm "TextMate Manual » Calling TextMate from Other Applications") to use TextMate from any Cocoa app - email in Mail.app, blog comments & wikis in Safari, etc.
 * [November 26](http://twitter.com/jasonrudolph/status/1025110446 "Twitter / jasonrudolph: TMOBGOTD #26: TextMate Oldie But Goodie Of The Day")	- Use **Option+Command+R** to feed the current file (or selection) to any shell command and capture the output in any number of ways.
-* [November 27](http://twitter.com/jasonrudolph/status/1026835629 "Twitter / jasonrudolph: TMOBGOTD #27: TextMate Oldie But Goodie Of The Day")	- Use **Control+Option+Shift+H** to change the language of the current file to HTML. Use 'X' for XML or XSL. 'R' for Ruby, Rails, etc. 
+* [November 27](http://twitter.com/jasonrudolph/status/1026835629 "Twitter / jasonrudolph: TMOBGOTD #27: TextMate Oldie But Goodie Of The Day")	- Use **Control+Option+Shift+H** to change the language of the current file to HTML. Use 'X' for XML or XSL. 'R' for Ruby, Rails, etc.
 * [November 28](http://twitter.com/jasonrudolph/status/1028073252 "Twitter / jasonrudolph: TMOBGOTD #28: TextMate Oldie But Goodie Of The Day")	- **Command+Shift+T** => Go to symbol. This grammar-sensitive fuzzy finder locates classes & methods in Ruby, IDs in HTML, etc.
 * [November 29](http://twitter.com/jasonrudolph/status/1029697485 "Twitter / jasonrudolph: TMOBGOTD #29: TextMate Oldie But Goodie Of The Day")	- Hold down the **Option** key while selecting an area of text to make a columnar selection. More info here http://bit.ly/tmcol.
 * [November 30](http://twitter.com/jasonrudolph/status/1030966782 "Twitter / jasonrudolph: TMOBGOTD #30: TextMate Oldie But Goodie Of The Day")	- Forgot how to access a certain feature of TextMate. Quickly find any and all of the TMOBGOTD tips (and more) with **Command+Shift+?**

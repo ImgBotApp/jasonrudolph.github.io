@@ -1,5 +1,5 @@
---- 
-title: "Live JavaScript TDD Action Coming to raleigh.rb"
+---
+title: "Live JavaScript TDD action coming to raleigh.rb"
 layout: post
 tags:
 - javascript

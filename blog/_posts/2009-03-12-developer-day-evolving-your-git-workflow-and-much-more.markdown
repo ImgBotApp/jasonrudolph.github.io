@@ -1,6 +1,6 @@
---- 
+---
 wordpress_id: 268
-title: "Developer Day: Evolving Your Git Workflow, and Much More"
+title: "Developer Day: Evolving your Git workflow, and much more"
 wordpress_url: http://jasonrudolph.com/blog/?p=268
 layout: post
 tags:
@@ -20,7 +20,7 @@ Here's the rundown:
 
 I'll be speaking about taking your [Git](http://git-scm.com/ "Git - Fast Version Control System")-fu to the next level.
 
-> **Evolving Your Git Workflow**<br/><br/>
+> **Evolving your Git workflow**<br/><br/>
 > Git has attracted many developers away from various centralized source control tools, but it’s easy to find yourself using Git like a slightly-better variant of your old VCS. “You don’t even have to be online to commit. Cool!” That’s a nice touch, but Git has way more to offer, and by picking up a few intermediate and advanced Git techniques, you can save a ton of time (and sanity) for yourself and your team.
 
 Check out the [site](http://developer-day.com/ "Developer Day - Durham, NC - March 21st, 2009") for registration and full details. Hope to see you there!

@@ -1,6 +1,7 @@
 ---
-title: "Defining Atom Commands in Your Init Script"
 layout: post
+title: "Defining Atom commands in your init script"
+excerpt: There's a ton to say about Atom, but for the moment, let's talk about a quick way to start experimenting with extending the default Atom experience.
 tags:
 - atom
 ---

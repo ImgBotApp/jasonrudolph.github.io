@@ -1,6 +1,6 @@
---- 
+---
 wordpress_id: 147
-title: "Manning up: TextMate Meets Man Pages"
+title: "Manning up: TextMate meets man pages"
 wordpress_url: http://jasonrudolph.com/blog/2008/03/14/manning-up-textmate-meets-man-pages/
 layout: post
 tags:
@@ -26,7 +26,7 @@ First, [install the mate shell command](http://macromates.com/textmate/manual/us
 Now that we have access to TextMate from the command line, we can assemble a quick script to get us the rest of the way toward achieving our goal.  I keep all of my custom scripts in a <code>.scripts</code> directory that I include in my path, so I'll define this handy scriptbaby in a file named <code>mman</code> (for "mate man") in that directory.
 
 <pre lang="text">
-$ ls -l /Users/jason/.scripts/mman 
+$ ls -l /Users/jason/.scripts/mman
 -rwxr-xr-x@ 1 jason  jason  43 Mar 14 15:52 /Users/jason/.scripts/mman
 </pre>
 

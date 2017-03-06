@@ -1,6 +1,6 @@
 ---
 wordpress_id: 153
-title: Noteworthy Nonsense - April 4, 2008
+title: Noteworthy nonsense - April 4, 2008
 wordpress_url: http://jasonrudolph.com/blog/2008/04/04/noteworthy-nonsense-april-5-2008/
 layout: post
 tags:

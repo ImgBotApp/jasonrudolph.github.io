@@ -1,4 +1,4 @@
---- 
+---
 wordpress_id: 117
 title: 2GX - Next-Gen Java Conference Is Right Around the Corner
 wordpress_url: http://jasonrudolph.com/blog/2007/12/20/2gx-next-gen-java-conference-is-right-around-the-corner/
@@ -7,7 +7,7 @@ tags:
 - grails
 - groovy
 - java
-- testing	
+- testing
 ---
 The Groovy community's been busy rolling out a steady stream of holiday goodness for the Java developers of the world:  [Groovy 1.5](http://docs.codehaus.org/display/GROOVY/2007/12/07/Groovy+1.5+released "Groovy 1.5 released") was just released, [Grails 1.0 RC3](http://grails.org/1.0-RC3+Release+Notes "Grails - 1.0-RC3 Release Notes") is out, and now the Prags are prepping two new [Groovy](http://pragprog.com/titles/vslg "Programming Groovy: Dynamic Productivity for the Java Developer by Venkat Subramaniam") [books](http://pragprog.com/titles/sdgrvr "Groovy Recipes: Greasing the Wheels of Java by Scott Davis") for early next year.  And to top things off, the folks behind [NFJS](http://www.nofluffjuststuff.com/ "No Fluff Just Stuff") are hosting a [three-day conference](http://groovygrails.com "Groovy/Grails Experience") with Groovy and Grails experts from all over the world.  
 
@@ -21,11 +21,11 @@ I'll be presenting sessions on [Going Further with Grails](http://groovygrails.c
 
 > Contributing to open source is great for your career.  In a few short hours, you can learn, teach, promote your skills, and improve the quality of the community.  In this unique workshop, we will show you how, by doing it.  Using Grails as an example, we'll show you how to:
 
-> * download the source code 
-> * build and run tests 
-> * use Cobertura and code review to find problem areas 
-> * refactor some code 
-> * create and submit a patch 
+> * download the source code
+> * build and run tests
+> * use Cobertura and code review to find problem areas
+> * refactor some code
+> * create and submit a patch
 
 > Take this opportunity to begin contributing to Groovy, Grails, or any other open source project that interests you.  Experts from the Groovy and Grails community will be on hand to help you get started.
 

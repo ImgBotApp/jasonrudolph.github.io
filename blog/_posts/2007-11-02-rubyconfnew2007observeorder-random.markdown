@@ -1,11 +1,11 @@
---- 
+---
 wordpress_id: 107
 title: RubyConf.new('2007').observe(:order => :random)
 wordpress_url: http://jasonrudolph.com/blog/2007/11/02/rubyconfnew2007observeorder-random/
 layout: post
 tags:
 - groovy
-- ruby	
+- ruby
 ---
 ![Ruby Logo](/resources/20071102-ruby-logo.gif)
 
@@ -18,7 +18,7 @@ tags:
 * If you show up at RubyConf with a Compaq, apparently you spend the morning calculating the distance to the nearest Apple store.
 
 ![Compaq Love](/resources/20071102-compaq-love.png)
-  
+
 * [David Black](http://dablog.rubypal.com/) reminds the "veeee-gans" that they're special.
 
 * [Nathaniel Talbott](http://terralien.com/ "Terralien"): [Camping](http://redhanded.hobix.com/bits/campingAMicroframework.html) matters because it gets your mind off the [drug](http://rubyonrails.org) and refocuses you on the [addiction](http://ruby-lang.org).  (OK.  Perhaps I paraphrased.)

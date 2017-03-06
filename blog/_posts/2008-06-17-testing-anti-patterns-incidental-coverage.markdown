@@ -1,6 +1,6 @@
---- 
+---
 wordpress_id: 176
-title: "Testing Anti-Patterns: Incidental Coverage"
+title: "Testing anti-patterns: Incidental coverage"
 wordpress_url: http://jasonrudolph.com/blog/?p=176
 layout: post
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 So you've taken your project to 100% [code coverage](http://jasonrudolph.com/blog/2008/06/10/a-brief-discussion-of-code-coverage-types/), you've configured your continuous integration system to fail the build if that coverage ever drops below 100%, and you're ready to enjoy the fearless refactoring and the rock solid regression testing suite that your software engineering rigor has now earned you.  But are you really covered?  What does 100% code coverage mean in your project?  Is it enough to know that your test suite *encounters* every line of code?  Or don't you want to be sure that it *exercises* every line?  If you simply encounter the line without asserting that it produces the correct results, are you any better off? [1]
 
-## Failure to Assert
+## Failure to assert
 
 Just achieving 100% code coverage is the easy part.  Making it mean something: that's where the real value kicks in.  Consider the ease with which we can get to 100% line coverage on the following code (generated using [Rails 2.1 scaffolding](http://github.com/rails/rails/tree/71528b1825ce5184b23d09f923cb72f4073ce8ed/railties/lib/rails_generator/generators/components/scaffold/USAGE "railties/lib/rails_generator/generators/components/scaffold/USAGE at GitHub")).
 
@@ -69,7 +69,7 @@ end
 
 The tests pass, and our code coverage is still at 100%.  At this point we've significantly increased the value of that particular test.  No longer does the code have to crash spectacularly in order to yield a test error.  Instead, exiting the method with anything other than a <code>success</code> response code will result in a test failure.  Similarly, failure to set the <code>@products</code> instance variable will cause the test case to flunk. [4]
 
-## 100% Covered.  50% Tested.
+## 100% covered.  50% tested.
 
 But while we've improved on the initial test case, at best we're really only halfway to where we want to be.  What would our test suite tell us if we were to alter line 9 as follows.
 
@@ -102,7 +102,7 @@ Finished in 0.17716 seconds.
 
 Unfortunately, our test suite still blindly gives a *thumbs up*, despite the fact that any attempt to access the XML-formatted output would yield an exception.  While our test suite includes assertions for how the application should prepare an HTML-bound response, our coverage of the XML-specific logic in line 9 remains merely incidental.
 
-If we want our automated test suite to ensure that the <code>#index</code> method remains capable of producing an XML-formatted response as our codebase changes over time, we'd need to add a test case to exercise that code. 
+If we want our automated test suite to ensure that the <code>#index</code> method remains capable of producing an XML-formatted response as our codebase changes over time, we'd need to add a test case to exercise that code.
 
 ```ruby
 class ProductsControllerTest < ActionController::TestCase
@@ -125,11 +125,11 @@ end
 
 rcov doesn't reward us with any extra credit for writing this test case, but achieving 100% coverage is not the primary goal of a good test suite. [5] The primary goal is to ensure that the code satisfies the requirements.  If the application really is required to provide an XML-formatted list of products, then we should seriously consider defining a test for that functionality in our test suite. [6]
 
-## Size Matters
+## Size matters
 
 In the examples above, we started off with a 5-line method that had 100% line coverage but lacked any assertions.  That scenario provides some insight into other places where we might find a high percentage of incidental coverage.  While long methods are a bad idea in general, the simple act of invoking a method may be enough to register it as having 100% coverage.  If our test suite results in the execution of a 25-line method with no branches, all 25 lines are considered to be covered, regardless of whether we perform any assertions to verify the results of those 25 lines.  Even if we refactor the code into smaller methods, if we don't unit test those new methods, we're still left with nothing more than incidental coverage.                                 
 
-## Use It Wisely
+## Use it wisely
 
 If your goal is to achieve 100% coverage, then incidental coverage is your friend, but your test suite will fall far short of its full potential.  You'll run the risk of acquiring a false sense of security, and the ability to safely and fearlessly refactor is out the window.  Changes or enhancements to your application will occur without the safety net of a full regression suite.
 

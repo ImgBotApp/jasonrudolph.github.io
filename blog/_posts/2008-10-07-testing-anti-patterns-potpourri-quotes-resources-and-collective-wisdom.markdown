@@ -1,6 +1,6 @@
---- 
+---
 wordpress_id: 204
-title: Testing Anti-Patterns Potpourri - Quotes, Resources, and Collective Wisdom
+title: "Testing anti-patterns potpourri: Quotes, resources, and collective wisdom"
 wordpress_url: http://jasonrudolph.com/blog/?p=204
 layout: post
 tags:
@@ -9,14 +9,14 @@ tags:
 ---
 While working on the [Testing Anti-Patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns") over the past few months, I've had the pleasure of reading some great writing on testing, test-driven development, code coverage analysis, and the bigger picture of software quality in general.  What follows is a collection of some of my favorite findings: quotes and resources spanning the last ten years and then some.
 
-## How Not to Test
+## How not to test
 
 Let's start off with something light.  James Carr's [TDD Anti-Pattern Catalogue](http://blog.james-carr.org/?p=44 "James Carr &raquo; Blog Archive &raquo; TDD Anti-Patterns") is a good, fun read that's downright hilarious at times (but only because we remember <del>writing</del> seeing these tests once or twice).  And not only are the anti-patterns that James proposes worth reading, you owe it to yourself to check out the extensive discussion in the comments as well. There you'll find folks chiming in with many additional gems, including:
 
 * [The Blue Moon](http://blog.james-carr.org/2006/11/03/tdd-anti-patterns/#comment-47093 "James Carr &raquo; Blog Archive &raquo; TDD Anti-Patterns") - Matt Simner's aptly-named anti-pattern is one we've all hit at least once: "A test that’s specifically dependent on the current date, and fails as a result of things like public holidays, leap years, weekends, 5-week months, etc."  Ouch.  
 * [Honest Guv](http://blog.james-carr.org/2006/11/03/tdd-anti-patterns/#comment-77729 "James Carr &raquo; Blog Archive &raquo; TDD Anti-Patterns") - Graham Lenton's contribution to the list brings back some memories I'd rather forget: "Where the expected outcome is so entropic that the developer simply asserts true with a comment 'this works, honestly.'"  Um.  Sure it does.
 
-## We're Still Figuring This Stuff Out
+## We're still figuring this stuff out
 
 Some tests are just so incredibly rotten that it's easy to definitively declare a better approach, but it's not always that black and white.  Just as we have to make [trade-offs](http://www.vanderburg.org/Blog/Software/Development/koan.blog "Glenn Vanderburg: Blog - Six of One, a Half Dozen of the Other") when designing and developing production code, so too do we have to weigh the advantages and disadvantages of the available approaches for testing that code.  
 
@@ -28,7 +28,7 @@ Software development certainly isn't the only engineering discipline that requir
 
 > It may just be that software will always resist traditional engineering kinds of analysis. We'll know in a few thousand years, when we've been building software as long as we've been building bridges. We're currently at the level in software where bridge builders were when they built a bridge, ran a heavy cart across it, and it collapsed. "Well, that wasn't a very good bridge. Let's try again."
 
-## Pragmatic Use of Code Coverage Analysis
+## Pragmatic use of code coverage analysis
 
 We've talked quite a bit about [code coverage](http://jasonrudolph.com/blog/2008/06/10/a-brief-discussion-of-code-coverage-types/ "jasonrudolph.com/blog -- A Brief Discussion of Code Coverage Types") in our discussion of [testing anti-patterns](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog -- Testing Anti-Patterns: How to Fail With 100% Test Coverage").  Brian Marick's 1997 paper titled [How to Misuse Code Coverage](http://www.exampler.com/testing-com/writings/coverage.pdf "PDF - 'How to Misuse Code Coverage' by Brian Marick") is a must-read, full of pragmatic advice from a veteran tester:
 
@@ -56,19 +56,19 @@ And we should always keep the value of code coverage (or any isolated metric for
 
 > Metrics are more copasetic when combined with other metrics and trended – for instance, complexity alone is somewhat interesting, but pairing complexity with code coverage paints a much more detailed metric that bears understanding. High complexity with low coverage is clearly more risky than the same complexity with high code coverage ...
 
-## Beyond Developer Testing
+## Beyond developer testing
 
-Not only should we avoid relying on a single metric, we should also be wary of relying too much on a single form (or a single "layer") of testing.  As Luke Francl argues in his [call for more diverse testing](http://railspikes.com/2008/7/11/testing-is-overrated "Rail Spikes: Testing is Overrated"), even the most exhaustive set of unit tests is limited in the scope of defects it can find [1]: 
+Not only should we avoid relying on a single metric, we should also be wary of relying too much on a single form (or a single "layer") of testing.  As Luke Francl argues in his [call for more diverse testing](http://railspikes.com/2008/7/11/testing-is-overrated "Rail Spikes: Testing is Overrated"), even the most exhaustive set of unit tests is limited in the scope of defects it can find [1]:
 
 > ![200810 Testing Layers Venn Diagram](http://jasonrudolph.com/resources/200810_testing_layers_venn_diagram.png)     
-> 
+>
 > Don’t put all your eggs in one basket. The most interesting thing about these defect detection techniques is that they tend to find different errors. Unit testing finds certain errors; manual testing others; usability testing and code reviews still others.
 
 In his post on [The Ultimate Unit Test Failure](http://www.codinghorror.com/blog/archives/001059.html "Coding Horror: The Ultimate Unit Test Failure"), Jeff Atwood comes out swingin' and begs development teams to invest in interaction design with the same enthusiasm (or perhaps more) that we give to developer testing:
 
 > Perfectly executed code coverage doesn't mean users will use your program. Or that it's even *worth* using in the first place.
 
-## No Silver Bullet
+## No silver bullet
 
 If there's any one theme that we can observe across this collection of ideas, it's the recognition that no recipe, or tool, or one-size-fits-all process offers the One True Way (TM) to develop quality software.  As Michael Feathers [points out](http://michaelfeathers.typepad.com/michael_feathers_blog/2008/06/the-flawed-theo.html "Michael Feathers' Blog: The Flawed Theory Behind Unit Testing"), quality doesn't come from a "mechanistic" approach to testing:
 

@@ -1,7 +1,7 @@
 ---
 permalink: gswg_faq.html
-layout: default
-title: FAQ for "Getting Started with Grails" - Jason Rudolph Dot Com
+layout: page
+title: FAQ for "Getting Started with Grails"
 ---
 # Getting Started with Grails - Frequently Asked Questions
 
@@ -46,7 +46,7 @@ On the way to Grails 1.0, the Grails team made a conscious effort to eliminate a
 
 **5. Page 41 (Chapter 4 - Improving the User Experience) --  Why do I have to restart the server each time I add or change error messages for my constraints?**
 
-Excellent point!  And luckily, you no longer have to do so.  As of Grails 0.5, the developer experience improved greatly, and in development mode, Grails automatically picks up almost any changes you make to your application *without* requiring you to restart the app.  Woo hoo!! 
+Excellent point!  And luckily, you no longer have to do so.  As of Grails 0.5, the developer experience improved greatly, and in development mode, Grails automatically picks up almost any changes you make to your application *without* requiring you to restart the app.  Woo hoo!!
 
 **6. Page 103 (Chapter 8 - The Finish Line) --  Using Grails 0.4 (or higher), I can't seem to find the `log4j.production.properties` that's supposed to be in `racetrack/web-app/WEB-INF`.  Where did it go?**
 
@@ -58,12 +58,12 @@ As of Grails 0.5, the logging conventions saw some handy improvements.  For exam
 
 Because of those new conventions, you no longer want to use the following lines mentioned on page 102:
 
-    log4j.logger.UserController=warn,access 
+    log4j.logger.UserController=warn,access
     log4j.additivity.UserController=false
 
 Instead, you want to replace those lines with the following declarations:
 
-    log4j.logger.grails.app.controller.UserController=warn,access 
+    log4j.logger.grails.app.controller.UserController=warn,access
     log4j.additivity.grails.app.controller.UserController=false
 
 And with that, you're ready to start tracking all those wily characters trying to sneak into your app.

@@ -1,6 +1,6 @@
---- 
+---
 wordpress_id: 124
-title: "Podcast Interview with aboutGroovy.com: The Sequel"
+title: "Podcast interview with aboutGroovy.com: The sequel"
 wordpress_url: http://jasonrudolph.com/blog/2008/02/04/podcast-interview-with-aboutgroovycom-the-sequel/
 layout: post
 tags:
@@ -9,7 +9,7 @@ tags:
 - interview
 - podcasts
 - rails
-- speaking	
+- speaking
 ---
 [It's been almost a year](http://jasonrudolph.com/blog/2007/02/14/podcast-interview-with-aboutgroovycom/ "Podcast Interview with aboutGroovy.com") since I first sat down with Scott Davis for an [aboutGroovy.com interview](http://aboutgroovy.com/podcast/show/6 "2GX Speaker Jason Rudolph"), and the [upcoming Groovy/Grails Experience](http://jasonrudolph.com/blog/2007/12/20/2gx-next-gen-java-conference-is-right-around-the-corner/ "2GX - Next-Gen Java Conference Is Right Around the Corner") seemed as good a reason as any for us to catch up.  
 

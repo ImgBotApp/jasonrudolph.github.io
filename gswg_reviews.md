@@ -1,17 +1,14 @@
 ---
 permalink: gswg_reviews.html
-layout: default
-title: Reviews for "Getting Started with Grails" - Jason Rudolph Dot Com
+layout: page
+title: "Getting Started with Grails, First Edition: Reviews"
 ---
-# Getting Started with Grails, First Edition - Reviews
 
 What are people saying about [Getting Started with Grails](http://www.amazon.com/Getting-Started-Grails-Jason-Rudolph/dp/143030782X)?
 
 <blockquote>
   <p>One of my all-time favorite technical books.</p>  
-  <p class="attribution">
-    <a href="http://kousenit.wordpress.com/2007/12/10/looking-forward-to-2g-x/" title="Ken Kousen on &apos;Getting Started with Grails&apos;">Ken Kousen</a>, Author of the upcoming book, <em>Making Java Groovy</em>
-  </p>
+  <p class="attribution">&#8212;<a href="http://kousenit.wordpress.com/2007/12/10/looking-forward-to-2g-x/" title="Ken Kousen on &apos;Getting Started with Grails&apos;">Ken Kousen</a>, Author of the upcoming book, <em>Making Java Groovy</em></p>
 </blockquote>
 
 <blockquote>
