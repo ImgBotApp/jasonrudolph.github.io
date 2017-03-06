@@ -23,6 +23,15 @@
   a {
     font-weight: bold;
   }
+
+  a.license {
+    font-weight: normal;
+    color: inherit;
+
+    &:hover {
+      color: #333;
+    }
+  }
 }
 
 .footer-links {
