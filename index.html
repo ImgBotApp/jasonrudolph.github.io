@@ -9,9 +9,18 @@ redirect_from: /blog/
 
 <div class="post-list">
   {% for post in site.posts %}
+    {% assign external_url = post.redirect_to[0] %}
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <header class="post-header">
-        <h2 class="post-title" itemprop="headline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | xml_escape }}</a></h2>
+        <h2 class="post-title" itemprop="headline">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title | xml_escape }}
+            {% if external_url %}
+              {% assign external_domain = external_url | remove:"https://" | remove:"http://" | split:"/" | first %}
+              <span class="external-domain">@ {{ external_domain }}</span>
+            {% endif %}
+          </a>
+        </h2>
       </header>
       <!-- {% increment post_index %} -->
       {% if post_index <= 5 %}
