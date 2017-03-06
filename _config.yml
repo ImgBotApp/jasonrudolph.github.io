@@ -5,7 +5,7 @@ title: "@jasonrudolph"
 description: "Jason Rudolph - Programmer, consultant, speaker, and author specializing in Ruby and Rails"
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "https://jasonrudolph.com"
+url: "http://jasonrudolph.com"
 
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl: ""
