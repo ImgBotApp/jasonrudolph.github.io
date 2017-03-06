@@ -1,8 +1,7 @@
 ---
-layout: default
-title: Presentation Downloads [jasonrudolph.com]
+layout: page
+title: Presentation Downloads
 ---
-# Presentation Downloads
 
 2GX - Refactotum ([slides](Refactotum_2GX.pdf))
 

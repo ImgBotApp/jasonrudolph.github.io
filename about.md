@@ -1,9 +1,8 @@
 ---
 permalink: about.html
-layout: default
-title: About [jasonrudolph.com]
+layout: page
+title: About
 ---
-# About
 
 <img src="/images/jasonrudolph.jpg" class="inline-left" title="Jason Rudolph" alt="Jason Rudolph" />
 Jason Rudolph creates software.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Testing Anti-Patterns: How to Fail With 100% Test Coverage"
 ---
 

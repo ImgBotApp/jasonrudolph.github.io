@@ -1,7 +1,7 @@
 ---
 permalink: gswg_faq.html
-layout: default
-title: FAQ for "Getting Started with Grails" [jasonrudolph.com]
+layout: page
+title: FAQ for "Getting Started with Grails"
 ---
 # Getting Started with Grails - Frequently Asked Questions
 

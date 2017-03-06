@@ -1,8 +1,7 @@
 ---
-layout: default
-title: Source Code for "Getting Started with Grails" [jasonrudolph.com]
+layout: page
+title: "Getting Started with Grails: Source code"
 ---
-# Getting Started with Grails - Source Code
 
 ## Second Edition (February 2010)
 
