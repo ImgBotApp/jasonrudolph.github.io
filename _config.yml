@@ -31,7 +31,7 @@ nav:
 # The links in the site footer
 footer_links:
   - title: "RSS"
-    url:   "/blog/atom.xml"
+    url:   "http://feeds.feedburner.com/jasonrudolph"
   - title: "Twitter"
     url:   "https://twitter.com/jasonrudolph"
   - title: "GitHub"
