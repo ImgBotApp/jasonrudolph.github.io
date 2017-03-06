@@ -28,7 +28,11 @@
   <footer class="site-footer">
     <div class="container">
       {% include footer-links.html %}
-      © {{ site.time | date: "%Y" }} {{ site.title | xml_escape }}
+      <a class="license" rel="license" title="Some Rights Reserved — Creative Commons License" href="https://github.com/jasonrudolph/jasonrudolph.com/blob/master/README.md#license">
+        <span class="icon-cc"></span>
+        {{ site.time | date: "%Y" }}
+      </a>
+      Jason Rudolph
     </div>
   </footer>
 
