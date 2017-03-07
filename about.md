@@ -4,7 +4,7 @@ layout: page
 title: About
 ---
 
-<img src="/images/jasonrudolph.jpg" class="inline-left" title="Jason Rudolph" alt="Jason Rudolph" />
+<img src="/images/jasonrudolph.jpg" height="160" width="160" class="inline-left" title="Jason Rudolph" alt="Jason Rudolph" />
 Jason Rudolph creates software.
 He enjoys [writing][writing] and [speaking][speaking] about what he learns along the way.
 
