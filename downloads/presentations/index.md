@@ -17,6 +17,6 @@ Grails eXchange - EJB3 Entities and Grails ([slides](Grails_eXchange-EJB3_Entiti
 
 Grails eXchange - Legacy DB Integration with Hibernate ([slides](Grails_eXchange-Legacy_DB_Integration_with_Hibernate.pdf)) ([code](Grails_eXchange-Legacy_DB_Integration_with_Hibernate-Example_Code.zip))
 
-How to Fail With 100 Percent Test Coverage ([slides](How_to_Fail_With_100_Percent_Test_Coverage.pdf)) ([essays](/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "Testing Anti-Patterns: How to Fail With 100% Test Coverage"))
+How to Fail With 100 Percent Test Coverage ([slides](How_to_Fail_With_100_Percent_Test_Coverage.pdf)) ([essays](/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "Testing Anti-patterns: How to Fail With 100% Test Coverage"))
 
 QCon - Getting Started with Grails.pdf ([slides](QCon-Getting_Started_with_Grails.pdf)) ([video](http://www.infoq.com/presentations/rudolph-grails-intro "QCon 2007: Getting Started with Grails"))

@@ -158,11 +158,11 @@ Overspecification comes in many flavors, and the examples above in no way repres
 
 [2] The actual implementation of the <code>#create_product</code> method isn't particularly pertinent in this discussion.  (In the Rails space, there's certainly [no](http://manuals.rubyonrails.com/read/chapter/26 "A Guide to Testing the Rails") [shortage](http://replacefixtures.rubyforge.org/ "FixtureReplacement at RubyForge") [of](http://github.com/thoughtbot/factory_girl "thoughtbot's factory_girl at GitHub") [options](http://www.dcmanges.com/blog/38 "Dan Manges's Blog - Rails: Fixin' Fixtures with Factory").)  
 
-[3] With all the excessive thoroughness that went into overspecifying the the *current* behavior of the <code>#show</code> method, is it possible that we've been too distracted to identify other functionality that's still *missing* from that method?  In the next post, we'll take a look at overspecification's more lethargic cousin: [underspecification](http://jasonrudolph.com/blog/2008/07/08/testing-anti-patterns-underspecification "jasonrudolph.com/blog -- Testing Anti-Patterns: Underspecification").
+[3] With all the excessive thoroughness that went into overspecifying the the *current* behavior of the <code>#show</code> method, is it possible that we've been too distracted to identify other functionality that's still *missing* from that method?  In the next post, we'll take a look at overspecification's more lethargic cousin: [underspecification](http://jasonrudolph.com/blog/2008/07/08/testing-anti-patterns-underspecification "jasonrudolph.com/blog -- Testing Anti-patterns: Underspecification").
 
 ----
 
-This post is part of the [Testing Anti-Patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns"): a series of essays taken from a conference talk titled, [How To Fail With 100% Test Coverage](http://blog.thinkrelevance.com/2008/5/23/how-to-fail-with-100-test-coverage "Relevance Blog : How To Fail With 100% Test Coverage").
+This post is part of the [Testing Anti-patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-patterns"): a series of essays taken from a conference talk titled, [How To Fail With 100% Test Coverage](http://blog.thinkrelevance.com/2008/5/23/how-to-fail-with-100-test-coverage "Relevance Blog : How To Fail With 100% Test Coverage").
 
 --
 

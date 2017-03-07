@@ -1,19 +1,19 @@
 ---
 layout: page
-title: "Testing Anti-Patterns: How to Fail With 100% Test Coverage"
+title: "Testing Anti-patterns: How to Fail With 100% Test Coverage"
 ---
 
-The **Testing Anti-Patterns series** explores numerous testing-related missteps, provides tips for identifying and extinguishing them in an existing codebase, and offers strategies for avoiding them altogether on new projects.  The series began as a conference presentation (titled **How to Fail With 100% Test Coverage**), and many of the anti-patterns are now available through the collection of essays below.
+The **Testing Anti-patterns series** explores numerous testing-related missteps, provides tips for identifying and extinguishing them in an existing codebase, and offers strategies for avoiding them altogether on new projects.  The series began as a conference presentation (titled **How to Fail With 100% Test Coverage**), and many of the anti-patterns are now available through the collection of essays below.
 
 ## Essays
 
-* [Incidental Coverage](http://jasonrudolph.com/blog/2008/06/17/testing-anti-patterns-incidental-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns: Incidental Coverage")
-* [Overspecification](http://jasonrudolph.com/blog/2008/07/01/testing-anti-patterns-overspecification/ "jasonrudolph.com/blog - Testing Anti-Patterns: Overspecification")
-* [Underspecification](http://jasonrudolph.com/blog/2008/07/08/testing-anti-patterns-underspecification/ "jasonrudolph.com/blog - Testing Anti-Patterns: Underspecification")
-* [The Ugly Mirror](http://jasonrudolph.com/blog/2008/07/30/testing-anti-patterns-the-ugly-mirror/ "jasonrudolph.com/blog - Testing Anti-Patterns: The Ugly Mirror")
-* [Invisible Code](http://jasonrudolph.com/blog/2008/08/18/testing-anti-patterns-invisible-code/ "jasonrudolph.com/blog - Testing Anti-Patterns Potpourri - Quotes, Resources, and Collective Wisdom")
+* [Incidental Coverage](http://jasonrudolph.com/blog/2008/06/17/testing-anti-patterns-incidental-coverage/ "jasonrudolph.com/blog - Testing Anti-patterns: Incidental Coverage")
+* [Overspecification](http://jasonrudolph.com/blog/2008/07/01/testing-anti-patterns-overspecification/ "jasonrudolph.com/blog - Testing Anti-patterns: Overspecification")
+* [Underspecification](http://jasonrudolph.com/blog/2008/07/08/testing-anti-patterns-underspecification/ "jasonrudolph.com/blog - Testing Anti-patterns: Underspecification")
+* [The Ugly Mirror](http://jasonrudolph.com/blog/2008/07/30/testing-anti-patterns-the-ugly-mirror/ "jasonrudolph.com/blog - Testing Anti-patterns: The Ugly Mirror")
+* [Invisible Code](http://jasonrudolph.com/blog/2008/08/18/testing-anti-patterns-invisible-code/ "jasonrudolph.com/blog - Testing Anti-patterns Potpourri - Quotes, Resources, and Collective Wisdom")
 
-And while not specific to any one anti-pattern, [this post](http://jasonrudolph.com/blog/2008/10/07/testing-anti-patterns-potpourri-quotes-resources-and-collective-wisdom/ "jasonrudolph.com/blog - Testing Anti-Patterns: Invisible Code") offers a collection of related quotes and resources spanning the last ten years and then some.
+And while not specific to any one anti-pattern, [this post](http://jasonrudolph.com/blog/2008/10/07/testing-anti-patterns-potpourri-quotes-resources-and-collective-wisdom/ "jasonrudolph.com/blog - Testing Anti-patterns: Invisible Code") offers a collection of related quotes and resources spanning the last ten years and then some.
 
 ## How to Fail With 100% Test Coverage
 
@@ -22,13 +22,13 @@ And while not specific to any one anti-pattern, [this post](http://jasonrudolph.
 With an expressive language such as Ruby or Groovy and with modern test practices, 100% <a href="http://jasonrudolph.com/blog/2008/06/10/a-brief-discussion-of-code-coverage-types/">C0 test coverage</a> is readily achievable. But 100% coverage is meaningless without other supporting habits and practices. Over the last few years, we have taken dozens of projects to 100% coverage, and there are still plenty of things that can go wrong:
 
 * Fragile Mocking
-* [Incidental Coverage](http://jasonrudolph.com/blog/2008/06/17/testing-anti-patterns-incidental-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns: Incidental Coverage")
-* [The Ugly Mirror](http://jasonrudolph.com/blog/2008/07/30/testing-anti-patterns-the-ugly-mirror/ "jasonrudolph.com/blog - Testing Anti-Patterns: The Ugly Mirror")
-* [Overspecification](http://jasonrudolph.com/blog/2008/07/01/testing-anti-patterns-overspecification/ "jasonrudolph.com/blog - Testing Anti-Patterns: Overspecification")
+* [Incidental Coverage](http://jasonrudolph.com/blog/2008/06/17/testing-anti-patterns-incidental-coverage/ "jasonrudolph.com/blog - Testing Anti-patterns: Incidental Coverage")
+* [The Ugly Mirror](http://jasonrudolph.com/blog/2008/07/30/testing-anti-patterns-the-ugly-mirror/ "jasonrudolph.com/blog - Testing Anti-patterns: The Ugly Mirror")
+* [Overspecification](http://jasonrudolph.com/blog/2008/07/01/testing-anti-patterns-overspecification/ "jasonrudolph.com/blog - Testing Anti-patterns: Overspecification")
 * Slow Tests
-* [Underspecification](http://jasonrudolph.com/blog/2008/07/08/testing-anti-patterns-underspecification/ "jasonrudolph.com/blog - Testing Anti-Patterns: Underspecification")
+* [Underspecification](http://jasonrudolph.com/blog/2008/07/08/testing-anti-patterns-underspecification/ "jasonrudolph.com/blog - Testing Anti-patterns: Underspecification")
 * Shallow Tests
-* [Invisible Code](http://jasonrudolph.com/blog/2008/08/18/testing-anti-patterns-invisible-code/ "jasonrudolph.com/blog - Testing Anti-Patterns: Invisible Code")
+* [Invisible Code](http://jasonrudolph.com/blog/2008/08/18/testing-anti-patterns-invisible-code/ "jasonrudolph.com/blog - Testing Anti-patterns: Invisible Code")
 
 We will look at examples of each of these problems, and show how to prevent them from infecting your project.
 

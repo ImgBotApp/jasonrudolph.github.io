@@ -7,14 +7,14 @@ tags:
 - testing
 - testing anti-patterns
 ---
-While working on the [Testing Anti-Patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns") over the past few months, I've had the pleasure of reading some great writing on testing, test-driven development, code coverage analysis, and the bigger picture of software quality in general.  What follows is a collection of some of my favorite findings: quotes and resources spanning the last ten years and then some.
+While working on the [Testing Anti-patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-patterns") over the past few months, I've had the pleasure of reading some great writing on testing, test-driven development, code coverage analysis, and the bigger picture of software quality in general.  What follows is a collection of some of my favorite findings: quotes and resources spanning the last ten years and then some.
 
 ## How not to test
 
-Let's start off with something light.  James Carr's [TDD Anti-Pattern Catalogue](http://blog.james-carr.org/?p=44 "James Carr &raquo; Blog Archive &raquo; TDD Anti-Patterns") is a good, fun read that's downright hilarious at times (but only because we remember <del>writing</del> seeing these tests once or twice).  And not only are the anti-patterns that James proposes worth reading, you owe it to yourself to check out the extensive discussion in the comments as well. There you'll find folks chiming in with many additional gems, including:
+Let's start off with something light.  James Carr's [TDD Anti-pattern Catalogue](http://blog.james-carr.org/?p=44 "James Carr &raquo; Blog Archive &raquo; TDD Anti-patterns") is a good, fun read that's downright hilarious at times (but only because we remember <del>writing</del> seeing these tests once or twice).  And not only are the anti-patterns that James proposes worth reading, you owe it to yourself to check out the extensive discussion in the comments as well. There you'll find folks chiming in with many additional gems, including:
 
-* [The Blue Moon](http://blog.james-carr.org/2006/11/03/tdd-anti-patterns/#comment-47093 "James Carr &raquo; Blog Archive &raquo; TDD Anti-Patterns") - Matt Simner's aptly-named anti-pattern is one we've all hit at least once: "A test that’s specifically dependent on the current date, and fails as a result of things like public holidays, leap years, weekends, 5-week months, etc."  Ouch.  
-* [Honest Guv](http://blog.james-carr.org/2006/11/03/tdd-anti-patterns/#comment-77729 "James Carr &raquo; Blog Archive &raquo; TDD Anti-Patterns") - Graham Lenton's contribution to the list brings back some memories I'd rather forget: "Where the expected outcome is so entropic that the developer simply asserts true with a comment 'this works, honestly.'"  Um.  Sure it does.
+* [The Blue Moon](http://blog.james-carr.org/2006/11/03/tdd-anti-patterns/#comment-47093 "James Carr &raquo; Blog Archive &raquo; TDD Anti-patterns") - Matt Simner's aptly-named anti-pattern is one we've all hit at least once: "A test that’s specifically dependent on the current date, and fails as a result of things like public holidays, leap years, weekends, 5-week months, etc."  Ouch.
+* [Honest Guv](http://blog.james-carr.org/2006/11/03/tdd-anti-patterns/#comment-77729 "James Carr &raquo; Blog Archive &raquo; TDD Anti-patterns") - Graham Lenton's contribution to the list brings back some memories I'd rather forget: "Where the expected outcome is so entropic that the developer simply asserts true with a comment 'this works, honestly.'"  Um.  Sure it does.
 
 ## We're still figuring this stuff out
 
@@ -30,7 +30,7 @@ Software development certainly isn't the only engineering discipline that requir
 
 ## Pragmatic use of code coverage analysis
 
-We've talked quite a bit about [code coverage](http://jasonrudolph.com/blog/2008/06/10/a-brief-discussion-of-code-coverage-types/ "jasonrudolph.com/blog -- A Brief Discussion of Code Coverage Types") in our discussion of [testing anti-patterns](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog -- Testing Anti-Patterns: How to Fail With 100% Test Coverage").  Brian Marick's 1997 paper titled [How to Misuse Code Coverage](http://www.exampler.com/testing-com/writings/coverage.pdf "PDF - 'How to Misuse Code Coverage' by Brian Marick") is a must-read, full of pragmatic advice from a veteran tester:
+We've talked quite a bit about [code coverage](http://jasonrudolph.com/blog/2008/06/10/a-brief-discussion-of-code-coverage-types/ "jasonrudolph.com/blog -- A Brief Discussion of Code Coverage Types") in our discussion of [testing anti-patterns](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog -- Testing Anti-patterns: How to Fail With 100% Test Coverage").  Brian Marick's 1997 paper titled [How to Misuse Code Coverage](http://www.exampler.com/testing-com/writings/coverage.pdf "PDF - 'How to Misuse Code Coverage' by Brian Marick") is a must-read, full of pragmatic advice from a veteran tester:
 
 > I've written four coverage tools ... I still find myself looking at a coverage condition, saying "I know how to satisfy that," and getting an almost physical urge to write a quick-and-dirty test that would make the coverage tool happy. It's only the certain knowledge that customers don't care if the coverage tool is happy that restrains me.
 >
@@ -84,7 +84,7 @@ It's only that critical thought that will tell us when it would be more cost-eff
 
 ----
 
-This post is part of the [Testing Anti-Patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns"): a series of essays taken from a conference talk titled, [How To Fail With 100% Test Coverage](http://blog.thinkrelevance.com/2008/5/23/how-to-fail-with-100-test-coverage "Relevance Blog : How To Fail With 100% Test Coverage").
+This post is part of the [Testing Anti-patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-patterns"): a series of essays taken from a conference talk titled, [How To Fail With 100% Test Coverage](http://blog.thinkrelevance.com/2008/5/23/how-to-fail-with-100-test-coverage "Relevance Blog : How To Fail With 100% Test Coverage").
 
 --
 

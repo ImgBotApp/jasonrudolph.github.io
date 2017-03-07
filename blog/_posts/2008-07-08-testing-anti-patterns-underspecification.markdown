@@ -8,7 +8,7 @@ tags:
 - testing
 - testing anti-patterns
 ---
-Last week we discussed the perils of [overspecification](http://jasonrudolph.com/blog/2008/07/01/testing-anti-patterns-overspecification/ "jasonrudolph.com/blog -- Testing Anti-Patterns: Overspecification"), and while we saw that it's clearly possible for a test suite to do too much, it's far more common for it to do too little.
+Last week we discussed the perils of [overspecification](http://jasonrudolph.com/blog/2008/07/01/testing-anti-patterns-overspecification/ "jasonrudolph.com/blog -- Testing Anti-patterns: Overspecification"), and while we saw that it's clearly possible for a test suite to do too much, it's far more common for it to do too little.
 
 ## [Green](http://dictionary.cambridge.org/define.asp?key=34369&amp;dict=CALD "green (adjective): novice, inexperienced, perhaps even naive") architecture
 
@@ -104,7 +104,7 @@ In [Waltzing with Bears](http://amazon.com/dp/0932633609 "Amazon.com: Waltzing W
 
 ----
 
-This post is part of the [Testing Anti-Patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns"): a series of essays taken from a conference talk titled, [How To Fail With 100% Test Coverage](http://blog.thinkrelevance.com/2008/5/23/how-to-fail-with-100-test-coverage "Relevance Blog : How To Fail With 100% Test Coverage").
+This post is part of the [Testing Anti-patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-patterns"): a series of essays taken from a conference talk titled, [How To Fail With 100% Test Coverage](http://blog.thinkrelevance.com/2008/5/23/how-to-fail-with-100-test-coverage "Relevance Blog : How To Fail With 100% Test Coverage").
 
 --
 
