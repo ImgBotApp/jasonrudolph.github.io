@@ -9,7 +9,7 @@ redirect_from: /blog/
 
 <div class="post-list">
   {% for post in site.posts %}
-    {% assign external_url = post.redirect_to[0] %}
+    {% assign external_url = post.redirect_to %}
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <header class="post-header">
         <h2 class="post-title" itemprop="headline">
