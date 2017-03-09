@@ -30,7 +30,7 @@ layout: default
     {% assign url = page.url | prepend: site.baseurl | prepend: site.url %}
     <ul class="x-separated-list">
       <li>
-        <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&amp;url={{ url }}"
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape }}&amp;url={{ url }}"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">Twitter</a>
       </li>
   </div>
