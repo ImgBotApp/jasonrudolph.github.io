@@ -1,5 +1,4 @@
 ---
-wordpress_id: 150
 title: "Getting Started with Grails: The Jasper Reports \"expansion pack\""
 layout: post
 tags:

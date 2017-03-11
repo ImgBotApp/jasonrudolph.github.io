@@ -1,5 +1,4 @@
 ---
-wordpress_id: 88
 title: "Grokking GORM - Part 2: No schema left behind"
 layout: post
 tags:

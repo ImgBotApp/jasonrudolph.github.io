@@ -1,5 +1,4 @@
 ---
-wordpress_id: 56
 title: "Virginia double header: Upcoming Grails presentations in Norfolk and Richmond"
 layout: post
 tags:

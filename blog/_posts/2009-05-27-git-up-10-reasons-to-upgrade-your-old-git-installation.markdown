@@ -1,5 +1,4 @@
 ---
-wordpress_id: 281
 title: "10 reasons to upgrade your old Git installation"
 layout: post
 tags:

@@ -1,5 +1,4 @@
 ---
-wordpress_id: 185
 title: iPhone app store now live
 layout: post
 tags:

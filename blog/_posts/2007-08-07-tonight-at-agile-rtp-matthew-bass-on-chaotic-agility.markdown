@@ -1,5 +1,4 @@
 ---
-wordpress_id: 91
 title: "Tonight at Agile RTP: Matthew Bass on \"Chaotic Agility\""
 layout: post
 tags:

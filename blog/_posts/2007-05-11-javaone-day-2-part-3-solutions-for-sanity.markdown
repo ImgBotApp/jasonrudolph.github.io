@@ -1,5 +1,4 @@
 ---
-wordpress_id: 69
 title: "JavaOne Day 2, Part 3: Solutions for sanity"
 layout: post
 tags:

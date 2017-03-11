@@ -1,5 +1,4 @@
 ---
-wordpress_id: 87
 title: "Grokking GORM - Part 1: Conventional thinking"
 layout: post
 tags:

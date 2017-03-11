@@ -1,5 +1,4 @@
 ---
-wordpress_id: 78
 title: Slides from Princeton Java Users Group presentation
 layout: post
 tags:

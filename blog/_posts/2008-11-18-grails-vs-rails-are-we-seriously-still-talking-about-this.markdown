@@ -1,5 +1,4 @@
 ---
-wordpress_id: 236
 title: "Grails vs. Rails: Are we seriously still talking about this?!"
 layout: post
 tags:

@@ -1,5 +1,4 @@
 ---
-wordpress_id: 180
 title: 5 resources for getting up to speed on Rails 2.1
 layout: post
 tags:

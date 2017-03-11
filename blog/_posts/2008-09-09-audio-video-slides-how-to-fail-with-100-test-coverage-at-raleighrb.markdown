@@ -1,5 +1,4 @@
 ---
-wordpress_id: 196
 title: "Audio, video, slides: How to Fail with 100% Test Coverage at raleigh.rb"
 layout: post
 tags:

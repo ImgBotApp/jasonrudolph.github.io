@@ -1,5 +1,4 @@
 ---
-wordpress_id: 68
 title: "JavaOne Day 2, Part 2: An afternoon of rich UIs"
 layout: post
 tags:

@@ -1,5 +1,4 @@
 ---
-wordpress_id: 173
 title: "Book review: Rails Security Audit"
 layout: post
 tags:

@@ -1,5 +1,4 @@
 ---
-wordpress_id: 127
 title: test/spec/rails => You bettuh recognize
 layout: post
 tags:

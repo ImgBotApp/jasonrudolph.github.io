@@ -1,5 +1,4 @@
 ---
-wordpress_id: 66
 title: "JavaOne Day 1: java.util.Random observations"
 layout: post
 tags:

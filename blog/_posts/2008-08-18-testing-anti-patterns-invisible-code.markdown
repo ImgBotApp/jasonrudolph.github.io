@@ -1,5 +1,4 @@
 ---
-wordpress_id: 191
 title: "Testing anti-patterns: Invisible code"
 layout: post
 tags:

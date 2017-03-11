@@ -1,5 +1,4 @@
 ---
-wordpress_id: 141
 title: High marks for Refactotum 2GX; next stop Railsconf
 layout: post
 tags:

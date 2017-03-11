@@ -1,5 +1,4 @@
 ---
-wordpress_id: 113
 title: Making acts_as_solr act as deployable
 layout: post
 tags:

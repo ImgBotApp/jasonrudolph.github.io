@@ -1,5 +1,4 @@
 ---
-wordpress_id: 204
 title: "Testing anti-patterns potpourri: Quotes, resources, and collective wisdom"
 layout: post
 tags:

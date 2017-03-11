@@ -1,5 +1,4 @@
 ---
-wordpress_id: 152
 title: Interview at Groovy Zone
 layout: post
 tags:

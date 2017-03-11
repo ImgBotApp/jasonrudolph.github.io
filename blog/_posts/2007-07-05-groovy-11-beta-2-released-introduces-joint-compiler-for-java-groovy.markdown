@@ -1,5 +1,4 @@
 ---
-wordpress_id: 86
 title: Groovy 1.1-beta-2 released, introduces joint compiler for Java & Groovy!
 layout: post
 tags:

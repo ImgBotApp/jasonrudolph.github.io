@@ -1,5 +1,4 @@
 ---
-wordpress_id: 62
 title: "JavaOne Day 0: San Francisco gets Groovy"
 layout: post
 tags:

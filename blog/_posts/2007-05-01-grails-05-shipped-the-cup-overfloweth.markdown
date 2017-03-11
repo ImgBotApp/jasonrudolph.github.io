@@ -1,5 +1,4 @@
 ---
-wordpress_id: 61
 title: "Grails 0.5 shipped: The cup overfloweth!"
 layout: post
 tags:

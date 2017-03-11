@@ -1,5 +1,4 @@
 ---
-wordpress_id: 89
 title: "Grokking GORM - Part 3: Pimp my EJBs"
 layout: post
 tags:

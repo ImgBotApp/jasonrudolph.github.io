@@ -1,5 +1,4 @@
 ---
-wordpress_id: 147
 title: "Manning up: TextMate meets man pages"
 layout: post
 tags:

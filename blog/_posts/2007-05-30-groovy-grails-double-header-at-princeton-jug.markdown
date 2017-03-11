@@ -1,5 +1,4 @@
 ---
-wordpress_id: 77
 title: "Groovy + Grails double-header at Princeton JUG"
 layout: post
 tags:

@@ -1,5 +1,4 @@
 ---
-wordpress_id: 108
 title: Evan Phoenix on testing private methods in Ruby
 layout: post
 tags:

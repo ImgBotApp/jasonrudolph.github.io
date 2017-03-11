@@ -1,5 +1,4 @@
 ---
-wordpress_id: 135
 title: "Lightning talks at tonight's Agile RTP meetup"
 layout: post
 tags:

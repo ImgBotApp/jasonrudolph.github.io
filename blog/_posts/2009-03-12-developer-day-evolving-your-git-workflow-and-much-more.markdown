@@ -1,5 +1,4 @@
 ---
-wordpress_id: 268
 title: "Developer Day: Evolving your Git workflow, and much more"
 layout: post
 tags:

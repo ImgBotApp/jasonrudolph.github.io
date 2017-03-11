@@ -1,5 +1,4 @@
 ---
-wordpress_id: 55
 title: "Getting *updated* with Grails: Updated source code available for Grails 0.4.2"
 layout: post
 tags:

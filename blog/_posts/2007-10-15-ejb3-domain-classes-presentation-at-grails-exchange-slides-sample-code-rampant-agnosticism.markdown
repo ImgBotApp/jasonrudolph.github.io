@@ -1,5 +1,4 @@
 ---
-wordpress_id: 101
 title: "EJB3 domain classes presentation at Grails eXchange: Slides, sample code, & rampant agnosticism"
 layout: post
 tags:

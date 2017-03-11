@@ -1,5 +1,4 @@
 ---
-wordpress_id: 148
 title: Noteworthy nonsense - March 18, 2008
 layout: post
 tags:

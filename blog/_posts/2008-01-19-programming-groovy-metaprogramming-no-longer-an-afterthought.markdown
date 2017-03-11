@@ -1,5 +1,4 @@
 ---
-wordpress_id: 120
 title: "Programming Groovy: Metaprogramming no longer an afterthought"
 layout: post
 tags:

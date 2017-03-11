@@ -1,5 +1,4 @@
 ---
-wordpress_id: 59
 title: Groovy 1.1-beta-1 released, takes Java integration to the next level
 layout: post
 tags:

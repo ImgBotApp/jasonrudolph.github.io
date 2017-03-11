@@ -1,5 +1,4 @@
 ---
-wordpress_id: 193
 title: Grails presentations open sourced on GitHub
 layout: post
 tags:

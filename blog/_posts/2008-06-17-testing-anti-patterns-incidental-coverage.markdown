@@ -1,5 +1,4 @@
 ---
-wordpress_id: 176
 title: "Testing anti-patterns: Incidental coverage"
 layout: post
 tags:

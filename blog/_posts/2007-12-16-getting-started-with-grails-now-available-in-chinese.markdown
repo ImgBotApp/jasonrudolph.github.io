@@ -1,5 +1,4 @@
 ---
-wordpress_id: 115
 title: "Getting Started with Grails: Now available in Chinese"
 layout: post
 tags:

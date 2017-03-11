@@ -1,5 +1,4 @@
 ---
-wordpress_id: 95
 title: "Streamlined 0.9 released - Stop banging rocks together and build something!"
 layout: post
 tags:

@@ -1,5 +1,4 @@
 ---
-wordpress_id: 65
 title: JavaFX Mobile = iPhone - cool
 layout: post
 tags:

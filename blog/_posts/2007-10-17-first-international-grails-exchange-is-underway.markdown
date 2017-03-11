@@ -1,5 +1,4 @@
 ---
-wordpress_id: 98
 title: First international Grails eXchange is underway
 layout: post
 tags:

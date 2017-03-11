@@ -1,5 +1,4 @@
 ---
-wordpress_id: 92
 title: Grails 0.6 released, brings new flow to Grails development
 layout: post
 tags:

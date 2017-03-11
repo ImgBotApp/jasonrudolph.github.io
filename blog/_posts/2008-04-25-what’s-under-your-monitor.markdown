@@ -1,5 +1,4 @@
 ---
-wordpress_id: 167
 title: "What's under your monitor?"
 layout: post
 tags:

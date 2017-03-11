@@ -1,5 +1,4 @@
 ---
-wordpress_id: 70
 title: "JavaOne Day 3, Part 1: Mash-up your languages, mash-up your web apps"
 layout: post
 tags:

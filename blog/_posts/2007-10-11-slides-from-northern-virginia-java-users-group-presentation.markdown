@@ -1,5 +1,4 @@
 ---
-wordpress_id: 96
 title: Slides from Northern Virginia Java Users Group presentation
 layout: post
 tags:

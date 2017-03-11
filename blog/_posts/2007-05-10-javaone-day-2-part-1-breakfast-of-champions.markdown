@@ -1,5 +1,4 @@
 ---
-wordpress_id: 67
 title: "JavaOne Day 2, Part 1: Breakfast of champions"
 layout: post
 tags:

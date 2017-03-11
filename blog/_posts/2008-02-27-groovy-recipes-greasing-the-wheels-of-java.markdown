@@ -1,5 +1,4 @@
 ---
-wordpress_id: 133
 title: "Groovy Recipes: Greasing the Wheels of Java"
 layout: post
 tags:

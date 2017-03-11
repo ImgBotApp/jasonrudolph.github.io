@@ -1,5 +1,4 @@
 ---
-wordpress_id: 169
 title: "Video: Grails presentation at QCon San Francisco"
 layout: post
 tags:

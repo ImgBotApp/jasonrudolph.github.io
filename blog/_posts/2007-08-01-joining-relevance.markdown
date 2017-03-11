@@ -1,5 +1,4 @@
 ---
-wordpress_id: 90
 title: Joining Relevance
 layout: post
 tags:

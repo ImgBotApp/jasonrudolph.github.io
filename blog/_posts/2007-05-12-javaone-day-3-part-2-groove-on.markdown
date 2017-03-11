@@ -1,5 +1,4 @@
 ---
-wordpress_id: 71
 title: "JavaOne Day 3, Part 2: Groove on!"
 layout: post
 tags:

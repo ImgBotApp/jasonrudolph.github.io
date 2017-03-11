@@ -1,5 +1,4 @@
 ---
-wordpress_id: 72
 title: "JavaOne Day 4, Part 1: Where do standards come from?"
 layout: post
 tags:

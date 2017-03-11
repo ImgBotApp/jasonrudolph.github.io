@@ -1,5 +1,4 @@
 ---
-wordpress_id: 117
 title: 2GX - Next-gen Java conference is right around the corner
 layout: post
 tags:

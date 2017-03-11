@@ -1,5 +1,4 @@
 ---
-wordpress_id: 155
 title: history meme
 layout: post
 tags:

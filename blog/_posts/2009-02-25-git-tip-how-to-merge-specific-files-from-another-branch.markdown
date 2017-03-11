@@ -1,5 +1,4 @@
 ---
-wordpress_id: 249
 title: "Git tip: How to \"merge\" specific files from another branch"
 layout: post
 tags:

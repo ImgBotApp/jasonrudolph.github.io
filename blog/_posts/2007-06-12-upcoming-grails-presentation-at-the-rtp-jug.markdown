@@ -1,5 +1,4 @@
 ---
-wordpress_id: 80
 title: Upcoming Grails presentation at the RTP JUG
 layout: post
 tags:

@@ -1,5 +1,4 @@
 ---
-wordpress_id: 76
 title: GSwG source code now updated for Grails 0.5
 layout: post
 tags:

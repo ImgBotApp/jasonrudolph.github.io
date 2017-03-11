@@ -1,5 +1,4 @@
 ---
-wordpress_id: 79
 title: "InfoQ review: Groovy in Action"
 layout: post
 tags:

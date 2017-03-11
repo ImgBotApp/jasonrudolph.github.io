@@ -1,5 +1,4 @@
 ---
-wordpress_id: 84
 title: Streamlining your way to Rails
 layout: post
 tags:

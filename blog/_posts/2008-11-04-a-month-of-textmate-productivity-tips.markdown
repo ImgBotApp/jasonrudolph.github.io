@@ -1,5 +1,4 @@
 ---
-wordpress_id: 230
 title: A month of TextMate productivity tips
 layout: post
 tags:

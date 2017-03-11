@@ -1,5 +1,4 @@
 ---
-wordpress_id: 129
 title: "Refactotum: 2GX edition"
 layout: post
 tags:

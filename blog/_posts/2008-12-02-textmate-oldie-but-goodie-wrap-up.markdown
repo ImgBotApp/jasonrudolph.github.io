@@ -1,5 +1,4 @@
 ---
-wordpress_id: 241
 title: TextMate oldie-but-goodie wrap-up
 layout: post
 tags:

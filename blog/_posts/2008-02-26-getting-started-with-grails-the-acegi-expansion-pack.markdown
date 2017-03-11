@@ -1,5 +1,4 @@
 ---
-wordpress_id: 131
 title: "Getting Started with Grails: The Acegi \"expansion pack\""
 layout: post
 tags:

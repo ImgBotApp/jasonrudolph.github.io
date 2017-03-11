@@ -1,5 +1,4 @@
 ---
-wordpress_id: 158
 title: "Git init: Say hello to agility"
 layout: post
 tags:

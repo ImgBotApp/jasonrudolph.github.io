@@ -1,5 +1,4 @@
 ---
-wordpress_id: 174
 title: A brief discussion of code coverage types
 layout: post
 tags:

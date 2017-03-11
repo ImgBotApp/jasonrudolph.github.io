@@ -1,5 +1,4 @@
 ---
-wordpress_id: 126
 title: Grails goes 1.0
 layout: post
 tags:

@@ -1,5 +1,4 @@
 ---
-wordpress_id: 179
 title: "Testing anti-patterns: Overspecification"
 layout: post
 tags:

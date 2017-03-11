@@ -1,5 +1,4 @@
 ---
-wordpress_id: 58
 title: Slides from Virginia Java User Group presentations
 layout: post
 tags:

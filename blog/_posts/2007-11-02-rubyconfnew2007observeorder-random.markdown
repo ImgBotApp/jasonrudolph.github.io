@@ -1,5 +1,4 @@
 ---
-wordpress_id: 107
 title: RubyConf.new('2007').observe(:order => :random)
 layout: post
 tags:

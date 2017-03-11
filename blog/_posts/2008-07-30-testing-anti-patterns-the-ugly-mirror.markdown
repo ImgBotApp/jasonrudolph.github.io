@@ -1,5 +1,4 @@
 ---
-wordpress_id: 190
 title: "Testing anti-patterns: The ugly mirror"
 layout: post
 tags:

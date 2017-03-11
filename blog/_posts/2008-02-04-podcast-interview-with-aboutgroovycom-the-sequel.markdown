@@ -1,5 +1,4 @@
 ---
-wordpress_id: 124
 title: "Podcast interview with aboutGroovy.com: The sequel"
 layout: post
 tags:

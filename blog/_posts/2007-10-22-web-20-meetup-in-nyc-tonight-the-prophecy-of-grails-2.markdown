@@ -1,5 +1,4 @@
 ---
-wordpress_id: 111
 title: "Web 2.0 meetup in NYC tonight: The Prophecy of Grails"
 layout: post
 tags:

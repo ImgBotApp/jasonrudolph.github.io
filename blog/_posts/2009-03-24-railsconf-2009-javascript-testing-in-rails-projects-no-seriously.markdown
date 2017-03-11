@@ -1,5 +1,4 @@
 ---
-wordpress_id: 276
 title: "RailsConf 2009: JavaScript testing in Rails projects. No, seriously!"
 layout: post
 tags:

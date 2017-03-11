@@ -1,5 +1,4 @@
 ---
-wordpress_id: 60
 title: "JavaOne Preloaded: A Groovy/Grails special event"
 layout: post
 tags:

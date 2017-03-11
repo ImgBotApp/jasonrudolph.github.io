@@ -1,5 +1,4 @@
 ---
-wordpress_id: 75
 title: "JavaOne Day 4, Part 2: You don't have to go home, but..."
 layout: post
 tags:
