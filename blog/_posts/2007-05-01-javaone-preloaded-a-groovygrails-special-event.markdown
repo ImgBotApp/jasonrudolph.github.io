@@ -1,7 +1,6 @@
 ---
 wordpress_id: 60
 title: "JavaOne Preloaded: A Groovy/Grails special event"
-wordpress_url: http://jasonrudolph.com/blog/2007/05/01/javaone-preloaded-a-groovygrails-special-event/
 layout: post
 tags:
 - grails

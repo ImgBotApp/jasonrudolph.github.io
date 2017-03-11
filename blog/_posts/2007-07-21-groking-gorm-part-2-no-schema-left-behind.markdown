@@ -1,7 +1,6 @@
 ---
 wordpress_id: 88
 title: "Grokking GORM - Part 2: No schema left behind"
-wordpress_url: http://jasonrudolph.com/blog/2007/07/21/groking-gorm-part-2-no-schema-left-behind/
 layout: post
 tags:
 - grails

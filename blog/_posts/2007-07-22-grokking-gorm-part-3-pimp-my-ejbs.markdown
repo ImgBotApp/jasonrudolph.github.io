@@ -1,7 +1,6 @@
 ---
 wordpress_id: 89
 title: "Grokking GORM - Part 3: Pimp my EJBs"
-wordpress_url: http://jasonrudolph.com/blog/2007/07/22/grokking-gorm-part-3-pimp-my-ejbs/
 layout: post
 tags:
 - grails

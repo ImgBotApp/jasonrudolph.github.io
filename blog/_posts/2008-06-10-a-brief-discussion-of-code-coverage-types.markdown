@@ -1,7 +1,6 @@
 ---
 wordpress_id: 174
 title: A brief discussion of code coverage types
-wordpress_url: http://jasonrudolph.com/blog/?p=174
 layout: post
 tags:
 - code coverage

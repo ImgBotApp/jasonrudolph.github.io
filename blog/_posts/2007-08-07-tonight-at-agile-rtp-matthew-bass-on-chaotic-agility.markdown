@@ -1,7 +1,6 @@
 ---
 wordpress_id: 91
 title: "Tonight at Agile RTP: Matthew Bass on \"Chaotic Agility\""
-wordpress_url: http://jasonrudolph.com/blog/2007/08/07/tonight-at-agile-rtp-matthew-bass-on-chaotic-agility/
 layout: post
 tags:
 - agile

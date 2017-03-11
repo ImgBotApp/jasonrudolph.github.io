@@ -1,7 +1,6 @@
 ---
 wordpress_id: 66
 title: "JavaOne Day 1: java.util.Random observations"
-wordpress_url: http://jasonrudolph.com/blog/2007/05/09/javaone-day-1-javautilrandom-observations/
 layout: post
 tags:
 - grails

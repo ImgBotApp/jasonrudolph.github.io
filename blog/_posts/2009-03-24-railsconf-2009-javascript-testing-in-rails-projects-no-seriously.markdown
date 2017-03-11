@@ -1,7 +1,6 @@
 ---
 wordpress_id: 276
 title: "RailsConf 2009: JavaScript testing in Rails projects. No, seriously!"
-wordpress_url: http://jasonrudolph.com/blog/?p=276
 layout: post
 tags:
 - javascript

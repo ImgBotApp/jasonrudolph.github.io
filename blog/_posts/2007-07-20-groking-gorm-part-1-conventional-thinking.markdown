@@ -1,7 +1,6 @@
 ---
 wordpress_id: 87
 title: "Grokking GORM - Part 1: Conventional thinking"
-wordpress_url: http://jasonrudolph.com/blog/2007/07/20/groking-gorm-part-1-conventional-thinking/
 layout: post
 tags:
 - grails

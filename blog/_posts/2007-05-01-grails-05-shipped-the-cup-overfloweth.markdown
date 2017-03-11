@@ -1,7 +1,6 @@
 ---
 wordpress_id: 61
 title: "Grails 0.5 shipped: The cup overfloweth!"
-wordpress_url: http://jasonrudolph.com/blog/2007/05/01/grails-05-shipped-the-cup-overfloweth/
 layout: post
 tags:
 - grails

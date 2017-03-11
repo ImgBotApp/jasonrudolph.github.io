@@ -1,7 +1,6 @@
 ---
 wordpress_id: 176
 title: "Testing anti-patterns: Incidental coverage"
-wordpress_url: http://jasonrudolph.com/blog/?p=176
 layout: post
 tags:
 - code coverage

@@ -1,7 +1,6 @@
 ---
 wordpress_id: 191
 title: "Testing anti-patterns: Invisible code"
-wordpress_url: http://jasonrudolph.com/blog/?p=191
 layout: post
 tags:
 - code coverage

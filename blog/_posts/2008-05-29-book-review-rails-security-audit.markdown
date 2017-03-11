@@ -1,7 +1,6 @@
 ---
 wordpress_id: 173
 title: "Book review: Rails Security Audit"
-wordpress_url: http://jasonrudolph.com/blog/?p=173
 layout: post
 tags:
 - book

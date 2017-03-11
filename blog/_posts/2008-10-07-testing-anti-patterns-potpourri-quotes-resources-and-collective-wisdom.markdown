@@ -1,7 +1,6 @@
 ---
 wordpress_id: 204
 title: "Testing anti-patterns potpourri: Quotes, resources, and collective wisdom"
-wordpress_url: http://jasonrudolph.com/blog/?p=204
 layout: post
 tags:
 - testing

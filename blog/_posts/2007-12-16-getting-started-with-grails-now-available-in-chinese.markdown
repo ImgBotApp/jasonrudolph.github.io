@@ -1,7 +1,6 @@
 ---
 wordpress_id: 115
 title: "Getting Started with Grails: Now available in Chinese"
-wordpress_url: http://jasonrudolph.com/blog/2007/12/16/getting-started-with-grails-now-available-in-chinese/
 layout: post
 tags:
 - book

@@ -1,7 +1,6 @@
 ---
 wordpress_id: 90
 title: Joining Relevance
-wordpress_url: http://jasonrudolph.com/blog/2007/08/01/joining-relevance/
 layout: post
 tags:
 - relevance

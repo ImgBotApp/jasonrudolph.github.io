@@ -1,7 +1,6 @@
 ---
 wordpress_id: 268
 title: "Developer Day: Evolving your Git workflow, and much more"
-wordpress_url: http://jasonrudolph.com/blog/?p=268
 layout: post
 tags:
 - git

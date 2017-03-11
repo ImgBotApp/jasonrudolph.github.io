@@ -1,7 +1,6 @@
 ---
 wordpress_id: 92
 title: Grails 0.6 released, brings new flow to Grails development
-wordpress_url: http://jasonrudolph.com/blog/2007/09/02/grails-06-released-brings-new-flow-to-grails-development/
 layout: post
 tags:
 - grails

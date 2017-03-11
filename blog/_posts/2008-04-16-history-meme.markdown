@@ -1,7 +1,6 @@
 ---
 wordpress_id: 155
 title: history meme
-wordpress_url: http://jasonrudolph.com/blog/2008/04/16/history-meme/
 layout: post
 tags:
 - capistrano

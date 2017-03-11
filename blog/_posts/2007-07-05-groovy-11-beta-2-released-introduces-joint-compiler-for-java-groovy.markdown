@@ -1,7 +1,6 @@
 ---
 wordpress_id: 86
 title: Groovy 1.1-beta-2 released, introduces joint compiler for Java & Groovy!
-wordpress_url: http://jasonrudolph.com/blog/2007/07/05/groovy-11-beta-2-released-introduces-joint-compiler-for-java-groovy/
 layout: post
 tags:
 - groovy

@@ -1,7 +1,6 @@
 ---
 wordpress_id: 181
 title: "Testing anti-patterns: Underspecification"
-wordpress_url: http://jasonrudolph.com/blog/?p=181
 layout: post
 tags:
 - code coverage

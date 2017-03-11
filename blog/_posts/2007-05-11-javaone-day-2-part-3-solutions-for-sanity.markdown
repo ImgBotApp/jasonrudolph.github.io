@@ -1,7 +1,6 @@
 ---
 wordpress_id: 69
 title: "JavaOne Day 2, Part 3: Solutions for sanity"
-wordpress_url: http://jasonrudolph.com/blog/2007/05/11/javaone-day-2-part-3-solutions-for-sanity/
 layout: post
 tags:
 - grails

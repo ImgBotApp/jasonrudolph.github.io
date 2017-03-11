@@ -1,7 +1,6 @@
 ---
 wordpress_id: 72
 title: "JavaOne Day 4, Part 1: Where do standards come from?"
-wordpress_url: http://jasonrudolph.com/blog/2007/05/13/javaone-day-4-part-1-where-do-standards-come-from/
 layout: post
 tags:
 - grails

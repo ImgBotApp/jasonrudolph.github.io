@@ -1,7 +1,6 @@
 ---
 wordpress_id: 152
 title: Interview at Groovy Zone
-wordpress_url: http://jasonrudolph.com/blog/2008/04/03/interview-at-groovy-zone/
 layout: post
 tags:
 - grails

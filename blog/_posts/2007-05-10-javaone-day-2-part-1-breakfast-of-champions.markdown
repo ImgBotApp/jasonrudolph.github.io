@@ -1,7 +1,6 @@
 ---
 wordpress_id: 67
 title: "JavaOne Day 2, Part 1: Breakfast of champions"
-wordpress_url: http://jasonrudolph.com/blog/2007/05/10/javaone-day-2-part-1-breakfast-of-champions/
 layout: post
 tags:
 - grails

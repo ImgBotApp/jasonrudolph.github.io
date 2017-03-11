@@ -1,7 +1,6 @@
 ---
 wordpress_id: 78
 title: Slides from Princeton Java Users Group presentation
-wordpress_url: http://jasonrudolph.com/blog/2007/06/07/slides-from-princeton-java-users-group-presentations/
 layout: post
 tags:
 - grails

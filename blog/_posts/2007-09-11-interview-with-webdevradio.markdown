@@ -1,7 +1,6 @@
 ---
 wordpress_id: 94
 title: Interview with WebDevRadio
-wordpress_url: http://jasonrudolph.com/blog/2007/09/11/interview-with-webdevradio/
 layout: post
 tags:
 - grails

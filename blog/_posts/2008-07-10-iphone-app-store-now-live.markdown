@@ -1,7 +1,6 @@
 ---
 wordpress_id: 185
 title: iPhone app store now live
-wordpress_url: http://jasonrudolph.com/blog/?p=185
 layout: post
 tags:
 - iphone

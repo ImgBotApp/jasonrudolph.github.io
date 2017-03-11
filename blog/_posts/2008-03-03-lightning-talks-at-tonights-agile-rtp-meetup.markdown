@@ -1,7 +1,6 @@
 ---
 wordpress_id: 135
 title: "Lightning talks at tonight's Agile RTP meetup"
-wordpress_url: http://jasonrudolph.com/blog/2008/03/04/lightning-talks-at-tonights-agile-rtp-meetup/
 layout: post
 tags:
 - agile

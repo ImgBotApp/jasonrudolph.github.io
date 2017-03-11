@@ -1,7 +1,6 @@
 ---
 wordpress_id: 84
 title: Streamlining your way to Rails
-wordpress_url: http://jasonrudolph.com/blog/2007/06/24/streamlining-your-way-to-rails/
 layout: post
 tags:
 - grails

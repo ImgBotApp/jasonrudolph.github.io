@@ -1,7 +1,6 @@
 ---
 wordpress_id: 124
 title: "Podcast interview with aboutGroovy.com: The sequel"
-wordpress_url: http://jasonrudolph.com/blog/2008/02/04/podcast-interview-with-aboutgroovycom-the-sequel/
 layout: post
 tags:
 - grails

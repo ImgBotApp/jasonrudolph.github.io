@@ -1,7 +1,6 @@
 ---
 wordpress_id: 129
 title: "Refactotum: 2GX edition"
-wordpress_url: http://jasonrudolph.com/blog/2008/02/24/refactotum-2gx-edition/
 layout: post
 tags:
 - grails

@@ -1,7 +1,6 @@
 ---
 wordpress_id: 101
 title: "EJB3 domain classes presentation at Grails eXchange: Slides, sample code, & rampant agnosticism"
-wordpress_url: http://jasonrudolph.com/blog/2007/10/17/ejb3-domain-classes-presentation-at-grails-exchange-slides-sample-code-rampant-agnosticism/
 layout: post
 tags:
 - grails

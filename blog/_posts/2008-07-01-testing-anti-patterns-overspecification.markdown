@@ -1,7 +1,6 @@
 ---
 wordpress_id: 179
 title: "Testing anti-patterns: Overspecification"
-wordpress_url: http://jasonrudolph.com/blog/?p=179
 layout: post
 tags:
 - testing

@@ -1,7 +1,6 @@
 ---
 wordpress_id: 133
 title: "Groovy Recipes: Greasing the Wheels of Java"
-wordpress_url: http://jasonrudolph.com/blog/2008/02/27/groovy-recipes-greasing-the-wheels-of-java/
 layout: post
 tags:
 - book

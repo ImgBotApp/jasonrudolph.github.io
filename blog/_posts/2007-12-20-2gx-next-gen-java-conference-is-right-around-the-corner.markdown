@@ -1,7 +1,6 @@
 ---
 wordpress_id: 117
 title: 2GX - Next-gen Java conference is right around the corner
-wordpress_url: http://jasonrudolph.com/blog/2007/12/20/2gx-next-gen-java-conference-is-right-around-the-corner/
 layout: post
 tags:
 - grails

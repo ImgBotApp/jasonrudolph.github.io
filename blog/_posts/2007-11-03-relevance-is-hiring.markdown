@@ -1,7 +1,6 @@
 ---
 wordpress_id: 110
 title: Relevance is hiring!
-wordpress_url: http://jasonrudolph.com/blog/2007/11/03/relevance-is-hiring/
 layout: post
 tags:
 - agile

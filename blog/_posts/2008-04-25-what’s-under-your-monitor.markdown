@@ -1,7 +1,6 @@
 ---
 wordpress_id: 167
 title: "What's under your monitor?"
-wordpress_url: http://jasonrudolph.com/blog/?p=167
 layout: post
 tags:
 - abstraction

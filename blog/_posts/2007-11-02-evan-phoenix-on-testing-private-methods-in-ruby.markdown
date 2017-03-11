@@ -1,7 +1,6 @@
 ---
 wordpress_id: 108
 title: Evan Phoenix on testing private methods in Ruby
-wordpress_url: http://jasonrudolph.com/blog/2007/11/03/evan-phoenix-on-testing-private-methods-in-ruby/
 layout: post
 tags:
 - ruby

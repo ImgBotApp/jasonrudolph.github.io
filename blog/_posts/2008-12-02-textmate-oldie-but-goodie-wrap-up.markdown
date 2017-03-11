@@ -1,7 +1,6 @@
 ---
 wordpress_id: 241
 title: TextMate oldie-but-goodie wrap-up
-wordpress_url: http://jasonrudolph.com/blog/?p=241
 layout: post
 tags:
 - productivity

@@ -1,7 +1,6 @@
 ---
 wordpress_id: 127
 title: test/spec/rails => You bettuh recognize
-wordpress_url: http://jasonrudolph.com/blog/2008/02/06/testspecrails-you-bettuh-recognize/
 layout: post
 tags:
 - rails

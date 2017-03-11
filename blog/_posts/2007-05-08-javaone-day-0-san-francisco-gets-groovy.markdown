@@ -1,7 +1,6 @@
 ---
 wordpress_id: 62
 title: "JavaOne Day 0: San Francisco gets Groovy"
-wordpress_url: http://jasonrudolph.com/blog/2007/05/08/javaone-day-0-san-francisco-gets-groovy/
 layout: post
 tags:
 - grails

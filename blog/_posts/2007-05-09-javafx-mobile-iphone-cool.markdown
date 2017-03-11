@@ -1,7 +1,6 @@
 ---
 wordpress_id: 65
 title: JavaFX Mobile = iPhone - cool
-wordpress_url: http://jasonrudolph.com/blog/2007/05/09/javafx-mobile-iphone-cool/
 layout: post
 tags:
 - iphone

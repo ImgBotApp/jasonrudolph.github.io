@@ -1,7 +1,6 @@
 ---
 wordpress_id: 98
 title: First international Grails eXchange is underway
-wordpress_url: http://jasonrudolph.com/blog/2007/10/17/first-international-grails-exchange-is-underway/
 layout: post
 tags:
 - grails
