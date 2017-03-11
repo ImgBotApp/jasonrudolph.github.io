@@ -55,7 +55,7 @@ We can simply give <code>git checkout</code> the name of the feature branch [1] 
     create mode 100644 test/unit/models/avatar_test.rb
 
 <br/>
-[Boom.  Roasted.](http://www.youtube.com/watch?v=IQD95EEJxg4 "YouTube - Michael Scott - Boom Roasted")
+[Boom.  Roasted.](https://www.youtube.com/watch?v=gyXtRIEtyVE "YouTube - Michael Scott - Boom Roasted")
 
 ----
 
