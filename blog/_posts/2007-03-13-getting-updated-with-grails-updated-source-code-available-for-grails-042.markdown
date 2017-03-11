@@ -1,6 +1,6 @@
 ---
 wordpress_id: 55
-title: Getting *Updated* with Grails - Updated Source Code Available for Grails 0.4.2
+title: "Getting *updated* with Grails: Updated source code available for Grails 0.4.2"
 wordpress_url: http://jasonrudolph.com/blog/2007/03/13/getting-updated-with-grails-updated-source-code-available-for-grails-042/
 layout: post
 tags:

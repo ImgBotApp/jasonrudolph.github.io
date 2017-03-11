@@ -1,6 +1,6 @@
 ---
 wordpress_id: 59
-title: Groovy 1.1-beta-1 Released - Takes Java Integration to the Next Level
+title: Groovy 1.1-beta-1 released, takes Java integration to the next level
 wordpress_url: http://jasonrudolph.com/blog/2007/04/30/groovy-11-beta-1-released-takes-java-integration-to-the-next-level/
 layout: post
 tags:

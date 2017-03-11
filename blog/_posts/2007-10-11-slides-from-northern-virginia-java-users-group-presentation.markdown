@@ -1,6 +1,6 @@
 ---
 wordpress_id: 96
-title: Slides from Northern Virginia Java Users Group Presentation
+title: Slides from Northern Virginia Java Users Group presentation
 wordpress_url: http://jasonrudolph.com/blog/2007/10/11/slides-from-northern-virginia-java-users-group-presentation/
 layout: post
 tags:

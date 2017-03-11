@@ -1,6 +1,6 @@
 ---
 wordpress_id: 58
-title: Slides from Virginia Java User Group Presentations
+title: Slides from Virginia Java User Group presentations
 wordpress_url: http://jasonrudolph.com/blog/2007/03/22/slides-from-virginia-java-user-group-presentations/
 layout: post
 tags:

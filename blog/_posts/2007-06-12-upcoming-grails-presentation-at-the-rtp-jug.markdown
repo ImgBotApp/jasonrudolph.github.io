@@ -1,6 +1,6 @@
 ---
 wordpress_id: 80
-title: Upcoming Grails Presentation at the RTP JUG
+title: Upcoming Grails presentation at the RTP JUG
 wordpress_url: http://jasonrudolph.com/blog/2007/06/12/upcoming-grails-presentation-at-the-rtp-jug/
 layout: post
 tags:

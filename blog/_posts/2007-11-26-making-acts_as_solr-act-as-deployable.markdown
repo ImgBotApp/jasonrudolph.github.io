@@ -1,6 +1,6 @@
 ---
 wordpress_id: 113
-title: Making acts_as_solr Act As Deployable
+title: Making acts_as_solr act as deployable
 wordpress_url: http://jasonrudolph.com/blog/2007/11/26/making-acts_as_solr-act-as-deployable/
 layout: post
 tags:
